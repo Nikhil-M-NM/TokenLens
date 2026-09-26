@@ -1,0 +1,27 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 5.2,
+  "summary": "The token 'unc' has strong contract safety with no mint/freeze authorities and immutable metadata, and holder concentration appears low (~19.6% top10). However, critical data including deployer identity, holder count, and top10% distribution are missing, introducing uncertainty and preventing a fully safe rating.",
+  "red_flags": [
+    "Deployer address is null (unknown deployer)",
+    "Holder count and top10% are not provided in the data",
+    "Total supply and token age are missing"
+  ],
+  "green_flags": [
+    "Not mintable",
+    "Not freezable",
+    "Metadata immutable",
+    "Top 10 holders hold approximately 19.6% of estimated total supply",
+    "Volume/liquidity ratio is healthy at 0.89",
+    "Liquidty is present (~$183k) and LP not applicable on Meteora"
+  ],
+  "ai_note": "The missing deployer and distribution data are the main risk factors, even though on-chain safety and market metrics look solid; due diligence on the team and community is recommended.",
+  "sections": {
+    "security": "The token is not mintable, not freezable, and has immutable metadata. On-chain mint and freeze authorities are null/disabled, making malicious alterations impossible. This is a strong security posture.",
+    "holders": "Holder count and top10% are missing, but using the provided top holder list and market cap, the top10 hold around 19.6% of supply, with the LP pool at ~2.5% and the largest non-LP holder at ~4.6%. Concentration risk appears low, but the absence of official data is a flag.",
+    "market": "Liquidity is ~$183k on Meteora, 24h volume ~$163k (ratio 0.89), market cap ~$1.95M, and FDV equal to MC. Trading activity is healthy with moderate price appreciation over 24h. The token migrated from Raydium, and LP locking does not apply.",
+    "deployer": "Deployer information is completely missing (null). Without a known deployer or transaction history, it's impossible to assess developer exit risk or trustworthiness, which reduces confidence."
+  },
+  "red_flag_count": 3,
+  "green_flag_count": 6
+}

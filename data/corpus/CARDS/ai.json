@@ -1,0 +1,25 @@
+{
+  "verdict": "SCAM",
+  "risk_score": 9.5,
+  "summary": "The token is highly centralized with one address holding approximately 80% of the total supply, exceeding the 80% threshold that directly flags it as a SCAM. Despite immutable contract settings and decent liquidity, the extreme concentration creates an immediate rug-pull risk.",
+  "red_flags": [
+    "Top holder owns ~1.6B tokens (~80% of total supply, top10% >80%)",
+    "Deployer address is unknown (null)",
+    "Only ~12.9% of tokens are in circulation (FDV $350M vs market cap $45M)",
+    "Missing holder_count and top10_percent data"
+  ],
+  "green_flags": [
+    "Mintable and freezable are both false",
+    "Metadata is immutable",
+    "Sufficient liquidity ($2.6M) with active 24h trading volume"
+  ],
+  "ai_note": "The extreme concentration alone triggers a SCAM verdict per the rubric; even a well-structured contract cannot mitigate a single whale holding the majority of supply.",
+  "sections": {
+    "security": "No mint authority, no freeze authority, and metadata is immutable. On-chain checks confirm no ability to mint or freeze tokens. This reduces typical smart-contract risks but does not address supply centralization.",
+    "holders": "Holder count and top10% are null, but analysis of top holders shows one address with ~1.6B tokens. Based on FDV/price, total supply is ~2B, placing that single address at ~80%. This extreme concentration qualifies as top10>80% and is the primary red flag.",
+    "market": "The pair is on Raydium with $2.6M liquidity, $2.45M 24h volume, and a volume/liquidity ratio of 0.94, indicating healthy market activity. However, market cap ($45M) is only 12.9% of FDV ($350M), implying a large locked or reserved supply that could be dumped.",
+    "deployer": "Deployer information is missing (null). There is no dev_exited flag, but unknown deployer increases risk as no background or reputation can be assessed."
+  },
+  "red_flag_count": 4,
+  "green_flag_count": 3
+}

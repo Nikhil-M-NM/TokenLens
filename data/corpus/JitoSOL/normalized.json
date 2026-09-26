@@ -1,0 +1,101 @@
+{
+  "ca": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+  "token": {
+    "name": "Jito Staked SOL",
+    "symbol": "JitoSOL",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": true,
+    "on_chain_freezable": false,
+    "mint_authority_address": "6iQKfEyhr3bZMotVkW6beNZz5CPAkiwvgV2CTje9pVSS",
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "9DrvZvyWh1HuAoZxvYWMvkf2XCzryCpGgHqrMjyDWpmo",
+        "ui_amount": 711993.783559023,
+        "percentage": null
+      },
+      {
+        "address": "GxDDTT1zqgH2aNgdoyDvEgvHdsLq91JAExCTao7c5GT4",
+        "ui_amount": 508628.141646117,
+        "percentage": null
+      },
+      {
+        "address": "9hNaQ3crLjWihWa5BeQgSYfrPY3eoDmHJAX2sTWE8nUC",
+        "ui_amount": 468224.091733039,
+        "percentage": null
+      },
+      {
+        "address": "82MNhUCha26wY4kohTUEC965b4ypEe7RPa4itp9UMrKK",
+        "ui_amount": 185379.848423627,
+        "percentage": null
+      },
+      {
+        "address": "Dx8iy2o46sK1DzWbEcznqSKeLbLVeu7otkibA3WohGAj",
+        "ui_amount": 165725.493949804,
+        "percentage": null
+      },
+      {
+        "address": "9CKnC2kmqG9ZBtQXDfxR5H7Av7X878geV367DdYtybT4",
+        "ui_amount": 156278.543669286,
+        "percentage": null
+      },
+      {
+        "address": "5eY4QWNnCsbWD8CgWCw4yJivxu7yuZQGFnn8UpXhqNbJ",
+        "ui_amount": 98903.952118219,
+        "percentage": null
+      },
+      {
+        "address": "5jYbV6aAPgMVWy75UbJextaAbzmJjN6svKqbQKe9RbVF",
+        "ui_amount": 98791.843965244,
+        "percentage": null
+      },
+      {
+        "address": "2jWMQ6ngxWoW42XfwFFgihzEy9gh9DFJ5LnrzzfvxmzS",
+        "ui_amount": 80380.354693343,
+        "percentage": null
+      },
+      {
+        "address": "DdZR6zRFiUt4S5mg7AV1uKB2z1f1WzcNYCaTEEWPAuby",
+        "ui_amount": 72266.094115502,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "105.36",
+    "liquidity_usd": 5923528.67,
+    "volume_24h": 1055395.95,
+    "volume_liquidity_ratio": 0.1782,
+    "market_cap": 1406787381,
+    "fdv": 1406787381,
+    "pair_address": "Hp53XEtt4S8SvPCXarsLSdGfZBuUr5mMmZmX2DRNXQKp",
+    "dex": "orca",
+    "is_pumpswap": false,
+    "migrated_to_raydium": false,
+    "price_change_h24": 1.74,
+    "price_change_h6": -0.18,
+    "price_change_h1": 0.22
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": true
+  }
+}

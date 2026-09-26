@@ -1,0 +1,101 @@
+{
+  "ca": "9PR7nCP9DpcUotnDPVLUBUZKu5WAYkwrCUx9wDnSpump",
+  "token": {
+    "name": "Comedian",
+    "symbol": "Ban",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": false,
+    "on_chain_freezable": false,
+    "mint_authority_address": null,
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "u6PJ8DtQuPFnfmwHbGFULQ4u4EgjDiyYKjVEsynXq2w",
+        "ui_amount": 492544191.976055,
+        "percentage": null
+      },
+      {
+        "address": "7cAui6ADtxLnpRr2wYvwJWTkzwgmVF2LYKnjKTLx4xR8",
+        "ui_amount": 36519577.906473,
+        "percentage": null
+      },
+      {
+        "address": "7TWnq4WeYcwQWBCwKeEX2Q9xqVtthPGkB7adNvueuVuh",
+        "ui_amount": 30095034.655372,
+        "percentage": null
+      },
+      {
+        "address": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+        "ui_amount": 17662575.47013,
+        "percentage": null
+      },
+      {
+        "address": "45aSJSn8rVd7SWbE83ZerFnH8oAR5NVkg2UStUzzgAcY",
+        "ui_amount": 16769987.5,
+        "percentage": null
+      },
+      {
+        "address": "A77HErqtfN1hLLpvZ9pCtu66FEtM8BveoaKbbMoZ4RiR",
+        "ui_amount": 6123696.000567,
+        "percentage": null
+      },
+      {
+        "address": "28RWPC6XPxSxUVjd27KiNRtcHVxKtd6cjms7eBcxiqdV",
+        "ui_amount": 2959771.0536,
+        "percentage": null
+      },
+      {
+        "address": "GAhYQPx6CBqArBmf7B3FJ7vNNBK33UwEVdfiqgNAKpqN",
+        "ui_amount": 2823998.005533,
+        "percentage": null
+      },
+      {
+        "address": "ASTyfSima4LLAdDgoFGkgqoKowG1LZFDr9fAQrg7iaJZ",
+        "ui_amount": 2523793.830641,
+        "percentage": null
+      },
+      {
+        "address": "BmFdpraQhkiDQE6SnfG5omcA1VwzqfXrwtNYBwWTymy6",
+        "ui_amount": 2078305.170774,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "0.07140",
+    "liquidity_usd": 2546386.66,
+    "volume_24h": 837937.27,
+    "volume_liquidity_ratio": 0.3291,
+    "market_cap": 71394951,
+    "fdv": 71394951,
+    "pair_address": "DmAsjXoceoL5vTKZbYpTpXPo7MKm16FMfNMm3PJFiUha",
+    "dex": "raydium",
+    "is_pumpswap": false,
+    "migrated_to_raydium": true,
+    "price_change_h24": -12.15,
+    "price_change_h6": 0.27,
+    "price_change_h1": -1.46
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": false
+  }
+}

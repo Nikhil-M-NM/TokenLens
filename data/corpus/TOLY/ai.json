@@ -1,0 +1,29 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 4.2,
+  "summary": "The token contract demonstrates excellent safety features with revoked mint and freeze authorities and immutable metadata. However, the market exhibits extreme volatility, characterized by a massive pump followed by significant dumps and an exceptionally high volume-to-liquidity ratio, indicating a highly speculative and risky trading environment.",
+  "red_flags": [
+    "Extreme volume/liquidity ratio (52.22): Indicates high volatility and potential for significant price impact.",
+    "Massive price pump (2162% in 24h) followed by severe dumps (-73.64% in 6h, -34.18% in 1h): Suggests a pump-and-dump pattern.",
+    "Low liquidity ($17,631.22) relative to trading volume: Increases susceptibility to price manipulation.",
+    "Missing deployer information: Prevents full assessment of developer behavior.",
+    "Missing total supply and holder count: Limits comprehensive holder analysis."
+  ],
+  "green_flags": [
+    "Mint authority revoked (mintable: false, on_chain_mintable: false, mint_authority_address: null).",
+    "Freeze authority revoked (freezable: false, on_chain_freezable: false, freeze_authority_address: null).",
+    "Metadata immutable (metadata_mutable: false).",
+    "Not non-transferable (non_transferable: false).",
+    "No transfer fees (transfer_fee_exists: false).",
+    "Reasonable top 10 holder concentration (35.64%): The largest holder is the liquidity pool."
+  ],
+  "ai_note": "While the token's contract is technically sound, the observed market dynamics strongly suggest a pump-and-dump scenario, making it a high-risk investment despite good underlying token mechanics.",
+  "sections": {
+    "security": "The token contract exhibits excellent safety features: mint and freeze authorities are revoked, metadata is immutable, and there are no transfer fees or non-transferable flags. On-chain authorities are also absent, indicating a secure token contract.",
+    "holders": "The top 10 holders account for approximately 35.64% of the estimated total supply, which is a reasonable concentration for a new token, especially since the largest holder is the liquidity pool itself. However, the overall holder count is unknown.",
+    "market": "The market shows extreme volatility. A massive 2162% pump in 24 hours was followed by significant dumps (-73.64% in 6 hours, -34.18% in 1 hour). Liquidity is relatively low at $17,631.22, while the 24-hour volume is exceptionally high at $920,629.88, resulting in an extreme volume/liquidity ratio of 52.22. This indicates a highly unstable and speculative market, likely undergoing a pump-and-dump cycle. The token is still on Pump.fun and has not migrated to Raydium.",
+    "deployer": "Deployer information is not available, preventing an assessment of past behavior or potential dev exit status."
+  },
+  "red_flag_count": 5,
+  "green_flag_count": 6
+}

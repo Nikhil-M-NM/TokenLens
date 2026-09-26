@@ -1,0 +1,28 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 5,
+  "summary": "Token has strong security fundamentals (immutable metadata, no mint/freeze authority) and healthy market activity with over $3.6M liquidity and robust volume. However, critical data is missing (total supply, holder count, top10 percent, deployer, and LP burn status), which prevents full verification of holder concentration and deployer behavior. This data sparsity triggers a caution rating despite the otherwise positive signals.",
+  "red_flags": [
+    "Missing total supply",
+    "Missing holder count",
+    "Missing top10 percent",
+    "Missing deployer address",
+    "Missing LP burn status (lp_not_applicable)"
+  ],
+  "green_flags": [
+    "Metadata immutable (mintable=false, freezable=false, metadata_mutable=false)",
+    "No on-chain mint or freeze authority",
+    "High liquidity ($3.65M) and healthy volume/liquidity ratio (0.0962)",
+    "Large market cap ($482M) with active 24h trading ($351k volume)",
+    "Well-known brand (Pudgy Penguins)"
+  ],
+  "ai_note": "While safety flags are clean and market metrics are strong, the simultaneous absence of five key data points (top10_percent, holder_count, deployer, lp_burned, total_supply) forces a CAUTION rating as per null-handling rules, even though calculated holder concentration appears moderate (~40% top10) and the token is a recognized project.",
+  "sections": {
+    "security": "Token is not mintable, not freezable, metadata immutable, and has no on-chain mint or freeze authority. This eliminates the primary rug-pull vectors.",
+    "holders": "Holder count and top10 percent are missing. Using estimated total supply (~88.9B from FDV/price), the top 10 holders collectively hold about 40.6%, which is below the risky 60% threshold, but the lack of official data prevents full confirmation.",
+    "market": "Strong liquidity ($3.65M) on Meteora, migrated to Raydium, with 24h volume of $351k giving a healthy volume/liquidity ratio of 9.6%. Price stability is normal with -2.95% daily change. Market cap of $482M indicates a well-established token.",
+    "deployer": "Deployer address is unavailable; therefore, developer exit status and transaction history cannot be assessed. This absence contributes to the caution rating despite no direct evidence of malicious activity."
+  },
+  "red_flag_count": 5,
+  "green_flag_count": 5
+}

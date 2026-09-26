@@ -1,0 +1,30 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 5.5,
+  "summary": "Surface safety flags (mintable/freezable/metadata mutable all false) and market metrics (liquidity $150k, healthy 24h volume) look adequate. However, critical data is missing: deployer unknown, holder_count and top10_percent null, on-chain mint/freeze authority unverified, and LP status not applicable, creating uncertainty.",
+  "red_flags": [
+    "deployer is unknown (null)",
+    "holder_count is null",
+    "top10_percent is null",
+    "on-chain mint authority is null (unverified)",
+    "on-chain freeze authority is null (unverified)",
+    "lp status not applicable (lock/burn status unknown)"
+  ],
+  "green_flags": [
+    "mintable = false",
+    "freezable = false",
+    "metadata_mutable = false",
+    "estimated top10 concentration ~24.5% (low)",
+    "liquidity $150,154.1, volume/liquidity ratio 4.65",
+    "no evidence of dev_exited"
+  ],
+  "ai_note": "Missing crucial data (deployer, holder stats, on-chain authority verification) forces a CAUTION rating despite solid surface metrics; treat with care until these gaps are filled.",
+  "sections": {
+    "security": "Metadata is immutable, mintage and freeze are flagged false off-chain, but on-chain checks return null—actual authority cannot be verified. Transfer fee absent, not a trusted token.",
+    "holders": "Top holder list shows LP pair as the largest holder (91M tokens). Estimated top10 aggregate ~24.5% of extrapolated total supply (~995M from FDV/price). However, holder_count and top10_percent are null, so concentration cannot be fully assessed.",
+    "market": "Liquidity $150,154.1, 24h volume $698,651, healthy volume/liquidity rate 4.65. Market cap $821,939, FDV same. Token originally on pumpswap, migrated to Raydium. Price up 29.38% in 24h, down -8.9% in last hour.",
+    "deployer": "Deployer address is null; no information on developer activity, initial transactions, or potential exit."
+  },
+  "red_flag_count": 6,
+  "green_flag_count": 6
+}

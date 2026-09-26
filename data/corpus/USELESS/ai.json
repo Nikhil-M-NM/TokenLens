@@ -1,0 +1,29 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 5.4,
+  "summary": "The token has strong on-chain safety (no mint/freeze authority, immutable metadata) and healthy liquidity, but critical transparency data is missing: deployer unknown, holder concentration not disclosed, and LP burn/lock status unavailable. While supply distribution appears moderate from available top holders, the lack of full disclosure and low volume relative to market cap keep this in the caution zone.",
+  "red_flags": [
+    "Deployer address is null (unknown deployer)",
+    "holder_count and top10_percent are null (opaque holder distribution)",
+    "lp_burned and lp_locked are null (LP security status unknown)",
+    "Low 24h volume relative to market cap (turnover ~0.61%)",
+    "total_supply and age_days missing from metadata"
+  ],
+  "green_flags": [
+    "No mint or freeze authority (mint_authority null, freeze_authority null)",
+    "mintable and freezable are false",
+    "Metadata is immutable",
+    "Substantial liquidity ($2.05M) and healthy volume/liquidity ratio (0.20)",
+    "Migrated to Raydium, not a freshly launched pump.fun token",
+    "On-chain data shows no hidden mint/freeze capability"
+  ],
+  "ai_note": "Despite the positive on-chain security and market metrics, the absence of deployer, LP, and holder transparency injects non-trivial risk; investors should verify LP status independently before committing large positions.",
+  "sections": {
+    "security": "Token is non-mintable, non-freezable, and metadata is immutable. All on-chain mint/freeze authorities are null, indicating renounced control. No transfer fee or forced transfer restrictions exist, reducing manipulation vectors.",
+    "holders": "Holder count and top10 percentage are not provided. Top 10 addresses from the snapshot collectively hold ~331.4M tokens, which is approximately 33% of the estimated 1B total supply derived from market cap. This suggests moderate concentration, but exact distribution is unknown, representing a transparency gap.",
+    "market": "Trading on Raydium with $2.05M in liquidity and $416K 24h volume yields a comfortable 0.20 volume/liquidity ratio. Market cap and FDV both stand at $68.05M. However, daily volume represents only ~0.61% of market cap, indicating relatively low trading activity for a memecoin of this size. Price action is slightly positive over 24h (+2.56%) despite minor intra-day dips.",
+    "deployer": "Deployer address is null; no historical transaction data or dev exit behavior can be assessed. This missing information is a red flag, as it prevents verification of creator trustworthiness or wallet activity."
+  },
+  "red_flag_count": 5,
+  "green_flag_count": 6
+}

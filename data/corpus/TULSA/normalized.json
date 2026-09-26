@@ -1,0 +1,101 @@
+{
+  "ca": "8TVr3U85V3Uazkxd5DJbmzdUWaxhQdEGNNGJ7eNTpump",
+  "token": {
+    "name": "Black Wallstreet ✊🏾",
+    "symbol": "TULSA",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": false,
+    "on_chain_freezable": false,
+    "mint_authority_address": null,
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+        "ui_amount": 144807752.248509,
+        "percentage": null
+      },
+      {
+        "address": "5DCXHkbo1bVKVk5NWaTfk5KV9M3ttdPe3DBSYnAbtE9x",
+        "ui_amount": 50128222.885635,
+        "percentage": null
+      },
+      {
+        "address": "26s2DgAxsed8WxosHo5RoBNkeCeTvuysjPJ7jKhGPDuH",
+        "ui_amount": 40741197.894728,
+        "percentage": null
+      },
+      {
+        "address": "62xaVYbqJP7XxQNbfuFbfc6HPvgik2UGpTUCLm5Wa15v",
+        "ui_amount": 37516442.072354,
+        "percentage": null
+      },
+      {
+        "address": "7RWoAsr3Qsk3PZeLSyTnfMn1UxmvsFv4jRbZoUeqZQy9",
+        "ui_amount": 31228287.513917,
+        "percentage": null
+      },
+      {
+        "address": "8gAKAeLNixoan4kYGBVkJ1Cj25X2ojRXuufdCSbhir4L",
+        "ui_amount": 26520633.975157,
+        "percentage": null
+      },
+      {
+        "address": "5A4f7sNnpRz9jiuN5LySFaFaYWFyC1i3V97EXwxvseC8",
+        "ui_amount": 24739398.376691,
+        "percentage": null
+      },
+      {
+        "address": "DBxAmLwbM9C5rcTZDe7fwcNfaoeDSmhZ3h9p8LJexhVn",
+        "ui_amount": 21818891.344453,
+        "percentage": null
+      },
+      {
+        "address": "28E2oqTeUpW6zLsUUiNBu4m79HPZreNbTj2wDrmcmT4E",
+        "ui_amount": 18640451.213987,
+        "percentage": null
+      },
+      {
+        "address": "4GV9s4N67AwC2cFnCYiMNAYLQRbBVGR42LhkQzvXhAMC",
+        "ui_amount": 13536433.826522,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "0.00009696",
+    "liquidity_usd": 28115.46,
+    "volume_24h": 25412.96,
+    "volume_liquidity_ratio": 0.9039,
+    "market_cap": 96945,
+    "fdv": 96945,
+    "pair_address": "3kApH42dyJRtk3DUDyfJJx3TGkPAK23ojMbJiBhrEQrX",
+    "dex": "raydium",
+    "is_pumpswap": false,
+    "migrated_to_raydium": true,
+    "price_change_h24": 135,
+    "price_change_h6": -8.31,
+    "price_change_h1": 6.85
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": false
+  }
+}

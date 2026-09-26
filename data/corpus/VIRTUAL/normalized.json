@@ -1,0 +1,101 @@
+{
+  "ca": "3iQL8BFS2vE7mww4ehAqQHAsbmRNCrPxizWAT2Zfyr9y",
+  "token": {
+    "name": "Virtual Protocol",
+    "symbol": "VIRTUAL",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": true,
+    "on_chain_freezable": true,
+    "mint_authority_address": "G2TEhgzHBrY7rLefMMeoEaEvUac5kpdx5bj7c5Yvx5qa",
+    "freeze_authority_address": "G2TEhgzHBrY7rLefMMeoEaEvUac5kpdx5bj7c5Yvx5qa"
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "tQPRGtrHKJ85eQ8CUhXaej6kRKsVXYevCvwjqQZZyvY",
+        "ui_amount": 5000000.000283049,
+        "percentage": null
+      },
+      {
+        "address": "EahATEAvxDUBTGdE5iupcgJBupWZLVctzhvVx2516dfs",
+        "ui_amount": 4479377.243854064,
+        "percentage": null
+      },
+      {
+        "address": "E2RvJg2myWpKcbkhBuF81gfhYr6KvmNcDbSmr5qnatYy",
+        "ui_amount": 3973965.967945,
+        "percentage": null
+      },
+      {
+        "address": "EFE3j1pcSP1paUzA86zW7989ZjsFP2J7ginyUqo4ewqR",
+        "ui_amount": 3102691.83054,
+        "percentage": null
+      },
+      {
+        "address": "6LY1JzAFVZsP2a2xKrtU6znQMQ5h4i7tocWdgrkZzkzF",
+        "ui_amount": 1788451.41496369,
+        "percentage": null
+      },
+      {
+        "address": "64K4zQJMzoVvVMVMChfPuUuohHJroMDQt7ZdEWF3AUbe",
+        "ui_amount": 1638960.975083771,
+        "percentage": null
+      },
+      {
+        "address": "9icg7mYNJDwNfgHAsCtfZdBYPnabFeD8yFh53vPcbBuG",
+        "ui_amount": 1000003.00267,
+        "percentage": null
+      },
+      {
+        "address": "7cAui6ADtxLnpRr2wYvwJWTkzwgmVF2LYKnjKTLx4xR8",
+        "ui_amount": 728147.551330122,
+        "percentage": null
+      },
+      {
+        "address": "AGiAVqZiQrz32m1zKC5T4UfQKcDoGNG34sqSHSVNgwtv",
+        "ui_amount": 338073.310461,
+        "percentage": null
+      },
+      {
+        "address": "FLbGvea7pk7NuJYevvKqi4FQVD22xPQAVqb7z881kbyR",
+        "ui_amount": 256722.886876,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "0.7196",
+    "liquidity_usd": 994588.81,
+    "volume_24h": 54332.97,
+    "volume_liquidity_ratio": 0.0546,
+    "market_cap": 472826156,
+    "fdv": 719689820,
+    "pair_address": "B1AdQ85N2mJ2xtMg9bgThhsPoA6T3M26rt4TChWSiPpr",
+    "dex": "meteora",
+    "is_pumpswap": false,
+    "migrated_to_raydium": false,
+    "price_change_h24": null,
+    "price_change_h6": -0.46,
+    "price_change_h1": -0.57
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": true
+  }
+}

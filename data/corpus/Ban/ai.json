@@ -1,0 +1,25 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 5,
+  "summary": "Token has flawless safety flags (not mintable, freezable, or metadata mutable) and strong liquidity ($2.5M) with healthy volume. However, critical on-chain data is missing, and the top holder alone controls ~49% of the inferred supply, indicating high centralization risk.",
+  "red_flags": [
+    "Missing critical fields: top10_percent, holder_count, deployer, lp_burned, total_supply are all null",
+    "Top holder holds approximately 49.2% of total supply (492.5M tokens), suggesting extreme concentration",
+    "Deployer unknown; dev exit status and token distribution are opaque"
+  ],
+  "green_flags": [
+    "mintable=false, freezable=false, metadata_mutable=false",
+    "Non-transferable=false, transfer_fee_exists=false",
+    "Liquidity $2,546,386, 24h volume $837,937 (volume/liquidity ratio 0.33, healthy)",
+    "Market cap $71.4M with pair on Raydium (migrated)"
+  ],
+  "ai_note": "Clean contract permissions and robust market metrics contrast with opaque distribution and a single wallet dominating supply — a classic 'gray area' token where caution is warranted.",
+  "sections": {
+    "security": "All safety checks passed: mintable and freezable are false, metadata is immutable, and on-chain mint/freeze authorities are null (renounced). No dangerous permissions detected.",
+    "holders": "Holder count and top10% are not provided, but the top 10 list reveals heavy concentration. The leading wallet holds 492.5M tokens (~49.2% of implied 1B total supply); top10 combined likely exceeds 61%, indicating high centralization.",
+    "market": "Liquidity sits at $2,546,386 with 24h volume $837,937 (volume/liquidity ratio 0.33). Market cap is $71.4M, FDV equals market cap, and the pair trades on Raydium after migration. Price is down 12% in 24h but stable over 6h.",
+    "deployer": "Deployer address is null, so we cannot assess if the dev exited, holds supply, or conducted prior suspicious activity. This absence of information obscures the token's origin."
+  },
+  "red_flag_count": 3,
+  "green_flag_count": 4
+}

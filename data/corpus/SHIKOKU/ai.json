@@ -1,0 +1,35 @@
+{
+  "verdict": "RISKY",
+  "risk_score": 7.5,
+  "summary": "The token demonstrates strong on-chain safety with immutable mint, freeze, and metadata authorities. However, critical information regarding the liquidity pool's burned or locked status is missing, which presents a significant rug pull vulnerability. The inability to assess holder concentration and recent high price volatility further contribute to its risky profile.",
+  "red_flags": [
+    "lp_burned: null - Critical missing information regarding liquidity pool safety; LP can be removed at any time.",
+    "lp_locked: null - Critical missing information regarding liquidity pool safety; LP can be removed at any time.",
+    "total_supply: null - Prevents accurate calculation and assessment of top 10 holder concentration.",
+    "top10_percent: null - Cannot assess holder concentration due to missing total supply.",
+    "price_change_h24: 95.52% - Extremely high short-term price volatility, indicating a pump that could be followed by a dump.",
+    "deployer: null - Missing deployer information prevents analysis of their behavior."
+  ],
+  "green_flags": [
+    "mintable: false - Token supply cannot be increased.",
+    "freezable: false - User funds cannot be frozen.",
+    "metadata_mutable: false - Token metadata cannot be changed.",
+    "non_transferable: false - Token is freely transferable.",
+    "transfer_fee_exists: false - No hidden transfer taxes.",
+    "on_chain_mintable: false - No on-chain mint authority.",
+    "on_chain_freezable: false - No on-chain freeze authority.",
+    "migrated_to_raydium: true - Indicates progression beyond initial Pump.fun launch.",
+    "liquidity_usd: 98984.47 - Healthy liquidity for a memecoin.",
+    "volume_24h: 377262.45 - Healthy 24-hour trading volume.",
+    "volume_liquidity_ratio: 3.8113 - Good trading activity relative to liquidity."
+  ],
+  "ai_note": "The primary concern is the unknown status of the liquidity pool; without confirmation of LP burn or lock, the token remains highly susceptible to a rug pull despite otherwise good on-chain safety flags.",
+  "sections": {
+    "security": "The token has strong on-chain security, with mintable, freezable, and metadata mutable flags all set to false. There are no active mint or freeze authorities, preventing malicious token creation or freezing of user funds.",
+    "holders": "Information on total supply and top 10 holder percentage is missing, making it impossible to accurately assess holder concentration. This is a significant gap in the analysis of potential whale manipulation or rug pull risk from concentrated holdings.",
+    "market": "The token has healthy liquidity ($98,984 USD) and significant 24-hour trading volume ($377,262 USD), with a good volume/liquidity ratio of 3.81. It has successfully migrated to Raydium, indicating some stability. However, the price has surged by over 95% in the last 24 hours, suggesting high volatility and potential for a rapid correction.",
+    "deployer": "Deployer information is entirely missing, preventing any analysis of their past behavior or current holdings, which is a notable gap in assessing project trustworthiness."
+  },
+  "red_flag_count": 6,
+  "green_flag_count": 11
+}

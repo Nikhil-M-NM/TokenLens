@@ -1,0 +1,101 @@
+{
+  "ca": "61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump",
+  "token": {
+    "name": "AI Rig Complex",
+    "symbol": "arc",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": false,
+    "on_chain_freezable": false,
+    "mint_authority_address": null,
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "u6PJ8DtQuPFnfmwHbGFULQ4u4EgjDiyYKjVEsynXq2w",
+        "ui_amount": 448495129.515982,
+        "percentage": null
+      },
+      {
+        "address": "6j4JJLSX44Nth7s3hMzXzAu4SeqKtjdhzqeprbDupfRQ",
+        "ui_amount": 130999995.27,
+        "percentage": null
+      },
+      {
+        "address": "HoKVbPwpcgF1LzSgVHSzraipsyQ3P3F1bdXpkN1BwbU1",
+        "ui_amount": 83587365.103835,
+        "percentage": null
+      },
+      {
+        "address": "6u3JDmptp1496y1o7CfHS8vBmp3R7B49BTJSokzyqKDd",
+        "ui_amount": 44036243.55749,
+        "percentage": null
+      },
+      {
+        "address": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+        "ui_amount": 28445043.046406,
+        "percentage": null
+      },
+      {
+        "address": "9ZPsRWGkukYeWg2Z7eZ8NaTBZ1DSuBUVzLcGQWZgE4Y4",
+        "ui_amount": 17419850.481902,
+        "percentage": null
+      },
+      {
+        "address": "5nfpsKkmELsYfDMiKAeEsyT1wB92w6WqPiEfWXtcdMKJ",
+        "ui_amount": 9514040.21,
+        "percentage": null
+      },
+      {
+        "address": "Cw32Ny2xcYdpfJmvFd7h2pRhcbcjoJFq8KrrA8YLwZeh",
+        "ui_amount": 9136000.1,
+        "percentage": null
+      },
+      {
+        "address": "F6V3T6gAj6yko3D5QTj4gZXXmitvXNBUBY8ZsMsWLqoW",
+        "ui_amount": 9100583.835203,
+        "percentage": null
+      },
+      {
+        "address": "7TWnq4WeYcwQWBCwKeEX2Q9xqVtthPGkB7adNvueuVuh",
+        "ui_amount": 6766669.768657,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "0.06744",
+    "liquidity_usd": 3841749.64,
+    "volume_24h": 1280242.84,
+    "volume_liquidity_ratio": 0.3332,
+    "market_cap": 67445188,
+    "fdv": 67445188,
+    "pair_address": "J3b6dvheS2Y1cbMtVz5TCWXNegSjJDbUKxdUVDPoqmS7",
+    "dex": "raydium",
+    "is_pumpswap": false,
+    "migrated_to_raydium": true,
+    "price_change_h24": 4.43,
+    "price_change_h6": -5.16,
+    "price_change_h1": 1.46
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": false
+  }
+}

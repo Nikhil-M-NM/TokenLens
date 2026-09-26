@@ -1,0 +1,26 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 5.5,
+  "summary": "Alchemist AI (ALCH) has clean security flags (not mintable, not freezable, immutable metadata) and healthy market metrics, but several critical data points are missing (holder count, top10%, deployer, LP burn status, total supply). Estimated top10 concentration from available amounts exceeds 80%, which is a concentration concern, though liquidity and volume are robust.",
+  "red_flags": [
+    "Multiple critical fields are null: top10_percent, holder_count, deployer, lp_burned, total_supply",
+    "Top10 addresses hold an estimated 89% of FDV supply, indicating potentially extreme holder concentration"
+  ],
+  "green_flags": [
+    "Not mintable",
+    "Not freezable",
+    "Metadata immutable",
+    "Healthy liquidity ($3.37M)",
+    "24h volume $180.66K with volume/liquidity ratio 0.0536",
+    "On-chain mint and freeze authorities are null (no central control)"
+  ],
+  "ai_note": "Confidence is moderate due to missing critical fields; if top10% were confirmed >80%, risk would be higher, but without exact verified data, a cautious rating is appropriate.",
+  "sections": {
+    "security": "Token is not mintable, not freezable, and metadata is immutable. On-chain mint and freeze authorities are null, indicating no central control. These are strong positives.",
+    "holders": "Holder count and top10 percentage are unavailable. The top 10 listed addresses collectively hold an estimated 89% of FDV supply (about 892M out of 1B tokens), which would be a very high concentration if confirmed.",
+    "market": "Price $0.07178, market cap $61M, FDV $71.78M. Liquidity $3.37M on Raydium. 24h volume $180.66K yields a volume/liquidity ratio of 0.0536, indicating healthy trading activity. Not a low-volume token.",
+    "deployer": "Deployer address is unknown; no data on developer exit or transaction history. This missing information adds uncertainty."
+  },
+  "red_flag_count": 2,
+  "green_flag_count": 6
+}

@@ -1,0 +1,28 @@
+{
+  "verdict": "RISKY",
+  "risk_score": 7.5,
+  "summary": "The token contract exhibits strong safety features with mint, freeze, and metadata authorities revoked. However, critical information regarding total supply, holder concentration, and liquidity pool burning/locking is missing, preventing a full security assessment and posing significant unknown risks.",
+  "red_flags": [
+    "Total supply is null, preventing accurate assessment of holder concentration (top10_percent).",
+    "Liquidity pool (LP) burn/lock status is null, indicating unknown LP security and potential for a rug pull.",
+    "Deployer information is null, so deployer behavior cannot be assessed.",
+    "Holder count is null."
+  ],
+  "green_flags": [
+    "Mint authority revoked (mintable: false, on_chain_mintable: false).",
+    "Freeze authority revoked (freezable: false, on_chain_freezable: false).",
+    "Metadata is immutable (metadata_mutable: false).",
+    "No transfer fees exist (transfer_fee_exists: false).",
+    "Healthy volume to liquidity ratio (0.9039).",
+    "Token migrated to Raydium (migrated_to_raydium: true)."
+  ],
+  "ai_note": "The absence of critical data on total supply, holder concentration, and LP security introduces substantial unquantifiable risk, despite the strong on-chain contract safety features.",
+  "sections": {
+    "security": "The token contract is well-secured with mint, freeze, and metadata authorities all revoked. There are no transfer fees. This prevents malicious actions by the contract owner post-deployment.",
+    "holders": "Holder count and top10_percent are null due to missing total supply data. This makes it impossible to assess holder concentration, which is a significant risk factor for potential price manipulation or rug pulls.",
+    "market": "The token has a market cap of $96,945 and liquidity of $28,115.46. The 24-hour volume is $25,412.96, resulting in a healthy volume/liquidity ratio of 0.9039. The token has migrated to Raydium, which is a positive sign. Price changes show high volatility, typical for memecoins.",
+    "deployer": "Deployer information is null, so it's not possible to assess deployer behavior or whether the developer has exited."
+  },
+  "red_flag_count": 4,
+  "green_flag_count": 6
+}

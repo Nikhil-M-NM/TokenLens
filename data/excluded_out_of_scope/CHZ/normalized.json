@@ -1,0 +1,101 @@
+{
+  "ca": "6eftxVbSAunVEoxUWdGhPdxg5UdsJ8Wkwy5w5YFuxouw",
+  "token": {
+    "name": "Chiliz",
+    "symbol": "CHZ",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": true,
+    "on_chain_freezable": true,
+    "mint_authority_address": "ABMiDS6TEnvc1sfa1HG7LD85qV6ZaB1DBn2c2x3PKgk4",
+    "freeze_authority_address": "ABMiDS6TEnvc1sfa1HG7LD85qV6ZaB1DBn2c2x3PKgk4"
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "BKeNydVr6WUPeUusKueHQN4TtbU9yyrZ2BCH9GduRnj7",
+        "ui_amount": 6000070.75931755,
+        "percentage": null
+      },
+      {
+        "address": "TC7nKLxPqh9Tr5CmczxapMA2VRyrtnqb2ZtWDQn5sdx",
+        "ui_amount": 2181456.07194482,
+        "percentage": null
+      },
+      {
+        "address": "2QMi9jiqxuQABCLXS5AzpuG3Cp46xG8shUDr5JDGSpRc",
+        "ui_amount": 1653636.57705887,
+        "percentage": null
+      },
+      {
+        "address": "uRFRmgTYThy63k6ScwbcrCWK3b35STdd8jsZJqCudHR",
+        "ui_amount": 1492964.48350176,
+        "percentage": null
+      },
+      {
+        "address": "4sewpY37mKe5b2SRbhYNehQvme1uow2pNnSQqBqSjqX2",
+        "ui_amount": 1085318.24690323,
+        "percentage": null
+      },
+      {
+        "address": "AfNdN3j9uVkf5gC5KjWa5K4s5EpgPxwXxr8ujzCwrkPq",
+        "ui_amount": 321601.5451778,
+        "percentage": null
+      },
+      {
+        "address": "4mq8rX7Ym2sxwEJm2MgQMmNMSypsGheAxWB8M1uks1MG",
+        "ui_amount": 254756.58272658,
+        "percentage": null
+      },
+      {
+        "address": "8cmFkp3EHcsnJssCsnkZKw8Stwcn6zrsaucLWPXpFMYz",
+        "ui_amount": 123854.69835108,
+        "percentage": null
+      },
+      {
+        "address": "38wZV42GZZSGUKw8w73GwYbFSa6NyDA9Zkxi8DEf5YaE",
+        "ui_amount": 118973.4910709,
+        "percentage": null
+      },
+      {
+        "address": "rWvy5oSNLvY85bdfzpDDZLrWvqbN92KidFpfcrMreum",
+        "ui_amount": 110235.62168051,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "0.03447",
+    "liquidity_usd": 117105.67,
+    "volume_24h": 46713.9,
+    "volume_liquidity_ratio": 0.3989,
+    "market_cap": 344795,
+    "fdv": 344795,
+    "pair_address": "2QMi9jiqxuQABCLXS5AzpuG3Cp46xG8shUDr5JDGSpRc",
+    "dex": "meteora",
+    "is_pumpswap": false,
+    "migrated_to_raydium": false,
+    "price_change_h24": 1.05,
+    "price_change_h6": null,
+    "price_change_h1": -0.12
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": true
+  }
+}

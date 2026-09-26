@@ -1,0 +1,24 @@
+{
+  "verdict": "RISKY",
+  "risk_score": 7.5,
+  "summary": "The token has strong safety credentials (no mint/freeze, immutable metadata) but top10 holders control approximately 78.75% of supply, a major centralization risk. Deployer is unknown and LP burn/lock status is missing, making a rug pull possible despite high liquidity.",
+  "red_flags": [
+    "Top 10 holders own approximately 78.75% of total supply (extreme concentration)",
+    "Deployer address is null, hiding developer history and exit risk",
+    "LP burn and lock status are unknown, increasing vulnerability to liquidity removal"
+  ],
+  "green_flags": [
+    "Mintable=false, freezable=false, on-chain mint/freeze authorities are null",
+    "Metadata is immutable, preventing contract-level changes",
+    "High liquidity ($3.84M) with active 24h volume ($1.28M, ratio 0.33)"
+  ],
+  "ai_note": "Holders data provided top10 amounts without total supply; supply was estimated from FDV/price to compute concentration, so the percentage is approximate but clearly above 75%.",
+  "sections": {
+    "security": "Safety checks pass: token is not mintable or freezable, metadata is immutable, and no on-chain mint/freeze authorities exist, ruling out direct contract manipulation.",
+    "holders": "Holder count and exact top10% are missing. Using FDV/price to estimate total supply (~1B), the top10 addresses collectively hold 78.75%, indicating dangerously centralized ownership.",
+    "market": "Token is on Raydium (migrated from PumpSwap) with $3.84M liquidity and $1.28M 24h volume. Market cap is $67.4M with significant price volatility (-5% in 6h). Liquidity is deep but centralization undercuts confidence.",
+    "deployer": "Deployer address is unknown, so developer transaction history and potential exit scams cannot be assessed. This missing data is a significant risk factor."
+  },
+  "red_flag_count": 3,
+  "green_flag_count": 3
+}

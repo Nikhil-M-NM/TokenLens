@@ -1,0 +1,101 @@
+{
+  "ca": "ZEXy1pqteRu3n13kdyh4LwPQknkFk3GzmMYMuNadWPo",
+  "token": {
+    "name": "Zeta",
+    "symbol": "ZEX",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": false,
+    "on_chain_freezable": false,
+    "mint_authority_address": null,
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "Bs5XaFx9wS8N5ir4QtTb2exhFMKQdZUmjga1peT2DBXt",
+        "ui_amount": 434524481.368115,
+        "percentage": null
+      },
+      {
+        "address": "3zmHxC1mUBvJZJ7VQ2MLsniZZqnn9i5C2wdRyzNfrbAN",
+        "ui_amount": 200000000.000001,
+        "percentage": null
+      },
+      {
+        "address": "EibcRbs9iDDm2bQtv9rezwMc6wKxMt5rhnwRK5HqyrAT",
+        "ui_amount": 177703403,
+        "percentage": null
+      },
+      {
+        "address": "BWLKaboaGdY7MejuNeRbPUbhphm8aFjiNJbsm2i98GN2",
+        "ui_amount": 31394411.013318,
+        "percentage": null
+      },
+      {
+        "address": "AC5RDfQFmDS1deWZos921JfqscXdByf8BKHs5ACWjtW2",
+        "ui_amount": 13685402.673312,
+        "percentage": null
+      },
+      {
+        "address": "9zrxxfoE6qq3oyspKoaWJNXBizB5cRJddatiHte1zqwC",
+        "ui_amount": 10186282.898907,
+        "percentage": null
+      },
+      {
+        "address": "u6PJ8DtQuPFnfmwHbGFULQ4u4EgjDiyYKjVEsynXq2w",
+        "ui_amount": 7660978.802305,
+        "percentage": null
+      },
+      {
+        "address": "6LY1JzAFVZsP2a2xKrtU6znQMQ5h4i7tocWdgrkZzkzF",
+        "ui_amount": 7502392.722127,
+        "percentage": null
+      },
+      {
+        "address": "DxDZQaDPiw3ofVsqmrjTSbQuh9gXiPNqkBg5B1seFWnF",
+        "ui_amount": 6822582.53845,
+        "percentage": null
+      },
+      {
+        "address": "26C7DhK9zpfig6AgYAT6HmwLqWLLQQsWcxLVrUsLpZXo",
+        "ui_amount": 6252315.78179,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "0.02112",
+    "liquidity_usd": 46768.1,
+    "volume_24h": 24713.62,
+    "volume_liquidity_ratio": 0.5284,
+    "market_cap": 3967037,
+    "fdv": 21127181,
+    "pair_address": "2b1vSxGaGNN3WpQijzjAo1937G6rwqqcDxpJXom52dtV",
+    "dex": "raydium",
+    "is_pumpswap": false,
+    "migrated_to_raydium": false,
+    "price_change_h24": 7.67,
+    "price_change_h6": -1.4,
+    "price_change_h1": -0.64
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": true
+  }
+}

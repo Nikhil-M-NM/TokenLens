@@ -1,0 +1,27 @@
+{
+  "verdict": "SCAM",
+  "risk_score": 8.5,
+  "summary": "Top 10 holders control an estimated 89.5% of total supply, far exceeding the 80% scam threshold. Deployer and LP lock/burn details are missing, and key holder metrics are unknown, indicating extreme centralization and likely manipulator control despite green security flags.",
+  "red_flags": [
+    "top10 concentration ~89.5% (derived from FDV/price, top holder owns 43.4% of total supply)",
+    "deployer is unknown (null)",
+    "holder_count is null, top10_percent not reported",
+    "lp_burned/lp_locked are null with lp_not_applicable=true, so LP status is unclear",
+    "token has no description and total_supply is null"
+  ],
+  "green_flags": [
+    "mintable is false, freezable is false, metadata is immutable",
+    "no on-chain mint or freeze authority",
+    "liquidity_usd $46,768 with volume_24h $24,713 (ratio 0.53), indicating decent market activity",
+    "listed on Raydium, not a pump.fun migrated token"
+  ],
+  "ai_note": "The extreme supply concentration among top holders makes this token highly susceptible to a rug pull, regardless of technically immutable token settings; missing deployer and LP info further elevate the risk.",
+  "sections": {
+    "security": "Token is not mintable, not freezable, metadata immutable, and no on-chain mint/freeze authorities exist. These are strong positives, but they do not mitigate the holder concentration risk.",
+    "holders": "Holder count and top10 percentage are null. Using FDV and price, total supply ~1B. Sum of listed top10 holdings is ~895.7M, giving an estimated top10 concentration of 89.5%. The top address alone holds 43.4% of total supply.",
+    "market": "Liquidity $46,768, 24h volume $24,713, volume/liquidity ratio 0.53, market cap $3.97M, FDV $21.1M. The market is active, but the vast FDV gap and extreme concentration dilute any positive market signals.",
+    "deployer": "Deployer address is null; no information about deployer history, dev_exited status, or transaction count. This opacity is a strong red flag."
+  },
+  "red_flag_count": 5,
+  "green_flag_count": 4
+}

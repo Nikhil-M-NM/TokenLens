@@ -1,0 +1,101 @@
+{
+  "ca": "F5tfztTnE4sYsMhZT5KrFpWvHmYSfJZoRjCuxKPbpump",
+  "token": {
+    "name": "Aliens are real",
+    "symbol": "Aliens",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": null,
+    "on_chain_freezable": null,
+    "mint_authority_address": null,
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "7nVP4qykvMpEuhobyrzCn1TQiz7K8PMK5UXQeeBrZyh",
+        "ui_amount": 91007030.347241,
+        "percentage": null
+      },
+      {
+        "address": "71h4ejMmX6PCTXw9uFw6L3vFYAkJitUpMg5fbdHPdcge",
+        "ui_amount": 27579367.902481,
+        "percentage": null
+      },
+      {
+        "address": "HEHqb8ttxK6os6Rt5Ai7nHX2wXUup2WwD32FAvEzjKN5",
+        "ui_amount": 20503618.126913,
+        "percentage": null
+      },
+      {
+        "address": "GFW7cVjYXNFUSwQ6BthFrRFXuon1AypCf213kVY8qmN4",
+        "ui_amount": 19113649.568723,
+        "percentage": null
+      },
+      {
+        "address": "CwfYx9VXCBVzyFLfM7g1bwc4qbk2f7qgCUzJK2AqajV3",
+        "ui_amount": 18847164.08408,
+        "percentage": null
+      },
+      {
+        "address": "5E8j8zjca1a2HWNjLZM5fYA7aEiD7qXR1NJMN663L5cX",
+        "ui_amount": 15364613.701292,
+        "percentage": null
+      },
+      {
+        "address": "6mTkZx5qst57eF5soE9QgGoeZAPx6Cw2R5LMm9F8TCok",
+        "ui_amount": 14172510.580602,
+        "percentage": null
+      },
+      {
+        "address": "7Y1ax47g3FdWjqNksVJQ82J7DNo22Aof6KsJ3amhHTLT",
+        "ui_amount": 14029392.470183,
+        "percentage": null
+      },
+      {
+        "address": "85Xn5Ze71KHurKX8c7VXWuxiU7C3kUwU78VrqcxzMkbE",
+        "ui_amount": 12080578.877922,
+        "percentage": null
+      },
+      {
+        "address": "3CyocSGRkFKsFJ16p6bNPMP8YnWQx9EM9Y5P8f62xhXW",
+        "ui_amount": 11640188.137454,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "0.0008257",
+    "liquidity_usd": 150154.1,
+    "volume_24h": 698651.03,
+    "volume_liquidity_ratio": 4.6529,
+    "market_cap": 821939,
+    "fdv": 821939,
+    "pair_address": "7nVP4qykvMpEuhobyrzCn1TQiz7K8PMK5UXQeeBrZyh",
+    "dex": "pumpswap",
+    "is_pumpswap": true,
+    "migrated_to_raydium": true,
+    "price_change_h24": 29.38,
+    "price_change_h6": -1.84,
+    "price_change_h1": -8.9
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": true
+  }
+}

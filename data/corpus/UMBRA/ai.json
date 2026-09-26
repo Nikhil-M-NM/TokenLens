@@ -1,0 +1,29 @@
+{
+  "verdict": "SCAM",
+  "risk_score": 9,
+  "summary": "The token is highly risky due to the active mint authority, which can create unlimited new tokens and dilute existing holders. This mint authority is also a top holder, increasing the potential for a rug pull. Additionally, there is high holder concentration among the top 10 addresses.",
+  "red_flags": [
+    "On-chain mintable: true (Mint authority exists and can create new tokens, a severe rug pull vector)",
+    "Mint authority address (6VsC8PuKkXm5xo54c2vbrAaSfQipkpGHqNuKTxXFySx6) is an active top 10 holder (1.24% of total supply)",
+    "Top 10 holder concentration: 66.98% (exceeds 60% threshold, indicating high centralization)",
+    "Token description is null",
+    "Token age is null",
+    "Total supply is null, requiring inference from FDV"
+  ],
+  "green_flags": [
+    "Token is not freezable (on_chain_freezable: false)",
+    "Metadata is immutable (metadata_mutable: false)",
+    "Healthy liquidity ($1,512,433.11 USD)",
+    "Healthy 24h trading volume ($265,367.42 USD)",
+    "Healthy volume/liquidity ratio (0.1755)"
+  ],
+  "ai_note": "The presence of an active mint authority with the ability to create new tokens is a critical rug pull mechanism, overriding other positive indicators and warranting a SCAM verdict.",
+  "sections": {
+    "security": "The token has an active mint authority (`on_chain_mintable: true`), meaning new tokens can be created at any time, which is a severe rug pull risk. The mint authority address (`6VsC8PuKkXm5xo54c2vbrAaSfQipkpGHqNuKTxXFySx6`) is also a top 10 holder, increasing this risk. The token is not freezable (`on_chain_freezable: false`) and its metadata is immutable (`metadata_mutable: false`), which are positive aspects, but overshadowed by the minting capability.",
+    "holders": "Holder concentration is very high, with the top 10 addresses holding an estimated 66.98% of the total supply (calculated using FDV). This level of concentration makes the token vulnerable to price manipulation and large dumps by whales. The mint authority address is notably among the top holders.",
+    "market": "The market shows healthy liquidity ($1.51M USD) and a good 24-hour trading volume ($265K USD), with a healthy volume/liquidity ratio of 0.1755. The token is traded on 'metadao' and is not a Pump.fun token. However, these positive market indicators do not mitigate the fundamental security risks.",
+    "deployer": "Information regarding the deployer is entirely absent (`deployer: null`), which means there is no data on deployer activity or whether the developer has exited. This lack of transparency adds to the overall risk profile."
+  },
+  "red_flag_count": 6,
+  "green_flag_count": 5
+}

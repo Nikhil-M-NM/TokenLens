@@ -1,0 +1,25 @@
+{
+  "verdict": "RISKY",
+  "risk_score": 7,
+  "summary": "While the token exhibits strong on-chain safety features with revoked mint and freeze authorities and immutable metadata, the critical lack of information regarding LP burn or lock status presents a significant rug pull risk. Holder concentration is healthy, and market liquidity and volume are robust, but the unsecured liquidity remains a major vulnerability.",
+  "red_flags": [
+    "LP burn/lock status unknown: lp_burned is null and lp_locked is null, indicating the liquidity may not be secured and is vulnerable to withdrawal by the provider, posing a direct rug pull risk."
+  ],
+  "green_flags": [
+    "Mint authority revoked: mintable is false, on_chain_mintable is false, and mint_authority_address is null.",
+    "Freeze authority revoked: freezable is false, on_chain_freezable is false, and freeze_authority_address is null.",
+    "Metadata immutable: metadata_mutable is false.",
+    "No transfer fees: transfer_fee_exists is false.",
+    "Low holder concentration: top10_percent is 23.07%, indicating a healthy distribution.",
+    "Healthy market liquidity and volume: liquidity_usd is $130,376.71, volume_24h is $97,755.63, and volume_liquidity_ratio is 0.7498."
+  ],
+  "ai_note": "The primary concern for this token is the unconfirmed status of its liquidity pool, which, if not burned or locked, leaves it vulnerable to a rug pull despite otherwise strong on-chain safety features.",
+  "sections": {
+    "security": "Mint and freeze authorities are revoked, and metadata is immutable, indicating strong on-chain security against malicious token modifications or additional supply creation.",
+    "holders": "The top 10 holders account for approximately 23.07% of the total supply, which is a healthy distribution and does not indicate high concentration risk.",
+    "market": "The token has a healthy liquidity of over $130k and a strong 24-hour trading volume of over $97k, with a good volume-to-liquidity ratio, suggesting active trading.",
+    "deployer": "Deployer information is not available, preventing an assessment of deployer-specific risks such as whether the developer has exited."
+  },
+  "red_flag_count": 1,
+  "green_flag_count": 6
+}

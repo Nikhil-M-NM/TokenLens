@@ -1,0 +1,27 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 5.5,
+  "summary": "The token demonstrates strong foundational security with immutable metadata and no mint/freeze authorities. However, it presents significant concerns due to a high holder concentration, extremely low trading volume, and critically, the unconfirmed status of its liquidity pool's burn or lock, which poses a potential rug pull risk.",
+  "red_flags": [
+    "Top 10 holders control 40.84% of the total supply, indicating significant concentration and potential for market manipulation.",
+    "Extremely low 24-hour trading volume ($3,594.95) compared to its liquidity ($774,762.60), suggesting minimal current trading interest or activity.",
+    "The status of the liquidity pool (LP) being burned or locked is unconfirmed (lp_burned: null, lp_locked: null, lp_not_applicable: true), which is a critical rug pull risk if the liquidity is not secured."
+  ],
+  "green_flags": [
+    "The token is not mintable, preventing inflationary dilution (mintable: false).",
+    "The token is not freezable, ensuring holders' assets cannot be locked (freezable: false).",
+    "Metadata is immutable, preventing changes to token information (metadata_mutable: false).",
+    "No on-chain mint or freeze authority addresses are present, indicating decentralized control over these functions.",
+    "No transfer fees exist, ensuring straightforward transactions (transfer_fee_exists: false).",
+    "Healthy liquidity of $774,762.60 is available on Orca."
+  ],
+  "ai_note": "The analysis is constrained by the lack of explicit LP burn/lock status and deployer information; the calculated top 10 holder percentage relies on derived total supply.",
+  "sections": {
+    "security": "The token exhibits strong security features: it is not mintable, not freezable, and its metadata is immutable. There are no active mint or freeze authorities, which significantly reduces central control risks.",
+    "holders": "The top 10 holders collectively control 40.84% of the total supply. While not exceeding the 60% 'RISKY' threshold, this concentration is slightly above the 40% 'SAFE' benchmark, indicating a moderate level of centralization.",
+    "market": "The token has a healthy liquidity of $774,762.60 on Orca. However, the 24-hour trading volume is very low at $3,594.95, resulting in a low volume-to-liquidity ratio of 0.0046. This suggests limited current market activity despite substantial liquidity.",
+    "deployer": "Deployer information is not available, preventing an assessment of deployer behavior or potential 'dev exited' status."
+  },
+  "red_flag_count": 3,
+  "green_flag_count": 6
+}

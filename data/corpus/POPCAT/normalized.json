@@ -1,0 +1,101 @@
+{
+  "ca": "7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr",
+  "token": {
+    "name": "Popcat",
+    "symbol": "POPCAT",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": false,
+    "on_chain_freezable": false,
+    "mint_authority_address": null,
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "4xLpwxgYuPwPvtQjE94RLS4WZ4aD8NJYYKr2AJk99Qdg",
+        "ui_amount": 115787889.97321402,
+        "percentage": null
+      },
+      {
+        "address": "CSSJFgoeqidqVtHKSNP7i7s6WX8APHfH2kYGdLV195Jb",
+        "ui_amount": 65000009,
+        "percentage": null
+      },
+      {
+        "address": "9ZifroknFoYu4r6DUk6nYoJiUQnEyyoUyeAwjXbPoL2x",
+        "ui_amount": 51829437.78592555,
+        "percentage": null
+      },
+      {
+        "address": "51yZyDSnec4xnUv7XLRVYcDyV4x3wUtzrDcRaYbmQU5j",
+        "ui_amount": 44792248.75564626,
+        "percentage": null
+      },
+      {
+        "address": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+        "ui_amount": 31688753.880496927,
+        "percentage": null
+      },
+      {
+        "address": "u6PJ8DtQuPFnfmwHbGFULQ4u4EgjDiyYKjVEsynXq2w",
+        "ui_amount": 22870165.879858702,
+        "percentage": null
+      },
+      {
+        "address": "6LY1JzAFVZsP2a2xKrtU6znQMQ5h4i7tocWdgrkZzkzF",
+        "ui_amount": 22360255.17519856,
+        "percentage": null
+      },
+      {
+        "address": "DwdrYTtTWHfnfJBiN2RH6EgPbquDQLjZTfTwpykPEq1g",
+        "ui_amount": 19042657.879980095,
+        "percentage": null
+      },
+      {
+        "address": "6GTYrwStnattq8hE1XyWmNxQq731MoxzYFPmEKz68QHe",
+        "ui_amount": 17668275.67062503,
+        "percentage": null
+      },
+      {
+        "address": "2XubGivxkprDmvGucdQBAz13JNqCjJD6Kesuj7Di2Frd",
+        "ui_amount": 17560673,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "0.05090",
+    "liquidity_usd": 3230600.89,
+    "volume_24h": 353387.96,
+    "volume_liquidity_ratio": 0.1094,
+    "market_cap": 49880198,
+    "fdv": 49880198,
+    "pair_address": "FRhB8L7Y9Qq41qZXYLtC2nw8An1RJfLLxRF2x9RwLLMo",
+    "dex": "raydium",
+    "is_pumpswap": false,
+    "migrated_to_raydium": false,
+    "price_change_h24": 1.06,
+    "price_change_h6": -1.21,
+    "price_change_h1": -0.25
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": false
+  }
+}

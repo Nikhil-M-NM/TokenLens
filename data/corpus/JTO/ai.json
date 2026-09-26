@@ -1,0 +1,25 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 5.5,
+  "summary": "Token safety flags are clean (immutable, no mint/freeze), but it impersonates the legitimate Jito (JTO) token. Missing key data like top holder concentration, deployer info, and total supply. Healthy market metrics (volume/liquidity ratio ok) but high FDV with relatively low volume compared to market cap.",
+  "red_flags": [
+    "Impersonates Jito (JTO) token with name 'JITO' and symbol 'JTO'",
+    "Missing critical data: top10_percent, holder_count, deployer, total_supply, lp_burned",
+    "High FDV ($498M) with only $512k 24h volume"
+  ],
+  "green_flags": [
+    "Mint authority revoked (mintable=false, on_chain_mintable=false)",
+    "Freeze authority revoked (freezable=false, on_chain_freezable=false)",
+    "Metadata immutable (metadata_mutable=false)",
+    "Healthy liquidity ($1.1M) and decent volume/liquidity ratio (46.4%)"
+  ],
+  "ai_note": "Despite clean on-chain safety, the token is a likely impersonation scam; missing holder concentration data heightens concern.",
+  "sections": {
+    "security": "Token is not mintable, not freezable, and metadata is immutable. On-chain authorities are null, indicating ownership renounced. No transfer fees. This is highly secure from a smart contract standpoint.",
+    "holders": "Holder count and top10% are unknown. The top 10 holders list shows large wallets, but without total supply we cannot calculate concentration. Missing data is a concern.",
+    "market": "Liquidity is $1.1M on Orca DEX, volume $512k (46.4% of liquidity). Market cap $237M, FDV $498M. Volume is moderate relative to liquidity but low compared to FDV. No LP burn/lock data applicable for this pool.",
+    "deployer": "Deployer information is null. No transaction history or dev exit status available, adding uncertainty."
+  },
+  "red_flag_count": 3,
+  "green_flag_count": 4
+}

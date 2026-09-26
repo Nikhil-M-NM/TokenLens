@@ -1,0 +1,27 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 4,
+  "summary": "The token's safety flags are clean (no mint, freeze, or mutable metadata) and market liquidity is deep at $6.77M, but critical data such as deployer identity, LP lock/burn status, exact holder concentration, and total supply are missing. The lack of this transparency warrants caution despite the otherwise healthy on-chain profile.",
+  "red_flags": [
+    "deployer address is null, preventing verification of developer behavior",
+    "lp_burned and lp_locked are null, so LP security cannot be confirmed",
+    "holder_count and top10_percent are null, making concentration analysis imprecise",
+    "total_supply is null, though inferred market cap and price suggest ~1B tokens"
+  ],
+  "green_flags": [
+    "mintable=false, freezable=false, metadata_mutable=false – no authority to alter token",
+    "all on-chain mint/freeze authorities are null, enhancing trust in immutability",
+    "high liquidity ($6.77M) with a volume/liquidity ratio of 0.036 indicates active, stable trading",
+    "top 10 holders collectively hold an estimated ~35.8% of inferred supply, suggesting moderate decentralization",
+    "price action is positive (+26% 24h, +28% 6h) with a manageable 24h volume of $243K"
+  ],
+  "ai_note": "Missing deployer and LP lock data introduce uncertainty, but clean safety flags and deep liquidity keep the risk score low; a full audit would require verifying LP burns and deployer transaction history.",
+  "sections": {
+    "security": "The token has no mint, freeze, or metadata mutability. All associated on-chain authority fields are null, making it a deflationary-like, immutable asset. This is the strongest sign of a non-malicious design.",
+    "holders": "Holder count and top10 percentage are missing. Using an inferred supply of ~1B tokens from the $163M market cap and $0.1633 price, the top 10 addresses hold roughly 358M tokens (~35.8%). This is not excessively concentrated and suggests a broad distribution.",
+    "market": "Listed on Raydium with $6.77M in liquidity and a $163M market cap. Volume is modest ($243K/24h) relative to cap, producing a volume/liquidity ratio of 0.036. Price has risen 26% in a day, and the pair migrated from pump.fun, which is common for memecoins.",
+    "deployer": "Deployer address is null, so no information is available on developer activity or whether the deployer has exited. This lack of transparency is the primary caution factor."
+  },
+  "red_flag_count": 4,
+  "green_flag_count": 5
+}

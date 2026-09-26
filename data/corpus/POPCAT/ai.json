@@ -1,0 +1,29 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 5.2,
+  "summary": "Popcat shows strong liquidity and healthy trading volume with no on-chain authority risks, but critical data is missing: total supply, holder concentration percentages, deployer identity, and LP burn/lock status. Estimated top-10 holder concentration is ~42%, adding caution.",
+  "red_flags": [
+    "Total supply is null (cannot confirm holder concentration precisely)",
+    "Top10 percentage is null (estimated ~41.7% from market cap and price)",
+    "Holder count is null (lack of transparency)",
+    "Deployer address is null (unknown dev behavior)",
+    "LP burn/lock status unknown (lp_burned/lp_locked both null)"
+  ],
+  "green_flags": [
+    "Not mintable (mintable=false, on_chain_mintable=false)",
+    "Not freezable (freezable=false, on_chain_freezable=false)",
+    "Metadata immutable (metadata_mutable=false)",
+    "No mint or freeze authorities set",
+    "High liquidity ($3.23M)",
+    "Healthy volume/liquidity ratio (0.1094)"
+  ],
+  "ai_note": "Estimated top-10 concentration is moderate (~42%), but missing total supply and LP details introduce uncertainty; the token appears safer than average memecoins due to on-chain safety, but the lack of deployer and holder metrics prevents a fully safe rating.",
+  "sections": {
+    "security": "All on-chain safety flags are clean: token is not mintable, freezable, or metadata-mutable; no mint or freeze authority addresses exist. This rules out common rug-pull vectors.",
+    "holders": "Holder count and top10 percentage are missing. Using market cap ($49.9M) and price ($0.0509) yields an estimated total supply of ~980M tokens. Top 10 addresses hold approximately 408.6M tokens, or 41.7%. This falls below the 60% high-risk threshold but indicates a notable concentration given the missing data.",
+    "market": "Liquidity is strong at $3.23M on Raydium. 24h volume of $353K gives a volume/liquidity ratio of 0.1094, indicating active but not wash-traded markets. Price changes are modest (-0.25% in 1h, +1.06% 24h). Market cap and FDV are both $49.9M, suggesting no hidden locked supply.",
+    "deployer": "Deployer address is null, so there is no visibility into the creator's transaction history, previous tokens, or whether the deployer has exited. This lack of information raises caution."
+  },
+  "red_flag_count": 5,
+  "green_flag_count": 6
+}

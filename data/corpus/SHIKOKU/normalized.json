@@ -1,0 +1,101 @@
+{
+  "ca": "5Jng6jkLKU1o8BNrCzTEMXMFvPjNJZTpdWR3Hq4RHJb6",
+  "token": {
+    "name": "Mikawa Inu",
+    "symbol": "SHIKOKU",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": false,
+    "on_chain_freezable": false,
+    "mint_authority_address": null,
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+        "ui_amount": 53482197912659.805,
+        "percentage": null
+      },
+      {
+        "address": "FcyJgQMDwe15MeWfYMWyRJKdmf6Lmw6SPVDhBN471ahW",
+        "ui_amount": 31191030200602.508,
+        "percentage": null
+      },
+      {
+        "address": "CQAK9Yaqo7n1kyxSNFi7F9P6KbaMJobzKYYSz6ELCZjQ",
+        "ui_amount": 22421527386237.95,
+        "percentage": null
+      },
+      {
+        "address": "ivEbaPTT1uh8npayvcB7GzNYA6Khoov5FZ98tteDerA",
+        "ui_amount": 19885548370904.355,
+        "percentage": null
+      },
+      {
+        "address": "71ArUfes8rkCchuhYCwWA91oaHK8yVRe8Ab9JFrnnRSg",
+        "ui_amount": 17453718232304.828,
+        "percentage": null
+      },
+      {
+        "address": "EEKeBzC299z16xBAVVJES5vR3Xp5wdRiGcSPATeDpfGQ",
+        "ui_amount": 17386997576999.44,
+        "percentage": null
+      },
+      {
+        "address": "J4o7fzZKAKupLK5q3taoQzGpcqCsr53hkN69TSn4Noz1",
+        "ui_amount": 16348430081119.002,
+        "percentage": null
+      },
+      {
+        "address": "CmJm8KdikYgPLuTWW2Qt6NKj5kYRzbkhPh7K5bxMijtx",
+        "ui_amount": 16200038496714.742,
+        "percentage": null
+      },
+      {
+        "address": "6g5tQ7X5uCiSHzyXRMsdm1cMyjGvDyAefsu2eRenmbXJ",
+        "ui_amount": 13635112159737.332,
+        "percentage": null
+      },
+      {
+        "address": "Ngusg5woc9KaQscmoitmW3K8gpEzH1uxSkLC1TaZHUr",
+        "ui_amount": 13378604599185.273,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "0.0000000009276",
+    "liquidity_usd": 98984.47,
+    "volume_24h": 377262.45,
+    "volume_liquidity_ratio": 3.8113,
+    "market_cap": 926205,
+    "fdv": 926861,
+    "pair_address": "FyQuZLz6LLJxKhSwXkMpZ5Po6G8bcRv8Ub2s3paU74pC",
+    "dex": "raydium",
+    "is_pumpswap": false,
+    "migrated_to_raydium": true,
+    "price_change_h24": 95.52,
+    "price_change_h6": 80.91,
+    "price_change_h1": 4.38
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": false
+  }
+}

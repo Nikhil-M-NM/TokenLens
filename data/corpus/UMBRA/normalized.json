@@ -1,0 +1,101 @@
+{
+  "ca": "PRVT6TB7uss3FrUd2D9xs2zqDBsa3GbMJMwCQsgmeta",
+  "token": {
+    "name": "Umbra",
+    "symbol": "UMBRA",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": true,
+    "on_chain_freezable": false,
+    "mint_authority_address": "6VsC8PuKkXm5xo54c2vbrAaSfQipkpGHqNuKTxXFySx6",
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "3kX3EWm9iPB6oxFS2NJ71L6v5wzFZ8rQMEG6HC8QHJtF",
+        "ui_amount": 13500000.3,
+        "percentage": null
+      },
+      {
+        "address": "BLkBSE96kQys7SrMioKxeMiVbeo4Ckk2Y4n1JphKxYnv",
+        "ui_amount": 1583144.80091,
+        "percentage": null
+      },
+      {
+        "address": "5AeN744ZH5qeeszMqQREMRCYeTwA2yKYJFv2VWe2u4LS",
+        "ui_amount": 802720.76,
+        "percentage": null
+      },
+      {
+        "address": "7qRUKe5B663FVyMij1LAtpH51JvyzWwavTRqwMAD2G24",
+        "ui_amount": 666667,
+        "percentage": null
+      },
+      {
+        "address": "Gb792nha1SxctSpqpk4nYNJyBHqMYqsqfnk1zbpVZnYR",
+        "ui_amount": 555838.043492,
+        "percentage": null
+      },
+      {
+        "address": "HLnpSz9h2S4hiLQ43rnSD9XkcUThA7B8hQMKmDaiTLcC",
+        "ui_amount": 501101.802475,
+        "percentage": null
+      },
+      {
+        "address": "6awyHMshBGVjJ3ozdSJdyyDE1CTAXUwrpNMaRGMsb4sf",
+        "ui_amount": 499457.39599,
+        "percentage": null
+      },
+      {
+        "address": "6VsC8PuKkXm5xo54c2vbrAaSfQipkpGHqNuKTxXFySx6",
+        "ui_amount": 352769.540234,
+        "percentage": null
+      },
+      {
+        "address": "8Qw6nj28fdfp79HppTWexSyHMwJRQPhdZqxAiYT6GdzW",
+        "ui_amount": 331298.752766,
+        "percentage": null
+      },
+      {
+        "address": "3pW9E2QyZjPmjQwh82WrhW5s2kyC9FDsX48CaVaxsepc",
+        "ui_amount": 300000,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "0.4765",
+    "liquidity_usd": 1512433.11,
+    "volume_24h": 265367.42,
+    "volume_liquidity_ratio": 0.1755,
+    "market_cap": 6980097,
+    "fdv": 13581638,
+    "pair_address": "BLkBSE96kQys7SrMioKxeMiVbeo4Ckk2Y4n1JphKxYnv",
+    "dex": "metadao",
+    "is_pumpswap": false,
+    "migrated_to_raydium": false,
+    "price_change_h24": 9.59,
+    "price_change_h6": 6.34,
+    "price_change_h1": -0.91
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": true
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "ca": "5wK1yXz9cFqH8VxF5SMaK584EVce6HvawYJ9ikzrpump",
+  "token": {
+    "name": "TOLY",
+    "symbol": "TOLY",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": false,
+    "on_chain_freezable": false,
+    "mint_authority_address": null,
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "3iVZvUtbG27ZAX8ZgTdTb8bS35XYuQz6iYZw1qN9Hb1h",
+        "ui_amount": 210894598.936029,
+        "percentage": null
+      },
+      {
+        "address": "H2fKnWzc1NhiJDcHzwSKHLhtuVydi9wk1nYiMwZNScLw",
+        "ui_amount": 27307577.031769,
+        "percentage": null
+      },
+      {
+        "address": "E8jHYgJBNjY4iKnMBmXLdwrEqwSTWX71AK83Y2WEmSJu",
+        "ui_amount": 19109217.854793,
+        "percentage": null
+      },
+      {
+        "address": "Dpjpr2dmtLhGVR1xVn1e8uKfqLAy3cjnsqtcSqH1YVun",
+        "ui_amount": 17615482.646519,
+        "percentage": null
+      },
+      {
+        "address": "5HQ2QeYv7hswFfHyJx7Z6UXyZPZbmBqy4cFtxYd9TXiT",
+        "ui_amount": 17598142.186119,
+        "percentage": null
+      },
+      {
+        "address": "GjXobpiEexQqqLkghB29AtcwyJRokbeGDSkz8Kn7GGr1",
+        "ui_amount": 14232659.245627,
+        "percentage": null
+      },
+      {
+        "address": "9HsViGVpCfqjGG47yEBxyK5aCWDJ9HA5nqrP1UYqzskb",
+        "ui_amount": 13902156.46647,
+        "percentage": null
+      },
+      {
+        "address": "5LvJQF8RBfz5rKETZ6ZHBb13oDCvtriDGMqCNDosTBca",
+        "ui_amount": 12616159.701396,
+        "percentage": null
+      },
+      {
+        "address": "91P6nGFbkxuFwJdKpuFBNSRcbafkZUSzfwHkcddhBUpD",
+        "ui_amount": 12419750.534078,
+        "percentage": null
+      },
+      {
+        "address": "4LG7bwKMJZmmckWadzWJu7xaGf66c2C6sNb979reNUMB",
+        "ui_amount": 10714274.527579,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "0.00004192",
+    "liquidity_usd": 17631.22,
+    "volume_24h": 920629.88,
+    "volume_liquidity_ratio": 52.2159,
+    "market_cap": 41910,
+    "fdv": 41910,
+    "pair_address": "3iVZvUtbG27ZAX8ZgTdTb8bS35XYuQz6iYZw1qN9Hb1h",
+    "dex": "pumpswap",
+    "is_pumpswap": true,
+    "migrated_to_raydium": false,
+    "price_change_h24": 2162,
+    "price_change_h6": -73.64,
+    "price_change_h1": -34.18
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": true
+  }
+}

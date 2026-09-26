@@ -1,0 +1,101 @@
+{
+  "ca": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+  "token": {
+    "name": "Collector Crypt",
+    "symbol": "CARDS",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": false,
+    "on_chain_freezable": false,
+    "mint_authority_address": null,
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "3PnVBrb4wPLFLW38oaYR7dA6HSfKpawxHGESPj5kF1QB",
+        "ui_amount": 1601941387.863994,
+        "percentage": null
+      },
+      {
+        "address": "8QvdxiBP43edFfXCoRV1saVZAJ6iddzqH2Ys99fdKwyq",
+        "ui_amount": 19000000,
+        "percentage": null
+      },
+      {
+        "address": "6rQG31K3k9ZSDPV53hApWLoFagBbH6BnjcMk4vQbD37o",
+        "ui_amount": 11040925.245799,
+        "percentage": null
+      },
+      {
+        "address": "5UT8zffhq81T7BSyNa6ygiiSnbrzQUtA6LQeyuyH3yiq",
+        "ui_amount": 10057617.743776,
+        "percentage": null
+      },
+      {
+        "address": "ASTyfSima4LLAdDgoFGkgqoKowG1LZFDr9fAQrg7iaJZ",
+        "ui_amount": 7921213.305398,
+        "percentage": null
+      },
+      {
+        "address": "BayzaKZuismHgao4uNeq8j8tBTMtXW5A4g5jVDZrcgGK",
+        "ui_amount": 7916666.666662,
+        "percentage": null
+      },
+      {
+        "address": "8XczZeEmUpyvbYF6mbzFX2kTreAu9zLxygRqX4hCUBRv",
+        "ui_amount": 7500268.64,
+        "percentage": null
+      },
+      {
+        "address": "HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
+        "ui_amount": 7442091.057205,
+        "percentage": null
+      },
+      {
+        "address": "6JiRYSZffcz8ePoo2NtVH3WoLgAZCc4mNUzNHYgTwXRN",
+        "ui_amount": 6333333.333328,
+        "percentage": null
+      },
+      {
+        "address": "9MHcSzS9cXs2ninTwuR3WnwSR6NMhTcARpuPZ8ex5GU9",
+        "ui_amount": 6038139.281364,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "0.1751",
+    "liquidity_usd": 2606181.37,
+    "volume_24h": 2449881.54,
+    "volume_liquidity_ratio": 0.94,
+    "market_cap": 45099154,
+    "fdv": 350213657,
+    "pair_address": "HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
+    "dex": "raydium",
+    "is_pumpswap": false,
+    "migrated_to_raydium": true,
+    "price_change_h24": 5.75,
+    "price_change_h6": 1.96,
+    "price_change_h1": 0.37
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": true
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 5.5,
+  "summary": "deBridge (DBR) has clean security settings (immutable, no mint/freeze) and healthy market metrics, but sparse holder data and a highly concentrated top‑holder distribution (~84% of supply) raise caution. The token is a known bridging protocol, not a typical memecoin, yet the sparse fields and concentration remain risk factors.",
+  "red_flags": [
+    "holder_count, top10_percent, deployer, lp_burned, and total_supply all null – sparse on‑chain data",
+    "Top 10 holders control approximately 84% of total supply based on the provided holder list"
+  ],
+  "green_flags": [
+    "Token is immutable: mintable=false, freezable=false, metadata_mutable=false",
+    "No on‑chain mint or freeze authority",
+    "Healthy liquidity ($5.08M) and volume/liquidity ratio (5.51%)",
+    "Known project deBridge with $77.7M market cap"
+  ],
+  "ai_note": "Even though the token is a recognized bridge and not a memecoin, the extreme inferred holder concentration combined with multiple null data fields limits confidence and justifies a CAUTION score.",
+  "sections": {
+    "security": "Security is strong: mintable=false, freezable=false, metadata immutable, no transfer fee, and no on‑chain mint or freeze authority. The contract cannot be altered or paused by any admin.",
+    "holders": "Holder data is incomplete (holder_count and top10_percent are null). Based on the top‑holders list, the top 10 wallets hold ~84% of total supply, indicating highly concentrated ownership that could impact market stability.",
+    "market": "Liquidity is substantial at $5.08M with 24‑hour volume of $280K (ratio 5.5%), suggesting adequate market depth. Market cap is $77.7M (FDV $145.96M) and the token trades on Meteora, not a pump‑swap. Price action is mildly negative but not extreme.",
+    "deployer": "Deployer information is missing (null). No transaction history or dev‑exit evidence is available, leaving the origin and management of the token unclear."
+  },
+  "red_flag_count": 2,
+  "green_flag_count": 4
+}

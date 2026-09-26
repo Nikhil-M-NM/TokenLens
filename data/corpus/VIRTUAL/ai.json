@@ -1,0 +1,25 @@
+{
+  "verdict": "SCAM",
+  "risk_score": 9,
+  "summary": "The token has active on-chain mint and freeze authorities, enabling the holder to create new tokens or freeze any account at will. Despite a large market cap and apparent wide distribution, the uncontrolled authority combined with missing key holder/deployer data marks this as high risk.",
+  "red_flags": [
+    "on_chain_mintable: true (mint authority: G2TEhgzHBrY7rLefMMeoEaEvUac5kpdx5bj7c5Yvx5qa)",
+    "on_chain_freezable: true (freeze authority same address)",
+    "Multiple critical fields null (top10_percent, holder_count, deployer, total_supply, lp_burned)"
+  ],
+  "green_flags": [
+    "High market cap ~$472M and substantial liquidity ~$994K on Meteora",
+    "Metadata is immutable",
+    "Token not transfer-fee enabled",
+    "Estimated top holder owns less than 1% of total supply, suggesting decent distribution"
+  ],
+  "ai_note": "Although this could be a bridged version of the original Virtual Protocol (Base), the permanent mint/freeze authority on Solana still represents a classic rug‑pull vector.",
+  "sections": {
+    "security": "On‑chain analysis reveals a mint authority and freeze authority at G2TEhgz…, allowing the holder to mint unlimited tokens and freeze any balance. Off‑chain metadata flags are false, but the on‑chain authorities override that impression.",
+    "holders": "Holder count and top‑10 percentage are missing, but top addresses range from 5M to 256K tokens. Assuming ~1B total supply, the largest holder controls roughly 0.5%, implying reasonably broad ownership despite the data gaps.",
+    "market": "Traded on Meteora with $994K liquidity and $54K 24h volume, giving a healthy volume‑to‑liquidity ratio of ~0.05. Market cap is $472M and FDV $719M, indicating significant market depth.",
+    "deployer": "Deployer address is unknown (null). No information on dev exit or transaction history, adding to the overall opacity."
+  },
+  "red_flag_count": 3,
+  "green_flag_count": 4
+}

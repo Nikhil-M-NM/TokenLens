@@ -1,0 +1,101 @@
+{
+  "ca": "2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv",
+  "token": {
+    "name": "Pudgy Penguins",
+    "symbol": "PENGU",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": false,
+    "on_chain_freezable": false,
+    "mint_authority_address": null,
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "GcEXZEUhbK4KyFV7B7q28Zh7PKzGsC3oqgjvGRLaZJZu",
+        "ui_amount": 8300555096.791415,
+        "percentage": null
+      },
+      {
+        "address": "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM",
+        "ui_amount": 5200000000,
+        "percentage": null
+      },
+      {
+        "address": "GziA3ZgkmnUcK9vuscnDpzLTcpHTSnmyQ6JwPKP5oSkR",
+        "ui_amount": 5027415136.839214,
+        "percentage": null
+      },
+      {
+        "address": "5PLU3MB93miiNvd1dcY6VkWSzjeGBQpssqbbBJDALrkm",
+        "ui_amount": 3863595629.601125,
+        "percentage": null
+      },
+      {
+        "address": "3XT1PNGE2mC31WSxY4jkEcVDLXGovReFEHzvaHm7SgtS",
+        "ui_amount": 3068540531.542556,
+        "percentage": null
+      },
+      {
+        "address": "51yZyDSnec4xnUv7XLRVYcDyV4x3wUtzrDcRaYbmQU5j",
+        "ui_amount": 2912263027.415937,
+        "percentage": null
+      },
+      {
+        "address": "qMNo1RFo11J9ZLGuq7dVmWAssuCZaNsSamk8g2q4UZA",
+        "ui_amount": 2806083838.216998,
+        "percentage": null
+      },
+      {
+        "address": "8Mm46CsqxiyAputDUp2cXHg41HE3BfynTeMBDwzrMZQH",
+        "ui_amount": 2460339412.239937,
+        "percentage": null
+      },
+      {
+        "address": "4xLpwxgYuPwPvtQjE94RLS4WZ4aD8NJYYKr2AJk99Qdg",
+        "ui_amount": 1292204192.6663,
+        "percentage": null
+      },
+      {
+        "address": "86pMJeFygiX9DgFFToWAgJ8UkLHEiczUhF3dg5XksG17",
+        "ui_amount": 1166666666.75,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "0.007681",
+    "liquidity_usd": 3649601.13,
+    "volume_24h": 350978.45,
+    "volume_liquidity_ratio": 0.0962,
+    "market_cap": 482870709,
+    "fdv": 682809620,
+    "pair_address": "DdMA1cHcHEqYfttc1z1sJEY978CcU1pyjNuTWTNmdvzU",
+    "dex": "meteora",
+    "is_pumpswap": false,
+    "migrated_to_raydium": true,
+    "price_change_h24": -2.95,
+    "price_change_h6": -0.25,
+    "price_change_h1": -0.25
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": true
+  }
+}

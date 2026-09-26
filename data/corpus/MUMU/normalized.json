@@ -1,0 +1,101 @@
+{
+  "ca": "5LafQUrVco6o7KMz42eqVEJ9LW31StPyGjeeu5sKoMtA",
+  "token": {
+    "name": "Mumu the Bull",
+    "symbol": "MUMU",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": false,
+    "on_chain_freezable": false,
+    "mint_authority_address": null,
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+        "ui_amount": 201132267320.94913,
+        "percentage": null
+      },
+      {
+        "address": "5PAhQiYdLBd6SVdjzBQDxUAEFyDdF5ExNPQfcscnPRj5",
+        "ui_amount": 110318471857.51683,
+        "percentage": null
+      },
+      {
+        "address": "5Jwdp9GDynE8QLmUpQ1CnaRasB6phT5scYTfSnXmxt8t",
+        "ui_amount": 73127702317.32826,
+        "percentage": null
+      },
+      {
+        "address": "ASTyfSima4LLAdDgoFGkgqoKowG1LZFDr9fAQrg7iaJZ",
+        "ui_amount": 69767913034.0339,
+        "percentage": null
+      },
+      {
+        "address": "8dvX4QSWpQHSQAPUwGFDXmvYC6QWJkyfc7cGSN5Fgh2V",
+        "ui_amount": 50326083353.27303,
+        "percentage": null
+      },
+      {
+        "address": "9HLb8fGKGMkBQdU41tjKnpa5ZRFscS4ZMoqFxzC4i4KE",
+        "ui_amount": 42791308623.72016,
+        "percentage": null
+      },
+      {
+        "address": "Et6DgJN3jr1QzbujE3PyTt4aaTfnHKuUbf7aeDvhFbNu",
+        "ui_amount": 37477606852.076195,
+        "percentage": null
+      },
+      {
+        "address": "A77HErqtfN1hLLpvZ9pCtu66FEtM8BveoaKbbMoZ4RiR",
+        "ui_amount": 36515601492.49028,
+        "percentage": null
+      },
+      {
+        "address": "D5jx4wmxuPz18hqmgpCMLGVq3uSksCafCp5xjVe1nw8p",
+        "ui_amount": 35388594536.872086,
+        "percentage": null
+      },
+      {
+        "address": "4J5rDTvRbzjuKkB4B9rvNEvDz6f1BEBzUVT5mdctKHoT",
+        "ui_amount": 23198701539.439156,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "0.000001573",
+    "liquidity_usd": 633605.84,
+    "volume_24h": 504327.87,
+    "volume_liquidity_ratio": 0.796,
+    "market_cap": 3665591,
+    "fdv": 3665591,
+    "pair_address": "FvMZrD1qC66Zw8VPrW15xN1N5owUPqpQgNQ5oH18mR4E",
+    "dex": "raydium",
+    "is_pumpswap": false,
+    "migrated_to_raydium": true,
+    "price_change_h24": 52.79,
+    "price_change_h6": 3.58,
+    "price_change_h1": -2.56
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": false
+  }
+}

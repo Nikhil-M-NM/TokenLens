@@ -1,0 +1,27 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 5.5,
+  "summary": "Grokius Maximus has solid on-chain safety (immutable metadata, no mint or freeze authority) and decent liquidity on Raydium, but critical information like deployer address, holder count, and top10 concentration are missing, which raises caution. These data gaps are treated as risk factors.",
+  "red_flags": [
+    "Deployer address is null/unknown",
+    "Holder count is null",
+    "Top10 holder concentration percentage is unknown",
+    "Large LP holder (pair address) holds 188M tokens, but total supply unknown so concentration cannot be assessed"
+  ],
+  "green_flags": [
+    "Metadata is immutable",
+    "Not mintable",
+    "Not freezable",
+    "On-chain mint and freeze authorities are null",
+    "Liquidity on Raydium is ~$40,287 with 24h volume $8,702 (healthy volume/liquidity ratio 0.216)"
+  ],
+  "ai_note": "The absence of deployer info and holder concentration data are significant transparency gaps, though the token's technical safety features are strong; verify on-chain before trading.",
+  "sections": {
+    "security": "Token has immutable metadata, mintable=false, freezable=false, and both on-chain mint and freeze authorities are null. This is a strong safety profile.",
+    "holders": "Holder count and top10 percentage are unavailable, making concentration impossible to evaluate. The pair address (LP) holds 188M tokens, but without total supply, the risk of concentrated holdings cannot be dismissed.",
+    "market": "Liquidity is $40,287 on Raydium (migrated from PumpSwap), with 24h volume $8,702 and a market cap of ~$106k. Volume/liquidity ratio is healthy at 0.216. Price is up 6.83% in 24h.",
+    "deployer": "Deployer address is null, so no on-chain history or behavior can be assessed. This is a red flag for transparency."
+  },
+  "red_flag_count": 4,
+  "green_flag_count": 5
+}

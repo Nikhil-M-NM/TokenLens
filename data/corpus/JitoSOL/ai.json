@@ -1,0 +1,27 @@
+{
+  "verdict": "SAFE",
+  "risk_score": 2.5,
+  "summary": "Jito Staked SOL is a well-known liquid staking token with high liquidity, healthy trading volume, and immutable metadata. The top 10 holders hold roughly 19% of supply, indicating reasonable distribution. Missing deployer and holder count data, plus an on-chain mint authority, keep it from being completely risk-free.",
+  "red_flags": [
+    "Deployer information is null (unknown)",
+    "Holder count and top10_percent are null (missing data)"
+  ],
+  "green_flags": [
+    "Token is not mintable (mintable: false)",
+    "Token is not freezable",
+    "Metadata is immutable",
+    "Top 10 holders approximately 19% of estimated total supply (low concentration)",
+    "High liquidity ($5.9M) and reasonable volume/liquidity ratio (0.18)",
+    "Listed on Orca, well-known exchange",
+    "Recognizable token name (Jito Staked SOL)"
+  ],
+  "ai_note": "The on-chain mint authority (6iQKfEyhr3bZMotVkW6beNZz5CPAkiwvgV2CTje9pVSS) is likely the Jito staking program, which is standard for liquid staking tokens, but without explicit verification it remains a minor risk.",
+  "sections": {
+    "security": "The token is not mintable or freezable at the protocol level, and metadata is immutable. However, an on-chain mint authority address exists, which is typical for a liquid staking derivative but signals potential for supply changes if the authority is compromised or malicious.",
+    "holders": "Holder count and exact top10_percent are missing. Based on market cap and price, estimated total supply is ~13.3M; the top 10 holders collectively own about 2.55M tokens (~19%), indicating low concentration and no single-entity dominance.",
+    "market": "The token trades at $105.36 with a 24h volume of $1.05M, liquidity of $5.92M, and a market cap/FDV of $1.4B. Volume/liquidity ratio is 0.178, indicating healthy activity. It is listed on Orca, not on a high-risk launchpad.",
+    "deployer": "Deployer is unknown (null). For a widely recognized liquid staking token like JitoSOL this is expected and not inherently suspicious, but missing deployer data is a risk factor per the scoring rubric."
+  },
+  "red_flag_count": 2,
+  "green_flag_count": 7
+}

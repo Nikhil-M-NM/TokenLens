@@ -1,0 +1,26 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 5.4,
+  "summary": "Mumu the Bull (MUMU) passes all on-chain safety checks with no mint or freeze authority, but its risk is elevated by an anonymous deployer and unverified LP lock/burn status. The token shows healthy liquidity ($633K), active trading volume, and a reasonably distributed top holder base (~29.2% of estimated supply), mitigating serious concerns.",
+  "red_flags": [
+    "Deployer address is unknown (null)",
+    "LP burn/lock status is unverified (null), which could mean liquidity is not secured",
+    "Holder count and top10 percentage fields are missing, limiting full concentration analysis"
+  ],
+  "green_flags": [
+    "Not mintable and not freezable; metadata is immutable",
+    "On-chain mint and freeze authority are both null",
+    "Top 10 holders collectively own only ~29.2% of the estimated total supply",
+    "Liquidity is high ($633,605) with a healthy volume/liquidity ratio (0.796)",
+    "Trading on Raydium, a trusted DEX"
+  ],
+  "ai_note": "Confidence is moderately high; missing deployer and LP lock data are the main uncertainties, but the on-chain safety and market activity are strong.",
+  "sections": {
+    "security": "All critical safety flags are negative: mintable=false, freezable=false, metadata_mutable=false, on_chain_mintable=false, on_chain_freezable=false. Mint and freeze authority addresses are null, confirming no admin control over the token supply or transfers.",
+    "holders": "Holder count and top10_percent are null, but analysis of the provided top 10 holders against the implied total supply from market cap and price shows they hold approximately 29.2% collectively. This is below typical concentration risk thresholds, suggesting reasonable distribution.",
+    "market": "The token has $633,605 in liquidity with a 24-hour volume of $504,327, yielding a volume/liquidity ratio of 0.796. Market cap is $3,665,591 with an FDV equal to the market cap. Trading occurs on Raydium, and the token migrated from Pumpswap, which is common for memecoins.",
+    "deployer": "Deployer information is completely missing (null), so no on-chain history, transaction count, or exit behavior can be evaluated. This anonymity adds caution, as it conceals the dev's past activity."
+  },
+  "red_flag_count": 3,
+  "green_flag_count": 5
+}

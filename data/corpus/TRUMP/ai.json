@@ -1,0 +1,24 @@
+{
+  "verdict": "SCAM",
+  "risk_score": 8.5,
+  "summary": "Despite clean safety flags and high liquidity, the token shows extreme holder concentration: one wallet holds 76.3% of supply and the top10 control over 90%. This centralization poses a severe rug pull risk, overriding the otherwise healthy market profile.",
+  "red_flags": [
+    "Top 10 holders control >90% of total supply (computed from FDV and top holder list)",
+    "Single wallet holds 76.3% of total supply, making it highly susceptible to a dump",
+    "Holder count, top10_percent, total_supply, deployer, and lp_burned data are missing, obscuring ownership and lock details"
+  ],
+  "green_flags": [
+    "Not mintable, not freezable, metadata immutable, no on-chain mint/freeze authority",
+    "High liquidity of $33.3M on Meteora with 24h volume of $583k",
+    "Market cap of $455M and FDV of $1.92B indicate large, active market"
+  ],
+  "ai_note": "This is the well-known OFFICIAL TRUMP memecoin, which may be considered a legitimate political token, but the extreme concentration in a single wallet still represents a severe centralization risk that a technical rug detection model must flag.",
+  "sections": {
+    "security": "Token permissions are safe: mintable=false, freezable=false, metadata_mutable=false, no transfer fees, and both on-chain mint and freeze authorities are null.",
+    "holders": "Holder concentration is extreme: the largest address holds 762.5M tokens ( ≈76.3% of total supply), and the top 10 collectively hold over 90%. Such centralization is a major red flag regardless of other metrics; holder count and top10_percent are not provided.",
+    "market": "Liquidity is deep at $33.3M on Meteora, 24h volume is $583k with a healthy volume/liquidity ratio of 0.0175. The token maintains a $455M market cap and $1.92B FDV at a price of $1.92, indicating strong market activity.",
+    "deployer": "Deployer address is unknown; no data on exit behavior, transaction count, or history. This lack of transparency compounds the concentration risk."
+  },
+  "red_flag_count": 3,
+  "green_flag_count": 3
+}

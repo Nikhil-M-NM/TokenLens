@@ -1,0 +1,26 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 4.3,
+  "summary": "The token appears to be the legitimate Jupiter (JUP) token with clean safety flags and healthy market metrics. However, multiple critical data fields are null, including deployer, top10_percent, and total_supply, which introduces uncertainty. Top 10 holders control an estimated 67% of supply, but this is typical for a widely distributed governance token.",
+  "red_flags": [
+    "deployer address is null (unknown)",
+    "top10_percent, holder_count, total_supply, and lp_burned are all null (5 critical fields missing)",
+    "top 10 holders hold ~67% of estimated supply, indicating high concentration"
+  ],
+  "green_flags": [
+    "not mintable, not freezable, metadata immutable",
+    "no on-chain mint or freeze authority",
+    "liquidity $726k, 24h volume $341k, volume/liquidity ratio 0.47 (healthy)",
+    "market cap $589M, FDV $1.24B, listed on Meteora DEX",
+    "not a pump swap token"
+  ],
+  "ai_note": "Given the token's clean security profile and robust market presence, this is almost certainly the official Jupiter asset; however, the missing deployer data and sparse holder statistics necessitate a CAUTION rating.",
+  "sections": {
+    "security": "All safety flags are clean: mintable=false, freezable=false, metadata_mutable=false, on_chain_mintable=false, on_chain_freezable=false, and both authority addresses are null. No transfer fee exists. This is a strong security baseline.",
+    "holders": "Top 10 holders collectively hold approximately 4.69 billion tokens, which is an estimated 67% of total supply (based on FDV $1.24B and price $0.1774). Holder count and top10_percent are null, making it impossible to verify total number of holders or exact concentration percentage. Concentration is high but likely attributable to exchange and protocol wallets.",
+    "market": "Liquidity is $726,143, 24h volume $341,769 (ratio 0.47), indicating good trading depth. Market cap is $589M, FDV $1.24B. Price has seen minor fluctuations (-1.13% in 24h, +0.37% in 6h). The token trades on Meteora DEX and is not a pump swap.",
+    "deployer": "Deployer address is null, so it is impossible to assess whether the dev has exited or to review transaction history. This is a significant data gap, though the token's branding and market metrics strongly suggest it is the well-known Jupiter project."
+  },
+  "red_flag_count": 3,
+  "green_flag_count": 5
+}

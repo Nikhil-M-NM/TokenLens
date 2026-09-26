@@ -1,0 +1,26 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 5.5,
+  "summary": "Token has clean safety settings (not mintable, not freezable, metadata immutable) and healthy market metrics, but key data is missing: deployer unknown, holder count and top10% are null, and LP status is not applicable (pump swap). Estimated top10 concentration is ~21%, which is moderate, but the unknowns push the rating into Caution.",
+  "red_flags": [
+    "Deployer address is null (unknown developer)",
+    "Holder count and top10% are not provided (null)",
+    "LP lock/burn status not applicable (pump swap, no traditional LP)"
+  ],
+  "green_flags": [
+    "Mintable = false",
+    "Freezable = false",
+    "Metadata mutable = false",
+    "Estimated top10 concentration ~21% (not overly concentrated)",
+    "Healthy liquidity ($59k) and 24h volume ($71k) with volume/liquidity ratio 1.2"
+  ],
+  "ai_note": "Missing deployer and holder statistics are red flags per the rubric; however, safety flags are all clean and estimated holder distribution is not alarming.",
+  "sections": {
+    "security": "Mintable=false, freezable=false, metadata_mutable=false. On-chain mint authority and freeze authority are null, so the token cannot be manipulated post-launch.",
+    "holders": "Holder count and top10% are null. Using market cap ($417,930) and price ($0.0004179) yields an estimated total supply of 1 billion tokens. Top 10 holders collectively hold ~209.8M tokens (≈21%), with the largest holding ~7%. This distribution is moderate but the lack of official data is a risk.",
+    "market": "Price $0.0004179, market cap $418k, liquidity $59.1k (pump bonding curve), 24h volume $71.4k, volume/liquidity ratio 1.2. Trading activity is healthy, and the token remains on pumpswap (not yet migrated to Raydium), so traditional LP lock/burn metrics are not applicable.",
+    "deployer": "Deployer address is null, so the developer is unknown. No dev_exited flag is available, leaving potential exit behaviors unassessed."
+  },
+  "red_flag_count": 3,
+  "green_flag_count": 5
+}

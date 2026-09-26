@@ -1,0 +1,101 @@
+{
+  "ca": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+  "token": {
+    "name": "Fartcoin ",
+    "symbol": "Fartcoin ",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": false,
+    "on_chain_freezable": false,
+    "mint_authority_address": null,
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "9SLPTL41SPsYkgdsMzdfJsxymEANKr5bYoBsQzJyKpKS",
+        "ui_amount": 109184830.440934,
+        "percentage": null
+      },
+      {
+        "address": "u6PJ8DtQuPFnfmwHbGFULQ4u4EgjDiyYKjVEsynXq2w",
+        "ui_amount": 63436687.726022,
+        "percentage": null
+      },
+      {
+        "address": "E2RvJg2myWpKcbkhBuF81gfhYr6KvmNcDbSmr5qnatYy",
+        "ui_amount": 39442532.20234,
+        "percentage": null
+      },
+      {
+        "address": "EFE3j1pcSP1paUzA86zW7989ZjsFP2J7ginyUqo4ewqR",
+        "ui_amount": 32308237.8939,
+        "percentage": null
+      },
+      {
+        "address": "7TWnq4WeYcwQWBCwKeEX2Q9xqVtthPGkB7adNvueuVuh",
+        "ui_amount": 25056853.027921,
+        "percentage": null
+      },
+      {
+        "address": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+        "ui_amount": 20737366.408183,
+        "percentage": null
+      },
+      {
+        "address": "4QuB7hY3H512CLG1orbVrA7HTeXbBYCPxBpNfQ6gs5ru",
+        "ui_amount": 20397995.130703,
+        "percentage": null
+      },
+      {
+        "address": "Bb7H8QK6CQsmkfrcA5vULesS1RmegWosgkrrYyd1UEpv",
+        "ui_amount": 19932007.412074,
+        "percentage": null
+      },
+      {
+        "address": "ASTyfSima4LLAdDgoFGkgqoKowG1LZFDr9fAQrg7iaJZ",
+        "ui_amount": 14697762.813494,
+        "percentage": null
+      },
+      {
+        "address": "6LY1JzAFVZsP2a2xKrtU6znQMQ5h4i7tocWdgrkZzkzF",
+        "ui_amount": 12888681.135341,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "0.1633",
+    "liquidity_usd": 6774981.49,
+    "volume_24h": 243792.25,
+    "volume_liquidity_ratio": 0.036,
+    "market_cap": 163373328,
+    "fdv": 163373328,
+    "pair_address": "Bzc9NZfMqkXR6fz1DBph7BDf9BroyEf6pnzESP7v5iiw",
+    "dex": "raydium",
+    "is_pumpswap": false,
+    "migrated_to_raydium": true,
+    "price_change_h24": 0.26,
+    "price_change_h6": 0.28,
+    "price_change_h1": -0.4
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": false
+  }
+}

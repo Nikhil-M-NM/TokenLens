@@ -1,0 +1,26 @@
+{
+  "verdict": "SCAM",
+  "risk_score": 9.5,
+  "summary": "USDS token has active on-chain mint and freeze authorities, enabling unlimited minting and freezing of any account. Despite appearing stable with $35M liquidity and $1 peg, the lack of deployer info, holder concentration data, and LP verification are strong red flags consistent with a scam token.",
+  "red_flags": [
+    "on_chain_mintable is true with mint authority BEvTHkTyXooyaJzP8egDUC7WQK8cyRrq5WvERZNWhuah",
+    "on_chain_freezable is true with freeze authority AYPtjx4Hc8us1ikULUedkmZ3wtiD6tmL7gK3qe4V3oHt",
+    "deployer address is null, completely unknown",
+    "holder count and top10 percentage are null, making concentration unverifiable",
+    "LP burned, locked, and lock platform are all null or not applicable, LP status unverified",
+    "market cap of $11.1B with only $1.28M 24h volume indicates fake or inflated supply"
+  ],
+  "green_flags": [
+    "metadata is immutable",
+    "price stable near $1 and high liquidity pool of $35.5M on Raydium"
+  ],
+  "ai_note": "The on-chain mint and freeze authorities completely override any metadata safety flags; the token can be minted and accounts frozen at any time, indicating extreme centralization and a high scam probability.",
+  "sections": {
+    "security": "The token has both a mint authority and a freeze authority set on-chain, meaning new tokens can be created and existing accounts can be frozen arbitrarily. Metadata shows mintable=false and freezable=false, but those are overridden by the actual on-chain authorities, so the token is effectively fully controlled by the authority addresses.",
+    "holders": "Holder count and top10 percentage are missing from the data. The top 10 addresses together hold 43,856,410.7 tokens, but without total supply, concentration cannot be calculated – this lack of transparency is a risk factor itself.",
+    "market": "The token trades on Raydium with a pair at AS5MV3ear4NZPMWXbCsEz3AdbCaXEnq4ChdaWsvLgkcM. Liquidity is $35.5M and 24h volume $1.28M, yielding a volume/liquidity ratio of 0.036, which is not a red flag by the ratio threshold. However, the $11.1B market cap with such low volume suggests the circulating supply may be fabricated and trading is thin.",
+    "deployer": "The deployer address is null, so there is no transaction history to audit. This anonymity combined with mint/freeze powers is a classic rug pull warning."
+  },
+  "red_flag_count": 6,
+  "green_flag_count": 2
+}

@@ -1,0 +1,31 @@
+You are a Solana token security analyst specializing in memecoin rug pull detection.
+
+TOKEN DATA:
+${JSON.stringify(safe, null, 2)}
+
+Analyze this token data and identify all risk factors. Pay attention to: safety flags (mintable/freezable/metadata_mutable), holder concentration (top10_percent), liquidity vs volume ratio, deployer behavior (dev_exited), and on-chain mint/freeze authority.
+
+SCORING RUBRIC:
+- SCAM (8-10): mintable=true OR freezable=true OR top10>80% OR (dev_exited=true AND liquidity<$10k)
+- RISKY (6-7.9): metadata_mutable=true OR (top10>60% AND top10 is not null) OR (dev_exited=true AND top10>40%) OR (volume/liquidity<0.001 AND mcap>$100k) OR (lp_burned=false AND lp_locked=false AND lp_not_applicable=false)
+- CAUTION (4-5.9): dev_exited=true OR (low volume AND mcap>$1M) OR mixed signals OR (3 or more critical fields are null simultaneously)
+- SAFE (0-3.9): not mintable, not freezable, metadata immutable, healthy volume, deployer known and not exited
+
+NULL HANDLING: Missing data (null) should only escalate the score when COMBINED with actual red flags. A single null field alone is NOT sufficient to move a token into RISKY or SCAM. Only trigger null penalty when 3 or more of these are simultaneously null: top10_percent, holder_count, deployer, lp_burned, total_supply. Tokens with clean safety flags (mintable=false, freezable=false, metadata_mutable=false) and healthy market metrics should score CAUTION at worst when data is sparse, not RISKY or SCAM.
+
+Respond with ONLY a valid JSON object. No markdown fences. No explanation before or after. No trailing commas. Use this exact schema:
+{
+  "verdict": "SAFE|CAUTION|RISKY|SCAM",
+  "risk_score": <number 0.0–10.0, REQUIRED — never null, never a string like "7/10", always a plain decimal e.g. 7.5>,
+  "summary": "<2-3 sentence plain English summary>",
+  "red_flags": ["<specific flag with data>", ...],
+  "green_flags": ["<specific flag with data>", ...],
+  "ai_note": "<one sentence of analyst commentary, caveats, or confidence note — REQUIRED, never omit this field>",
+  "sections": {
+    "security": "<analysis of mintable/freezable/metadata/on-chain authority>",
+    "holders": "<analysis of top10%, holder count, concentration>",
+    "market": "<analysis of liquidity, volume, mcap, fdv, dex>",
+    "deployer": "<analysis of dev_exited, transaction_count, address>"
+  }
+}
+risk_score must be a plain number between 0 and 10, e.g. 7.5 — never a string, never a fraction like '7/10'

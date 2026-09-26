@@ -1,0 +1,101 @@
+{
+  "ca": "DBRiDgJAMsM95moTzJs7M9LnkGErpbv9v6CUR1DXnUu5",
+  "token": {
+    "name": "deBridge",
+    "symbol": "DBR",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": false,
+    "on_chain_freezable": false,
+    "mint_authority_address": null,
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "EKFy8JHvBHpLCjtRcWXeT2njRVg2wTPErMvWr8DkgBio",
+        "ui_amount": 2300000000.401481,
+        "percentage": null
+      },
+      {
+        "address": "ARejjahvMeUp8KLqCqugkj8MZXvrmYEXWXACDbqBRBJn",
+        "ui_amount": 1600000000,
+        "percentage": null
+      },
+      {
+        "address": "4NDX7sEkyGhQ236NMXoiqGzgy3dKxyGMkytCNL49WXk7",
+        "ui_amount": 1207623250,
+        "percentage": null
+      },
+      {
+        "address": "4BtvjB3EES4UsZzAxo6P76rimvH5xKemBPV3xZ6BKn1R",
+        "ui_amount": 921375242.82,
+        "percentage": null
+      },
+      {
+        "address": "2V7DfGjzuF7QPPQvtReutcm6GEXC17jUbhZQg3fxJfYA",
+        "ui_amount": 743589743.589725,
+        "percentage": null
+      },
+      {
+        "address": "2KZbuFnq9hNdyfr1Qbi5fpHpTa1PRy5szo36DiK45EeL",
+        "ui_amount": 552629656.794442,
+        "percentage": null
+      },
+      {
+        "address": "FKoh3yQYD75UA43JnSF6cRQzfUzFuox34v1DTnLrp3Zy",
+        "ui_amount": 329654689.96923,
+        "percentage": null
+      },
+      {
+        "address": "4xwFWPoLXwKvWnLArM9M6wGGwsQFNNCinSpmA2hssHxH",
+        "ui_amount": 300000000,
+        "percentage": null
+      },
+      {
+        "address": "Ck1YePRke9As9XDmaeFuxJiE2mjTeLAEgLHHoqGnFGfC",
+        "ui_amount": 228911912.407175,
+        "percentage": null
+      },
+      {
+        "address": "3fbKXhU8oeKEUiL5vXp1BKf6F2v57D5G8dCNwhnSAEvv",
+        "ui_amount": 226700043.216763,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "0.01459",
+    "liquidity_usd": 5084007.08,
+    "volume_24h": 280105.52,
+    "volume_liquidity_ratio": 0.0551,
+    "market_cap": 77724280,
+    "fdv": 145956387,
+    "pair_address": "E5H5BXLranyJFHEzvR3R2j6kGDQ3Fnx8sPKSsgYqyya8",
+    "dex": "meteora",
+    "is_pumpswap": false,
+    "migrated_to_raydium": false,
+    "price_change_h24": -3.58,
+    "price_change_h6": -3.06,
+    "price_change_h1": -0.72
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": true
+  }
+}

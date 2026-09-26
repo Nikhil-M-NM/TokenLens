@@ -1,0 +1,101 @@
+{
+  "ca": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+  "token": {
+    "name": "OFFICIAL TRUMP",
+    "symbol": "TRUMP",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": false,
+    "on_chain_freezable": false,
+    "mint_authority_address": null,
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "2RH6rUTPBJ9rUDPpuV9b8z1YL56k1tYU6Uk5ZoaEFFSK",
+        "ui_amount": 762585959.657572,
+        "percentage": null
+      },
+      {
+        "address": "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM",
+        "ui_amount": 46783097.396,
+        "percentage": null
+      },
+      {
+        "address": "51yZyDSnec4xnUv7XLRVYcDyV4x3wUtzrDcRaYbmQU5j",
+        "ui_amount": 21676246.789574,
+        "percentage": null
+      },
+      {
+        "address": "8N2ssXZGJbvVLszanERuCJpLZd2nuADgpZwLkDDxwNnS",
+        "ui_amount": 21209815.623053,
+        "percentage": null
+      },
+      {
+        "address": "9d9mb8kooFfaD3SctgZtkxQypkshx6ezhbKio89ixyy2",
+        "ui_amount": 16794726.729403,
+        "percentage": null
+      },
+      {
+        "address": "CBEADkb8TZAXHjVE3zwad4L995GZE7rJcacJ7asebkVG",
+        "ui_amount": 10990431.131442,
+        "percentage": null
+      },
+      {
+        "address": "8Mm46CsqxiyAputDUp2cXHg41HE3BfynTeMBDwzrMZQH",
+        "ui_amount": 7111209.314777,
+        "percentage": null
+      },
+      {
+        "address": "4xLpwxgYuPwPvtQjE94RLS4WZ4aD8NJYYKr2AJk99Qdg",
+        "ui_amount": 6352868.55257,
+        "percentage": null
+      },
+      {
+        "address": "5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9",
+        "ui_amount": 5382446.946656,
+        "percentage": null
+      },
+      {
+        "address": "65AXrL2wYbrwEF37euk7Kf56QqGUudWMTYTQcj73y1Ye",
+        "ui_amount": 4522225.772646,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "1.92",
+    "liquidity_usd": 33313794.72,
+    "volume_24h": 583276.24,
+    "volume_liquidity_ratio": 0.0175,
+    "market_cap": 455854209,
+    "fdv": 1920080267,
+    "pair_address": "9d9mb8kooFfaD3SctgZtkxQypkshx6ezhbKio89ixyy2",
+    "dex": "meteora",
+    "is_pumpswap": false,
+    "migrated_to_raydium": false,
+    "price_change_h24": 1.81,
+    "price_change_h6": 0.5,
+    "price_change_h1": 0.29
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": true
+  }
+}

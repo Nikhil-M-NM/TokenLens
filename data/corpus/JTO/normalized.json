@@ -1,0 +1,101 @@
+{
+  "ca": "jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL",
+  "token": {
+    "name": "JITO",
+    "symbol": "JTO",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": false,
+    "on_chain_freezable": false,
+    "mint_authority_address": null,
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "5eosrve6LktMZgVNszYzebgmmC7BjLK8NoWyRQtcmGTF",
+        "ui_amount": 209422037.5065117,
+        "percentage": null
+      },
+      {
+        "address": "5SybwTvGno6SBApbGinXyLqhnPzs47aaBG4PShyPT8ey",
+        "ui_amount": 70288940.66238,
+        "percentage": null
+      },
+      {
+        "address": "ESnLXehGeReTRw3WxxEZwB4u2C9gAe8dMbob8Q4gm9Yg",
+        "ui_amount": 47602544.12303414,
+        "percentage": null
+      },
+      {
+        "address": "7r5xFtcJZpc8vtzBCc1S9ooR2xadHt1jcT8HiH23a1x1",
+        "ui_amount": 43039504.66002802,
+        "percentage": null
+      },
+      {
+        "address": "MbzL6v1mDkF8QW6r9TJKV6eaiYSf6MNtpVei2ciFQHN",
+        "ui_amount": 27517281,
+        "percentage": null
+      },
+      {
+        "address": "FQnVcnwEXREJ3D4j7LzNGzCiMUVVqxkGEqZ2KffRY8ud",
+        "ui_amount": 20000000.0303,
+        "percentage": null
+      },
+      {
+        "address": "Ad5i15ft4QwmXMvJ721WQdCZwwinMr5X5bmPkfEQhT31",
+        "ui_amount": 20000000,
+        "percentage": null
+      },
+      {
+        "address": "CsWayfMjUmFU4Cbndn1QyciPhfNgirRJGPkS2h2LSUyK",
+        "ui_amount": 20000000,
+        "percentage": null
+      },
+      {
+        "address": "3dguv2qss6GjmUEnJsddxkR9q5Zoem1sjoSk1jpXFPsz",
+        "ui_amount": 19999999,
+        "percentage": null
+      },
+      {
+        "address": "jjCAwuuNpJCNMLAanpwgJZ6cdXzLPXe2GfD6TaDQBXt",
+        "ui_amount": 19788044.237729494,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "0.4979",
+    "liquidity_usd": 1103740.15,
+    "volume_24h": 512570.79,
+    "volume_liquidity_ratio": 0.4644,
+    "market_cap": 237263098,
+    "fdv": 497993604,
+    "pair_address": "G2FiE1yn9N9ZJx5e1E2LxxMnHvb1H3hCuHLPfKJ98smA",
+    "dex": "orca",
+    "is_pumpswap": false,
+    "migrated_to_raydium": true,
+    "price_change_h24": -4.85,
+    "price_change_h6": 3.5,
+    "price_change_h1": 1.52
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": true
+  }
+}

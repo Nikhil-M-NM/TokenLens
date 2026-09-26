@@ -1,0 +1,101 @@
+{
+  "ca": "HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump",
+  "token": {
+    "name": "Alchemist AI",
+    "symbol": "ALCH",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": false,
+    "on_chain_freezable": false,
+    "mint_authority_address": null,
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "u6PJ8DtQuPFnfmwHbGFULQ4u4EgjDiyYKjVEsynXq2w",
+        "ui_amount": 260812316.185782,
+        "percentage": null
+      },
+      {
+        "address": "2qo8jvuc49pFmTjmUHLiARSV6ppPTaE7gw27ZJ6DnNZy",
+        "ui_amount": 248876712.153019,
+        "percentage": null
+      },
+      {
+        "address": "FQEmsV5A6jZdmb3KuP3YBLmHfFNoKuoWddBGMQuW1M9f",
+        "ui_amount": 150000009,
+        "percentage": null
+      },
+      {
+        "address": "73x1s2cGsiDuX3SztCxXHFm8zxrs9Sptb8dQoYgDEbsN",
+        "ui_amount": 66240698.495835,
+        "percentage": null
+      },
+      {
+        "address": "ErTuyH2jwsSU9NBMtdfMMsR97G7cpe2fSEkyasS9srxD",
+        "ui_amount": 31815040.386168,
+        "percentage": null
+      },
+      {
+        "address": "HPQC3NgnCs43Ek7Z41BGpJV9EeeWTzEPQdJBrJ2BEgLm",
+        "ui_amount": 29909675.871141,
+        "percentage": null
+      },
+      {
+        "address": "8YHNRr6ehq5NHGY7YQXLsLsW95mXASmGYQDbehA7hJTK",
+        "ui_amount": 28371921.68196,
+        "percentage": null
+      },
+      {
+        "address": "2f9mdm6HEm4EczAJ91zyuLyuWXNNqPzsWFaqJi82h6tJ",
+        "ui_amount": 27850522.720227,
+        "percentage": null
+      },
+      {
+        "address": "5T9XTk22o98oCGHTUdPoLtaz2UpsE9BdERas8ba2KqEw",
+        "ui_amount": 25185906.565201,
+        "percentage": null
+      },
+      {
+        "address": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+        "ui_amount": 23809534.607142,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "0.07178",
+    "liquidity_usd": 3372469.48,
+    "volume_24h": 180657.54,
+    "volume_liquidity_ratio": 0.0536,
+    "market_cap": 61016424,
+    "fdv": 71783256,
+    "pair_address": "FyDF3vKQFbcvNTsBi7L7LremrFPmXKbQqgAgnPg1hXXd",
+    "dex": "raydium",
+    "is_pumpswap": false,
+    "migrated_to_raydium": false,
+    "price_change_h24": 3.18,
+    "price_change_h6": 3.55,
+    "price_change_h1": 4.47
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": false
+  }
+}

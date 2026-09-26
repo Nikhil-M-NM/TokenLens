@@ -1,0 +1,101 @@
+{
+  "ca": "67ezHLk8PUkjJCXjmmgPbx85VowA52ghfRXa9A8Tpump",
+  "token": {
+    "name": "Grokius Maximus",
+    "symbol": "GROKIUS",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": false,
+    "on_chain_freezable": false,
+    "mint_authority_address": null,
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "HUsE3ouq2rL2egjy1hURxYiiQw4uuv4QDdvpYedQ8Rdh",
+        "ui_amount": 188156951.940498,
+        "percentage": null
+      },
+      {
+        "address": "Am4a1zUmCVyCp4UuRPzLQ2VM3E6FFugw96aEGyQpYiok",
+        "ui_amount": 52882066.651357,
+        "percentage": null
+      },
+      {
+        "address": "BuStJqGeVx9VEnBmhVGkVW3uzwcWJzNFyTU8ueezmum7",
+        "ui_amount": 26467614.495191,
+        "percentage": null
+      },
+      {
+        "address": "HNQ6WyRW36LU1LvRP33JpN2rLPyxgigU2ZmBGWi8Y63M",
+        "ui_amount": 21374840.483903,
+        "percentage": null
+      },
+      {
+        "address": "vtG3KFnWgSbDGDav2Jntk9hAMwK4puxkoP7etsEMiBd",
+        "ui_amount": 19840714.530787,
+        "percentage": null
+      },
+      {
+        "address": "BM9CcyErJcu2mjrFvUsRRrD3snGeHDDVirJLvL6EjvMN",
+        "ui_amount": 17962232.689782,
+        "percentage": null
+      },
+      {
+        "address": "4wdyeQCx9SxjSZCZeSrYqAPtvDN1XGwvAGtbuEMx9Mbw",
+        "ui_amount": 15408676.100635,
+        "percentage": null
+      },
+      {
+        "address": "BuVyD8QWhofVrtEmRQEP1rM2FBzuak8Zt37YAk8A8reP",
+        "ui_amount": 14488162.140236,
+        "percentage": null
+      },
+      {
+        "address": "HE3VXTCS5WfxF17nXrPzgW2UQNEYnXWsHhWkcESYy7sw",
+        "ui_amount": 12343010.416506,
+        "percentage": null
+      },
+      {
+        "address": "GLQyKCL4uGKRLBB8giAFcUbX7KuJjBHj87ESoPcLWJw4",
+        "ui_amount": 12118086.081137,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "0.0001065",
+    "liquidity_usd": 40287.53,
+    "volume_24h": 8702.18,
+    "volume_liquidity_ratio": 0.216,
+    "market_cap": 106541,
+    "fdv": 106541,
+    "pair_address": "HUsE3ouq2rL2egjy1hURxYiiQw4uuv4QDdvpYedQ8Rdh",
+    "dex": "pumpswap",
+    "is_pumpswap": true,
+    "migrated_to_raydium": true,
+    "price_change_h24": 6.83,
+    "price_change_h6": 1.96,
+    "price_change_h1": -0.64
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": true
+  }
+}

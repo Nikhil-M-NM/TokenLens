@@ -1,0 +1,101 @@
+{
+  "ca": "HxWrnZznqF5iYf3ckMw3FTaZQvubB53ohzpjPSNUpump",
+  "token": {
+    "name": "FIFA WORLD CUP",
+    "symbol": "FWC",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": null,
+    "on_chain_freezable": null,
+    "mint_authority_address": null,
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "J56DqS7mhjtRrruP6H7qi4ftuyXmqVE2pLXtVWM84hwx",
+        "ui_amount": 70386895.996534,
+        "percentage": null
+      },
+      {
+        "address": "5bFekWdtk4uw8yFbAAqgqCmNy8A5j6ACVERob4tEFkgk",
+        "ui_amount": 29943108.09462,
+        "percentage": null
+      },
+      {
+        "address": "6MykTfxTe1GTPh8dRZNBEt52fEKgYx5JXsFPVSGtP95m",
+        "ui_amount": 21131567.2786,
+        "percentage": null
+      },
+      {
+        "address": "P61FXbkHeeUjoYbHLxvdxzZNexwUVCJqdbUZUNJxS7U",
+        "ui_amount": 13667228.915337,
+        "percentage": null
+      },
+      {
+        "address": "3FCucJhpurGXXjBTh5Ryy4fR8KFkFLsJWFnfxSmDUN4c",
+        "ui_amount": 13656472.52601,
+        "percentage": null
+      },
+      {
+        "address": "EMpXqF2wvKUZ4NDRXQMGoJK1TuKMnRR7Aqmi3vvMYesR",
+        "ui_amount": 13359654.572743,
+        "percentage": null
+      },
+      {
+        "address": "DcmrtswqZ2S2rzSZzivNLVSNdzMg6zvBhStWPV2stbGx",
+        "ui_amount": 12278316.588138,
+        "percentage": null
+      },
+      {
+        "address": "5cduv396SpPRWDs4kMttjMRi5weiCuy2dkX3bquLrpGn",
+        "ui_amount": 11973840.605012,
+        "percentage": null
+      },
+      {
+        "address": "AXgjfMZRWgSiYSCBDq2ypWeLXSfhL8qknQiRh3vhi2jz",
+        "ui_amount": 11851805.606226,
+        "percentage": null
+      },
+      {
+        "address": "ESF7sxMzensSgAgPGHd8A3ku4TCk866M8XiiYdCGNEhH",
+        "ui_amount": 11595412.530235,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "0.0004179",
+    "liquidity_usd": 59119.35,
+    "volume_24h": 71420.44,
+    "volume_liquidity_ratio": 1.2081,
+    "market_cap": 417930,
+    "fdv": 417930,
+    "pair_address": "J56DqS7mhjtRrruP6H7qi4ftuyXmqVE2pLXtVWM84hwx",
+    "dex": "pumpswap",
+    "is_pumpswap": true,
+    "migrated_to_raydium": false,
+    "price_change_h24": -8.39,
+    "price_change_h6": 3.99,
+    "price_change_h1": -7.63
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": true
+  }
+}

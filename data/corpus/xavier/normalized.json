@@ -1,0 +1,101 @@
+{
+  "ca": "69G8CpUVZAxbPMiEBrfCCCH445NwFxH6PzVL693Xpump",
+  "token": {
+    "name": "Xavier: Renegade Angel",
+    "symbol": "xavier",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": false,
+    "on_chain_freezable": false,
+    "mint_authority_address": null,
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+        "ui_amount": 71311493.296186,
+        "percentage": null
+      },
+      {
+        "address": "9wf6P3Hu34vxmBb4zK6gsrcRza2Uk3bPvbgMtVZS43et",
+        "ui_amount": 27000000,
+        "percentage": null
+      },
+      {
+        "address": "ASSor8HtpqGc6GxzmjdvHS9pkt3jtrq2vSwk25w3EwTy",
+        "ui_amount": 26765841.455921,
+        "percentage": null
+      },
+      {
+        "address": "F3qxbJMyQsm5b1VmZDLpu8nYNAtL8aDccsUfNQHLzjLe",
+        "ui_amount": 23545685.013693,
+        "percentage": null
+      },
+      {
+        "address": "9ERAR17jmfQSxT2kHUfp2Ayi2nrgENeRy1ekdScNQ8Yc",
+        "ui_amount": 20997892.754472,
+        "percentage": null
+      },
+      {
+        "address": "Bca7fSQn8NChMcm5cRHd97ccbX4w4VSsRLaBJbvAwJbG",
+        "ui_amount": 18533035.081895,
+        "percentage": null
+      },
+      {
+        "address": "DETzghLGJDPPmDHPx557kpWSGtK7JPQm2KG2B6YhU2VE",
+        "ui_amount": 14053762.198594,
+        "percentage": null
+      },
+      {
+        "address": "8foA5vJY2LzayvYxLnq5V96bmagkD3c6sDB91AxaEnzd",
+        "ui_amount": 13300760.937425,
+        "percentage": null
+      },
+      {
+        "address": "3FC5H6x12To8JTUNJcsTkHuhiPamo5fbzGnQzr1uHSau",
+        "ui_amount": 12816144.348684,
+        "percentage": null
+      },
+      {
+        "address": "8U3688kPQokMoY5cyJUpAUqcn71NfJ5twKe9mr9fA6L2",
+        "ui_amount": 12379710.217267,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "0.0009152",
+    "liquidity_usd": 130376.71,
+    "volume_24h": 97755.63,
+    "volume_liquidity_ratio": 0.7498,
+    "market_cap": 915147,
+    "fdv": 915147,
+    "pair_address": "6g65Drfejv98Ba1LYQAV44z5QmZAX4MzxhyBqsfLz6ZZ",
+    "dex": "raydium",
+    "is_pumpswap": false,
+    "migrated_to_raydium": true,
+    "price_change_h24": -17.22,
+    "price_change_h6": 7.39,
+    "price_change_h1": 0.63
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": false
+  }
+}

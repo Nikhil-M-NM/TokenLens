@@ -1,0 +1,29 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 4.2,
+  "summary": "TROLL token has clean safety flags (not mintable, not freezable, metadata immutable) and healthy market metrics with high liquidity and volume. However, critical fields like deployer, total supply, and top10% are missing, making full assessment impossible and earning it a CAUTION rating per null-handling rules.",
+  "red_flags": [
+    "Deployer address is unknown (null)",
+    "Total supply is unknown (null)",
+    "Top10 holder percentage is unknown (null)",
+    "Holder count is unknown (null)",
+    "LP burn/lock status is unknown (lp_burned is null, lp_not_applicable is true)"
+  ],
+  "green_flags": [
+    "mintable=false, freezable=false, metadata_mutable=false",
+    "No on-chain mint or freeze authority",
+    "High liquidity ($3.2M) and healthy 24h volume ($3.0M)",
+    "Volume/liquidity ratio 0.94 indicates genuine trading activity",
+    "Estimated top10 holder concentration ~23% (well below 60% threshold)",
+    "Migrated from Pumpswap to Raydium, typical for legitimate pump.fun tokens"
+  ],
+  "ai_note": "Despite the many missing data points, the token's on-chain safety and strong market metrics suggest it is unlikely to be a scam, but lack of deployer info prevents a SAFE classification.",
+  "sections": {
+    "security": "The token is not mintable, not freezable, and metadata is immutable. On-chain mint and freeze authorities are null, confirming no risk of supply manipulation or asset freezing.",
+    "holders": "Top holder has 5.5% of estimated supply; top 10 combined hold about 23%. This is well-diversified and does not raise concentration alarms. Holder count is unknown, but distribution appears healthy.",
+    "market": "Liquidity is $3.2M with 24h volume of $3.0M (ratio 0.94). Market cap is $72.1M (FDV same). Price changes are moderate (+11% daily, minor hourly dips). This indicates strong, organic interest.",
+    "deployer": "Deployer address is not provided. Without it, we cannot verify previous token launches or check for dev exit patterns, which introduces some uncertainty."
+  },
+  "red_flag_count": 5,
+  "green_flag_count": 6
+}
