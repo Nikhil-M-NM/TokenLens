@@ -1,0 +1,30 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 5,
+  "summary": "The token has clean on-chain safety flags and healthy liquidity/volume, but critical holder, deployer, LP-lock, and supply data are missing. This sparse data plus the 'test griffain.com' name warrants caution despite no direct mint/freeze red flags.",
+  "red_flags": [
+    "deployer field is null; developer cannot be identified",
+    "lp_burned, lp_locked, lp_lock_platform are null; LP lock/burn status is unverified",
+    "holder_count and top10_percent are null; exact holder concentration unknown",
+    "total_supply is null; estimated only via market cap/price",
+    "Token name is 'test griffain.com', suggesting a possible test or impersonation token"
+  ],
+  "green_flags": [
+    "mintable=false and on_chain_mintable=false",
+    "freezable=false and on_chain_freezable=false",
+    "metadata_mutable=false",
+    "non_transferable=false and transfer_fee_exists=false",
+    "mint_authority_address and freeze_authority_address are null",
+    "liquidity_usd=2239354.39 and volume_24h=664445.37, volume_liquidity_ratio=0.2967",
+    "market_cap=17707317 and fdv=17707144 are nearly equal, fully diluted"
+  ],
+  "ai_note": "Confidence is limited by missing deployer, holder, and LP-lock data; the clean safety flags and healthy market metrics keep this at CAUTION rather than RISKY.",
+  "sections": {
+    "security": "The token is not mintable or freezable on-chain, metadata is immutable, non-transferable is false, and no transfer fee exists. Both mint and freeze authority addresses are null, indicating no admin control.",
+    "holders": "holder_count and top10_percent are null. From the listed top-10 balances and market-cap-implied supply (~1.0B tokens), top10 concentration is about 53.5%, which is moderately high but not extreme; exact concentration cannot be verified.",
+    "market": "Raydium pair with liquidity_usd $2.24M and 24h volume $664k gives a healthy 29.7% volume/liquidity ratio. Market cap and FDV are nearly equal around $17.7M. Price change is +14.46% over 24h but -1.91% over 1h.",
+    "deployer": "deployer is null and no dev_exited status is provided, so developer behavior is unknown. The absence of deployer data prevents confirming whether the developer exited or retained control."
+  },
+  "red_flag_count": 5,
+  "green_flag_count": 7
+}

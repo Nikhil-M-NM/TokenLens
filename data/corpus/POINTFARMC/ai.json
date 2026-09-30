@@ -1,0 +1,26 @@
+{
+  "verdict": "SCAM",
+  "risk_score": 8.9,
+  "summary": "Although the token has clean safety flags, holder concentration is extreme: the top 10 addresses control roughly 91.6% of implied supply, with the top holder alone at about 72.6%. This creates severe rug-pull risk despite otherwise healthy liquidity and trading volume.",
+  "red_flags": [
+    "Top 10 holders control ~91.6% of implied supply (915,948,611.27 of ~1,000,258,687 tokens)",
+    "Top single holder controls ~72.6% of implied supply (726,328,445.62 tokens)",
+    "holder_count is null, top10_percent is null, total_supply is null, deployer is null, lp_burned is null",
+    "Price dropped -29.69% in 24h despite recent short-term bounces"
+  ],
+  "green_flags": [
+    "mintable=false, freezable=false, metadata_mutable=false",
+    "No transfer fee and non_transferable=false",
+    "Liquidity is $79,065.75 with volume/liquidity ratio 0.2767, indicating active market",
+    "Raydium DEX pair with $362,694 market cap"
+  ],
+  "ai_note": "The concentration is inferred from on-chain holder amounts and implied market cap, so although top10_percent is null, the arithmetic strongly supports a SCAM concentration.",
+  "sections": {
+    "security": "Token is not mintable, not freezable, and metadata is immutable; on-chain mint/freeze authority fields are null, so contract-level safety flags are clean.",
+    "holders": "holder_count and top10_percent are null, but the supplied top-10 holder amounts sum to about 915.9M tokens. Using implied total supply of ~1,000.3M tokens from market cap/price, top-10 concentration is ~91.6% and the largest holder owns ~72.6%.",
+    "market": "Liquidity is $79,065.75 with $21,876.03 in 24h volume, giving a healthy volume/liquidity ratio of 0.2767. Market cap/FDV is $362,694 on Raydium, but price has fallen -29.69% in 24h.",
+    "deployer": "Deployer address and dev_exited status are null, so deployer behavior cannot be verified; this missing data compounds the concentration risk."
+  },
+  "red_flag_count": 4,
+  "green_flag_count": 4
+}

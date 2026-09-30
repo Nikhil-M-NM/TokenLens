@@ -1,0 +1,101 @@
+{
+  "ca": "6V7cF52p3eSkRuoVXnAryWVwoyS775DERenYPMMYBPxS",
+  "token": {
+    "name": "The Stonkfather",
+    "symbol": "POINTFARMC",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": null,
+    "on_chain_freezable": null,
+    "mint_authority_address": null,
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "Beqv6dzTcjV2eodo8RRXCiCcnSYrS1vkQKhfqwHXqeit",
+        "ui_amount": 726328445.618303,
+        "percentage": null
+      },
+      {
+        "address": "GpMZbSM2GgvTKHJirzeGfMFoaZ8UR2X7F4v8vHTvxFbL",
+        "ui_amount": 108997948.551941,
+        "percentage": null
+      },
+      {
+        "address": "CUsUzbVnmoVcNRW6XDcP6KeZDjfdmMKyyMMLeBh1Rcks",
+        "ui_amount": 15000000.30248,
+        "percentage": null
+      },
+      {
+        "address": "EYVHabVfP6fsBt7wGPU4iY8HFrCYxyZxDNoKaRpqvwZx",
+        "ui_amount": 12070733.603677,
+        "percentage": null
+      },
+      {
+        "address": "E1Y2ya48fTKH1HjTBMPcaw1zTR2K9DpaJAuws7hBJVkx",
+        "ui_amount": 11999717.265071,
+        "percentage": null
+      },
+      {
+        "address": "9aW33hYTv5scEwQUR13CdUj7Z3gSGGLJXLNn5gYsqpXR",
+        "ui_amount": 10256071.784958,
+        "percentage": null
+      },
+      {
+        "address": "Eb7tBAyzQmFNuiDDEh3bYPoDpJaLigGn167YAoMUV1p3",
+        "ui_amount": 9001500.277111,
+        "percentage": null
+      },
+      {
+        "address": "AUqvnhqn2TzNAUeArFQNmecMFiUNotBaSajKcUPVpjVr",
+        "ui_amount": 7783322.669107,
+        "percentage": null
+      },
+      {
+        "address": "6HJetMbdHBuk3mLUainxAPpBpWzDgYbHGTS2TqDAUSX2",
+        "ui_amount": 7333631.721595,
+        "percentage": null
+      },
+      {
+        "address": "645YiXDDqiJQ5xupqHtUsBJk2x3TbzRCbvaewjfgj8ZP",
+        "ui_amount": 7177239.474138,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "0.0003626",
+    "liquidity_usd": 79065.75,
+    "volume_24h": 21876.03,
+    "volume_liquidity_ratio": 0.2767,
+    "market_cap": 362694,
+    "fdv": 362694,
+    "pair_address": "26EjbSHFhgcLyMxEMDsETY7wVBUrXnjGxFfAm5yUCgU3",
+    "dex": "raydium",
+    "is_pumpswap": false,
+    "migrated_to_raydium": false,
+    "price_change_h24": -29.69,
+    "price_change_h6": 16.55,
+    "price_change_h1": 8.08
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": false
+  }
+}

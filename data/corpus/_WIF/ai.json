@@ -1,0 +1,22 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 5,
+  "summary": "Token shows strong safety fundamentals (no mint/freeze, metadata immutable) and high liquidity, but critical holder, deployer, and LP data is missing. No active scam indicators, but sparse data warrants caution.",
+  "red_flags": [
+    "Missing critical fields: top10_percent, holder_count, deployer, lp_burned, total_supply (5 nulls)"
+  ],
+  "green_flags": [
+    "Metadata immutable, not mintable, not freezable, no on-chain mint/freeze authority",
+    "High liquidity ($4.78M) with healthy volume/liquidity ratio (0.0523)",
+    "Top 10 wallets hold approximately 44% of estimated supply – no extreme concentration"
+  ],
+  "ai_note": "Score limited to 5.0 due to simultaneous absence of 5 critical data points, despite clean security profile and deep liquidity.",
+  "sections": {
+    "security": "Mintable and freezable are both false, metadata_mutable is false, and on-chain mint/freeze authority addresses are null. The token cannot be arbitrarily minted, frozen, or have its metadata altered.",
+    "holders": "Holder_count and top10_percent are null, but top 10 addresses collectively hold ~44% of the estimated total supply (derived from market cap and price). This is moderate concentration, not an extreme red flag.",
+    "market": "Liquidity is deep at $4.78M, 24h volume $250k with volume/liquidity ratio 0.0523. Market cap and FDV are $185.6M. Trading on Raydium, not a pumpswap or migrated token. Positive price change over 24h.",
+    "deployer": "Deployer address and behavior are unknown (null). No information on dev exit, transaction count, or ownership history."
+  },
+  "red_flag_count": 1,
+  "green_flag_count": 3
+}

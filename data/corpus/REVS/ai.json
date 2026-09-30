@@ -1,0 +1,26 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 4.5,
+  "summary": "REVS shows clean safety flags and healthy market liquidity/volume, but several critical data points are missing. Holder concentration appears moderate at roughly 51% top-10 by implied supply. Score is CAUTION due to sparse data rather than confirmed scam indicators.",
+  "red_flags": [
+    "Critical metadata missing: top10_percent=null, holder_count=null, deployer=null, lp_burned=null, lp_locked=null, total_supply=null",
+    "Implied top10 holder concentration ≈51.1% using market cap/price-derived supply ~562.4M; top holder ≈22.9%",
+    "No LP burn/lock verification available (lp_burned=null, lp_locked=null)"
+  ],
+  "green_flags": [
+    "mintable=false, freezable=false, metadata_mutable=false",
+    "on_chain_mintable=false, on_chain_freezable=false, no mint or freeze authority",
+    "Liquidity $142,366 and 24h volume $39,050; volume/liquidity ratio 0.2743 is healthy",
+    "Positive 24h price change +4.26%",
+    "DEX is Meteora, not pumpswap, and token has no transfer fee"
+  ],
+  "ai_note": "Confidence is limited by missing deployer, LP lock/burn, holder statistics, and total supply; if LP is unlocked or deployer sells, risk could rise quickly.",
+  "sections": {
+    "security": "Token has no mint or freeze authority on-chain; mintable, freezable, and metadata_mutable are all false. No transfer fee or non-transferable restrictions. These are clean security flags, though metadata immutability alone cannot rule out off-chain or LP-based risks.",
+    "holders": "holder_count and top10_percent are null. The listed top-10 amounts are large; using implied supply from market cap/price (~562.4M tokens), the top holder holds about 22.9% and the top 10 collectively hold about 51.1%. This is moderate concentration, not extreme, but exact percentages are unavailable.",
+    "market": "Liquidity is $142,366 with 24h volume $39,050 and volume/liquidity ratio 0.2743, indicating reasonable market activity. Market cap and FDV are both $769,960. Price is up 4.26% over 24h. No low-volume/high-mcap red flag is present.",
+    "deployer": "Deployer address is null and no dev_exited flag is provided, so developer behavior cannot be assessed. This is a data gap rather than evidence of an exit."
+  },
+  "red_flag_count": 3,
+  "green_flag_count": 5
+}

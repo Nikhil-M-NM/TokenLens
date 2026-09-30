@@ -1,0 +1,101 @@
+{
+  "ca": "2qEHjDLDLbuBgRYvsxhc5D6uDWAivNFZGan56P1tpump",
+  "token": {
+    "name": "Peanut the Squirrel ",
+    "symbol": "Pnut ",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": false,
+    "on_chain_freezable": false,
+    "mint_authority_address": null,
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM",
+        "ui_amount": 300000000,
+        "percentage": null
+      },
+      {
+        "address": "4xLpwxgYuPwPvtQjE94RLS4WZ4aD8NJYYKr2AJk99Qdg",
+        "ui_amount": 135493233.623432,
+        "percentage": null
+      },
+      {
+        "address": "3B7XAQrLoEMDEGvX8569F9GRb9PcXXocJmj5wvhhei9z",
+        "ui_amount": 71921699.560884,
+        "percentage": null
+      },
+      {
+        "address": "CBEADkb8TZAXHjVE3zwad4L995GZE7rJcacJ7asebkVG",
+        "ui_amount": 45721360.420028,
+        "percentage": null
+      },
+      {
+        "address": "5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9",
+        "ui_amount": 38238331.311542,
+        "percentage": null
+      },
+      {
+        "address": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+        "ui_amount": 28170783.727039,
+        "percentage": null
+      },
+      {
+        "address": "GBrURzmtWujJRTA3Bkvo7ZgWuZYLMMwPCwre7BejJXnK",
+        "ui_amount": 25157310.62,
+        "percentage": null
+      },
+      {
+        "address": "5LZkATrLwHYCQj2YuVbjjgsDZzBk6YfL4pFQRJmtboT2",
+        "ui_amount": 23231995.122468,
+        "percentage": null
+      },
+      {
+        "address": "2a2XS6GaGwu8orHaaR8mT2rYi8PJBcfQWf7yDkW4UmsR",
+        "ui_amount": 23122681.4692,
+        "percentage": null
+      },
+      {
+        "address": "C68a6RCGLiPskbPYtAcsCjhG8tfTWYcoB4JjCrXFdqyo",
+        "ui_amount": 18877952.656416,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "0.05273",
+    "liquidity_usd": 2976441.91,
+    "volume_24h": 183453.24,
+    "volume_liquidity_ratio": 0.0616,
+    "market_cap": 52730422,
+    "fdv": 52730422,
+    "pair_address": "4AZRPNEfCJ7iw28rJu5aUyeQhYcvdcNm8cswyL51AY9i",
+    "dex": "raydium",
+    "is_pumpswap": false,
+    "migrated_to_raydium": true,
+    "price_change_h24": 2.49,
+    "price_change_h6": -0.19,
+    "price_change_h1": -0.22
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": false
+  }
+}

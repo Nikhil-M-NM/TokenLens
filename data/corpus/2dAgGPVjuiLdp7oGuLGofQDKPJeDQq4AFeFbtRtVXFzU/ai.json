@@ -1,0 +1,28 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 5,
+  "summary": "The token has clean safety flags with mintable, freezable, and metadata_mutable all false, but nearly all market, holder, liquidity, and deployer data is missing. This severe data sparsity prevents a full risk assessment, so it is rated CAUTION rather than SAFE. No observed red flags meet SCAM or RISKY thresholds, but uncertainty is high.",
+  "red_flags": [
+    "Missing critical token metadata: name, symbol, description, total_supply are null",
+    "Missing holder data: holder_count and top10_percent are null",
+    "Missing liquidity data: lp_burned, lp_locked, and lp_burned_percent are null",
+    "Missing deployer data: deployer address and dev_exited status are null",
+    "trusted_token=false: token is not on a trusted token list"
+  ],
+  "green_flags": [
+    "mintable=false: no mint authority risk",
+    "freezable=false: no freeze authority risk",
+    "metadata_mutable=false: token metadata cannot be changed",
+    "non_transferable=false: transfers are allowed",
+    "transfer_fee_exists=false: no transfer fee"
+  ],
+  "ai_note": "This assessment is limited by substantial missing data; the safety flags are clean, but holder concentration, liquidity, and deployer behavior cannot be verified.",
+  "sections": {
+    "security": "Mintable=false, freezable=false, and metadata_mutable=false are clean. On-chain mint/freeze authority fields are null, but no mint or freeze authority addresses are set, consistent with the clean flags.",
+    "holders": "Holder count and top10_percent are null, so concentration and distribution risk cannot be assessed.",
+    "market": "No market data is available; liquidity, volume, market cap, FDV, and dex information are all missing. LP burn/lock status is null while lp_not_applicable=false.",
+    "deployer": "Deployer address and dev_exited status are null, so deployer behavior and exit risk cannot be evaluated."
+  },
+  "red_flag_count": 5,
+  "green_flag_count": 5
+}

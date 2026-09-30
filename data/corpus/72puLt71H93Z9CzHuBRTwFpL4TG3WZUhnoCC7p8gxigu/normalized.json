@@ -1,0 +1,87 @@
+{
+  "ca": "72puLt71H93Z9CzHuBRTwFpL4TG3WZUhnoCC7p8gxigu",
+  "token": {
+    "name": null,
+    "symbol": null,
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": null,
+    "on_chain_freezable": null,
+    "mint_authority_address": null,
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "5PAhQiYdLBd6SVdjzBQDxUAEFyDdF5ExNPQfcscnPRj5",
+        "ui_amount": 200424316.935285,
+        "percentage": null
+      },
+      {
+        "address": "EPxGiguU5j5tKFnMQpzMrzczEQ5NRtLWrpG9fADvtadX",
+        "ui_amount": 61159754.074321,
+        "percentage": null
+      },
+      {
+        "address": "96m6rq3zeoD2Drb81DmKt74HaUR2d3QmBfJQswBa94of",
+        "ui_amount": 17426784.990395,
+        "percentage": null
+      },
+      {
+        "address": "58cdtU3CgTw1n4yHYzWXjmU7wBgujXvtxJaNwJYhJBLW",
+        "ui_amount": 10015215,
+        "percentage": null
+      },
+      {
+        "address": "45R4S2Hc62tRRbgZhkgPC4fdn5f3h5Zj7oCA93yA5En6",
+        "ui_amount": 8737471.435433,
+        "percentage": null
+      },
+      {
+        "address": "A77HErqtfN1hLLpvZ9pCtu66FEtM8BveoaKbbMoZ4RiR",
+        "ui_amount": 6833617.516713,
+        "percentage": null
+      },
+      {
+        "address": "62hrwrM9GujCNoYCtbAS8qTmyo4SGshFyC3sKvJF1D4L",
+        "ui_amount": 6329531.37,
+        "percentage": null
+      },
+      {
+        "address": "C7xPKScguNywdVDGGbzQeHqnngCeVsZwT9bJmHbV2wrv",
+        "ui_amount": 4685941,
+        "percentage": null
+      },
+      {
+        "address": "ASTyfSima4LLAdDgoFGkgqoKowG1LZFDr9fAQrg7iaJZ",
+        "ui_amount": 3533161.29469,
+        "percentage": null
+      },
+      {
+        "address": "GZGTiGshYWH7nhDfB5BYzCkB25xPf45MnkuaMPzpHTpo",
+        "ui_amount": 1229045.456415,
+        "percentage": null
+      }
+    ]
+  },
+  "market": null,
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": false
+  }
+}

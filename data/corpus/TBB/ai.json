@@ -1,0 +1,28 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 5.8,
+  "summary": "TBB has clean safety flags and healthy liquidity/volume metrics, but holder concentration is high and several critical fields are missing. The token does not show mint/freeze capabilities, so it is not an outright scam, but sparse deployer/LP data and concentrated holdings warrant caution.",
+  "red_flags": [
+    "Top 10 holders control approximately 76.8% of inferred supply; largest single holder controls ~66.8%",
+    "5 critical fields are simultaneously null: top10_percent, holder_count, deployer, lp_burned, total_supply",
+    "Deployer address is unknown/null, so dev_exited status cannot be confirmed",
+    "On-chain mintable/freezable status is null, though safety flags report false",
+    "LP burn/lock status is missing with lp_not_applicable=true"
+  ],
+  "green_flags": [
+    "mintable=false, freezable=false, metadata_mutable=false",
+    "transfer_fee_exists=false and non_transferable=false",
+    "Volume/liquidity ratio is 0.1877 with $298,851 liquidity and $56,083 24h volume",
+    "Market cap/FDV is $6,698,814 with positive 24h price change +8.33%",
+    "DEX is pumpswap and token has migrated to Raydium"
+  ],
+  "ai_note": "The main drag is inferred top-holder concentration and missing deployer/LP data; clean safety flags and healthy market metrics keep it from RISKY/SCAM.",
+  "sections": {
+    "security": "Safety flags report mintable=false, freezable=false, metadata_mutable=false, non_transferable=false, and no transfer fee. On-chain mint/freeze authority fields are null, but the reported flags indicate no explicit mint or freeze capabilities.",
+    "holders": "holder_count and top10_percent are null. Based on the provided top_holders list and inferred total supply around 1B, the top 10 hold roughly 76.8% and the top wallet holds roughly 66.8%. This is a meaningful concentration risk.",
+    "market": "Liquidity is $298,851.41 with 24h volume $56,082.95, giving a healthy volume/liquidity ratio of 0.1877. Market cap and FDV are both $6,698,814. DEX is pumpswap, is_pumpswap=true, migrated_to_raydium=true, and price is up 8.33% in 24h.",
+    "deployer": "Deployer address is null and no transaction history is provided, so dev_exited cannot be confirmed. This missing deployer data adds uncertainty but is not by itself a scam trigger."
+  },
+  "red_flag_count": 5,
+  "green_flag_count": 5
+}

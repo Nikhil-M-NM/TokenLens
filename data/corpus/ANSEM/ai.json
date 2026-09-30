@@ -1,0 +1,24 @@
+{
+  "verdict": "RISKY",
+  "risk_score": 6.7,
+  "summary": "The token has clean safety flags and healthy liquidity, but holder concentration is high: the top 10 addresses hold roughly 67.1% of inferred supply, with the largest holder around 49.2%. Multiple critical data fields are also missing, adding uncertainty.",
+  "red_flags": [
+    "Top 10 holders control approximately 67.1% of inferred token supply; top address holds 491,000,104 tokens (~49.2%).",
+    "Critical fields null: holder_count, top10_percent, deployer, lp_burned, total_supply (5 nulls).",
+    "Deployer address is null, so dev_exited and transaction_count cannot be assessed."
+  ],
+  "green_flags": [
+    "Mintable=false, freezable=false, metadata_mutable=false, transfer_fee=false, non_transferable=false.",
+    "Liquidity $2,711,734.07 and 24h volume $1,454,763.38 produce a healthy volume/liquidity ratio of 0.5365.",
+    "Trading on PumpSwap, is_pumpswap=true, migrated_to_raydium=true."
+  ],
+  "ai_note": "Risk score reflects inferred top-10 concentration from the provided holder list plus a null-penalty for missing deployer/LP/supply fields, despite clean safety flags.",
+  "sections": {
+    "security": "Mintable=false, freezable=false, metadata_mutable=false, transfer_fee_exists=false, and no on-chain mint/freeze authority addresses are provided; on-chain mintable/freezable fields are null but safety flags are clean.",
+    "holders": "holder_count and top10_percent are null, but using the top_holders list against inferred total supply (~997.7M tokens) gives top10 concentration ≈67.1% and top1 ≈49.2%, indicating significant concentration risk.",
+    "market": "Liquidity is $2,711,734.07, 24h volume is $1,454,763.38, volume/liquidity ratio is 0.5365, market cap/FDV is $173,595,371, and dex is PumpSwap with migrated_to_raydium=true; market activity appears healthy despite 24h price decline of -8.59%.",
+    "deployer": "Deployer is null; dev_exited, transaction_count, and address-level behavior are unknown, adding uncertainty to the assessment."
+  },
+  "red_flag_count": 3,
+  "green_flag_count": 3
+}

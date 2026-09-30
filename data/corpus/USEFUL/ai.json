@@ -1,0 +1,27 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 4.5,
+  "summary": "USEFUL COIN has clean on-chain safety flags (not mintable, not freezable, immutable metadata) and healthy Raydium liquidity/volume, but multiple critical data points are missing, including holder count, top10%, total supply, deployer, and LP burn/lock status. This data sparsity caps the token at CAUTION rather than SAFE.",
+  "red_flags": [
+    "Missing holder_count, top10_percent, total_supply, deployer, and lp_burned/lp_locked simultaneously",
+    "Deployer address is unknown (deployer: null)",
+    "No LP burn or lock verification available (lp_burned: null, lp_locked: null)",
+    "24h price change is -12.65% with 1h +8.64%, indicating high volatility"
+  ],
+  "green_flags": [
+    "mintable=false and freezable=false",
+    "metadata_mutable=false (metadata is immutable)",
+    "Liquidity is $140,422.49 with 24h volume $86,748.10 (volume/liquidity ratio 0.6178)",
+    "Top holder address FZuTAAR... is the Raydium pair address, so the largest token balance likely represents LP, not an individual whale",
+    "Market cap/FDV is $822,031 and price is $0.0008220"
+  ],
+  "ai_note": "Score is capped at CAUTION due to sparse null data despite clean safety flags and healthy market metrics.",
+  "sections": {
+    "security": "mintable=false, freezable=false, metadata_mutable=false, non_transferable=false, transfer_fee_exists=false. On-chain mint/freeze authority fields are null, but the explicit safety flags are clean.",
+    "holders": "holder_count and top10_percent are null; the provided top-10 balances suggest roughly 23.7% of estimated total supply if total supply ~1B, which is not highly concentrated. Largest address is the Raydium pair address.",
+    "market": "Raydium DEX with $140,422.49 liquidity and $86,748.10 24h volume; volume/liquidity ratio 0.6178 indicates active but not wash-trade-level activity. Market cap/FDV $822,031. Price is volatile (24h -12.65%, 1h +8.64%).",
+    "deployer": "Deployer address is null/unknown, so dev_exited status and transaction history cannot be assessed. This is a data gap rather than a confirmed red flag."
+  },
+  "red_flag_count": 4,
+  "green_flag_count": 5
+}

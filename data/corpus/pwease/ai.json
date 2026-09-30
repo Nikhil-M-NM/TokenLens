@@ -1,0 +1,25 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 4.5,
+  "summary": "PWEASE has clean on-chain safety flags and healthy liquidity/volume, but several critical data points are missing, including holder concentration, deployer info, and LP burn/lock status. The token appears to have moderate top-holder concentration based on implied supply, but sparse data prevents a fully clean rating.",
+  "red_flags": [
+    "Missing critical fields: top10_percent, holder_count, deployer, lp_burned, and total_supply are all null",
+    "LP burn/lock status unknown: lp_burned=null, lp_locked=null, lp_lock_platform=null",
+    "Short-term price decline: -11.34% in 1h and -14.33% in 6h, despite +2.75% over 24h"
+  ],
+  "green_flags": [
+    "mintable=false, freezable=false, metadata_mutable=false",
+    "on_chain_mintable=false, on_chain_freezable=false; mint/freeze authority is null",
+    "Liquidity $899,738.41 with 24h volume $379,513.74, volume/liquidity ratio 0.4218",
+    "DEX: Raydium, migrated from pump; no transfer fee"
+  ],
+  "ai_note": "Scored CAUTION because clean safety flags and healthy market metrics are offset by sparse holder/deployer/LP data, limiting confidence in the analysis.",
+  "sections": {
+    "security": "Clean security profile: mintable=false, freezable=false, metadata_mutable=false, non_transferable=false, transfer_fee_exists=false. On-chain mint and freeze authority are also absent, reducing immediate smart-contract risk.",
+    "holders": "holder_count and top10_percent are null. The listed top-10 addresses sum to approximately 293.33M tokens; with FDV/price implying a supply near 1.0B tokens, that suggests roughly 29% top-10 concentration, but exact concentration cannot be verified from provided data.",
+    "market": "Raydium pair with $899,738.41 liquidity and $379,513.74 24h volume, giving a healthy 0.4218 volume/liquidity ratio. Market cap and FDV are both near $3.91M. Recent 1h and 6h price action is negative, signaling short-term volatility.",
+    "deployer": "Deployer address is null and dev_exited behavior is unknown. No transaction count or deployer history is available, so deployer-related risk cannot be assessed."
+  },
+  "red_flag_count": 3,
+  "green_flag_count": 4
+}

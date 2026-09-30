@@ -1,0 +1,101 @@
+{
+  "ca": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+  "token": {
+    "name": "The Black Bull",
+    "symbol": "ANSEM",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": null,
+    "on_chain_freezable": null,
+    "mint_authority_address": null,
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "7oU9nR9VEvFPwvp2PpXo2LQc6A92QRhcUTwhLWT7MsDM",
+        "ui_amount": 491000104.041975,
+        "percentage": null
+      },
+      {
+        "address": "GV6UUmNxz2RpKxmNAPadYKb7uQpszwqQAu3qLJxVdC52",
+        "ui_amount": 91432501.146536,
+        "percentage": null
+      },
+      {
+        "address": "87ZDLDDbMAqmHJwsAgNjpJVCf9gZvwMJJMbFbXNTrkva",
+        "ui_amount": 23776901.01841,
+        "percentage": null
+      },
+      {
+        "address": "2ozxuSn8UhZ1ZsoZJvmmY65GBPpyZ7sAHzogpVcn4Yam",
+        "ui_amount": 22030973.329688,
+        "percentage": null
+      },
+      {
+        "address": "9SLPTL41SPsYkgdsMzdfJsxymEANKr5bYoBsQzJyKpKS",
+        "ui_amount": 11779161.066084,
+        "percentage": null
+      },
+      {
+        "address": "CLM6E4zpTviEC77nWKogpVLQoXx9tgoQCYJ8NibxKg1Q",
+        "ui_amount": 8930226.134293,
+        "percentage": null
+      },
+      {
+        "address": "FnzKY6x7entQ1eR3D225dQyT7ybfka4PskBMQhb8L3CC",
+        "ui_amount": 7797971.348236,
+        "percentage": null
+      },
+      {
+        "address": "HCgo8gvk99Wk13XWbbAoyxyEx2DgzidzVDma4ny32uYC",
+        "ui_amount": 4250887.298643,
+        "percentage": null
+      },
+      {
+        "address": "ASTyfSima4LLAdDgoFGkgqoKowG1LZFDr9fAQrg7iaJZ",
+        "ui_amount": 3985639.044121,
+        "percentage": null
+      },
+      {
+        "address": "3kfyzegbWkgAdLWtywmGcLFcUw2RPzt3i1EEzdXYtYM8",
+        "ui_amount": 3926381.955434,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "0.1740",
+    "liquidity_usd": 2711734.07,
+    "volume_24h": 1454763.38,
+    "volume_liquidity_ratio": 0.5365,
+    "market_cap": 173595371,
+    "fdv": 173595371,
+    "pair_address": "FnzKY6x7entQ1eR3D225dQyT7ybfka4PskBMQhb8L3CC",
+    "dex": "pumpswap",
+    "is_pumpswap": true,
+    "migrated_to_raydium": true,
+    "price_change_h24": -8.59,
+    "price_change_h6": -2.73,
+    "price_change_h1": -2.4
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": true
+  }
+}

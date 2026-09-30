@@ -1,0 +1,27 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 5,
+  "summary": "BOBO has clean token authority settings: non-mintable, non-freezable, immutable metadata, and no freeze/mint authority. However, deployer data is missing, top10 holder concentration is estimated around 51% with the top holder at ~32%, and 24h volume is low relative to the $6.06M market cap. These data gaps and moderate concentration warrant caution rather than a safe rating.",
+  "red_flags": [
+    "top10_percent, holder_count, deployer, lp_burned, and total_supply are all null (5 key data gaps simultaneously)",
+    "Implied top10 concentration is ~51.0% of supply, with the largest holder at ~32.3%",
+    "24h volume $17,662 is only ~0.29% of $6,062,517 market cap, indicating low activity relative to mcap",
+    "Deployer address is null, so dev_exited behavior cannot be verified"
+  ],
+  "green_flags": [
+    "mintable=false, freezable=false, metadata_mutable=false",
+    "on_chain_mintable=false, on_chain_freezable=false",
+    "mint_authority_address=null, freeze_authority_address=null",
+    "Liquidity is $363,992.94 and volume/liquidity ratio is 0.0485, not extremely thin",
+    "lp_not_applicable=true on pumpswap, so no fake lock status is being claimed"
+  ],
+  "ai_note": "The score is driven by clean contract safety flags but meaningful data gaps and low relative volume; this is not a scam signal by itself, but unknown deployer and moderate concentration keep it out of SAFE.",
+  "sections": {
+    "security": "The token has mintable=false, freezable=false, metadata_mutable=false, on_chain_mintable=false, on_chain_freezable=false, and both mint_authority_address and freeze_authority_address are null. No on-chain authority can mint new supply or freeze accounts.",
+    "holders": "holder_count and top10_percent are null. Using the listed top 10 balances and an implied total supply of ~1,000,000,000 from price and market cap, the top10 combined amount is ~510.1M tokens, approximately 51.0%. The largest holder has ~323.0M tokens, around 32.3%.",
+    "market": "Liquidity is $363,992.94 with 24h volume $17,662.37, giving a volume/liquidity ratio of 0.0485. Market cap and FDV are both $6,062,517. The DEX is pumpswap and the token has not migrated to Raydium. Volume relative to market cap is low at ~0.29%.",
+    "deployer": "Deployer address is null, and no dev_exited or transaction_count data is available. This is a significant transparency gap because deployer behavior cannot be assessed."
+  },
+  "red_flag_count": 4,
+  "green_flag_count": 5
+}

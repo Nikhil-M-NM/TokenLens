@@ -1,0 +1,101 @@
+{
+  "ca": "rMVmRp5DJch9sVxJTgchcDbgkK3phgmEd9a8Yk3PLEX",
+  "token": {
+    "name": "SolanaDEX Token",
+    "symbol": "SDEX",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": false,
+    "on_chain_freezable": false,
+    "mint_authority_address": null,
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "GpMZbSM2GgvTKHJirzeGfMFoaZ8UR2X7F4v8vHTvxFbL",
+        "ui_amount": 81079454.225567,
+        "percentage": null
+      },
+      {
+        "address": "4F5gEZeW1G8V5VkGCsuvMoFeLDHdDehoQYLY98spatto",
+        "ui_amount": 16029490.241297,
+        "percentage": null
+      },
+      {
+        "address": "2X2WjWg1hojNw64XtjKMg5YFkD74bXtfcyddVNPdiEv1",
+        "ui_amount": 11882207.610306,
+        "percentage": null
+      },
+      {
+        "address": "5PexXruFgaEjrJBFe47XFzjiZaHNCCuRjbR5oPWg7Gyg",
+        "ui_amount": 11684106.598165,
+        "percentage": null
+      },
+      {
+        "address": "EERvZVn2RpaC7un6hUXpHTzdzNPkJf7z36MnZ3kBvGzd",
+        "ui_amount": 10979189.505937,
+        "percentage": null
+      },
+      {
+        "address": "2Xc5uLb6DCbh4ayruyntrQtHP1h4gxvpUtgKmU4MWfEg",
+        "ui_amount": 10902666.858007,
+        "percentage": null
+      },
+      {
+        "address": "2RsrWddz4F13P3cw1Ra6oFt2aqGar8J1cKwXjEif4bwd",
+        "ui_amount": 10782272.249872,
+        "percentage": null
+      },
+      {
+        "address": "47os2bc9AHKRbn5Cst2vtrMAVwsNF8z9Buj8tJfuVEfr",
+        "ui_amount": 10514688.719025,
+        "percentage": null
+      },
+      {
+        "address": "35d8v1jE63YYRnDaobDwQXV2emkqWnqFFXCX4iiocgYa",
+        "ui_amount": 10414036.396119,
+        "percentage": null
+      },
+      {
+        "address": "8nFWAeYVm8Ls4DSDTcfy9D93BiFm1Dz6HgvY7rLZWFT5",
+        "ui_amount": 10071822.112863,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "0.0004620",
+    "liquidity_usd": 74932.58,
+    "volume_24h": 12173.83,
+    "volume_liquidity_ratio": 0.1625,
+    "market_cap": 462094,
+    "fdv": 462094,
+    "pair_address": "61Z2epy6bm9UwrgAqjT6a2UoQaiKnQDcBXywpQcxGu6K",
+    "dex": "raydium",
+    "is_pumpswap": false,
+    "migrated_to_raydium": false,
+    "price_change_h24": 21.7,
+    "price_change_h6": -0.03,
+    "price_change_h1": 0.3
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": false
+  }
+}

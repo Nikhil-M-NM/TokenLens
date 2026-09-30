@@ -1,0 +1,33 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 5,
+  "summary": "PayPal USD (PYUSD) shows strong safety fundamentals with no mint or freeze authorities and immutable metadata, but critical data like deployer address, holder count, and top10 concentration are missing. The token has deep liquidity ($18M) and solid 24h volume ($7.7M), matching a legitimate stablecoin. Missing data prevents a completely clean assessment.",
+  "red_flags": [
+    "deployer is null (unknown deployer)",
+    "holder_count is null",
+    "top10_percent is null (unknown concentration)",
+    "on_chain_mintable and on_chain_freezable data missing",
+    "lp_burned and lp_locked data missing (lp_not_applicable true)",
+    "total_supply and age_days are null"
+  ],
+  "green_flags": [
+    "mintable=false",
+    "freezable=false",
+    "metadata_mutable=false",
+    "transfer_fee_exists=false",
+    "liquidity_usd=17,999,275.75 (deep liquidity)",
+    "volume_24h=7,731,165.59 (healthy volume)",
+    "volume_liquidity_ratio=0.4295 (good ratio)",
+    "price stable at ~$1.00",
+    "not a pump.swap token"
+  ],
+  "ai_note": "Token data matches the known PYUSD stablecoin, but the lack of holder concentration and deployer details forces a CAUTION rating despite strong market metrics.",
+  "sections": {
+    "security": "Token is not mintable, not freezable, and metadata is immutable. No on-chain mint or freeze authorities detected. All standard safety flags are clean.",
+    "holders": "Holder count and top10 percentage are missing, making concentration risk unquantifiable. Top holder address holds 385.6M units, but without total supply, its share is unknown.",
+    "market": "Liquidity is $18M, 24h volume is $7.7M (ratio 0.43), and price is pegged to $1. Market cap is $3.57B, but FDV is only $154M, which contradicts typical tokenomics and may indicate a data error.",
+    "deployer": "Deployer address is null, so dev_exited cannot be determined. This missing data introduces uncertainty about developer involvement."
+  },
+  "red_flag_count": 6,
+  "green_flag_count": 9
+}

@@ -1,0 +1,87 @@
+{
+  "ca": "HmMubgKx91Tpq3jmfcKQwsv5HrErqnCTTRJMB6afFR2u",
+  "token": {
+    "name": null,
+    "symbol": null,
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": false,
+    "on_chain_freezable": false,
+    "mint_authority_address": null,
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "71jZHiNGrk34rQSdrupKomqCqrxqXXnWodYi9ukwVSVn",
+        "ui_amount": 1900000000,
+        "percentage": null
+      },
+      {
+        "address": "BRGZXmNWZYs9t5jwYjAkZgMVWFrYxPtdTtRXeGxjM3QB",
+        "ui_amount": 1235000000,
+        "percentage": null
+      },
+      {
+        "address": "9ukoS4h24zxty8dwhynTYtsmJo9i85uBdKPJz9Bx5xUu",
+        "ui_amount": 950000000,
+        "percentage": null
+      },
+      {
+        "address": "HkKnNeZsbc6wJ1WiZuwjJHPsG7ci1iT2g7eyAR9p1YUT",
+        "ui_amount": 949999800,
+        "percentage": null
+      },
+      {
+        "address": "FUTzCJppLqd7XmJauyAgNWwpnqRdYmX47WDN2gzFVM7h",
+        "ui_amount": 790000000,
+        "percentage": null
+      },
+      {
+        "address": "Chex4CmMa4eLz43ctANgcumGkQCJ5Rrpu56RNnML4PSp",
+        "ui_amount": 700000000,
+        "percentage": null
+      },
+      {
+        "address": "6PyrZyZnRFG8JJ3eEZW8rvp45rJsSrRerQqZJgXnArPr",
+        "ui_amount": 600000000,
+        "percentage": null
+      },
+      {
+        "address": "6JYVbUCXVZ93knvd2M6mFEdoHqGSWWGGo4zkiTmMZUDW",
+        "ui_amount": 500000000,
+        "percentage": null
+      },
+      {
+        "address": "AtA6jwkqEPUCXTUoiy5DfZ2iCzinYkunvpYGTjVT4osd",
+        "ui_amount": 500000000,
+        "percentage": null
+      },
+      {
+        "address": "61NptrKJvDN6hT9p1AoeA64vYZZfCXR7vQ3Q5PAnyEyz",
+        "ui_amount": 450000000,
+        "percentage": null
+      }
+    ]
+  },
+  "market": null,
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": false
+  }
+}

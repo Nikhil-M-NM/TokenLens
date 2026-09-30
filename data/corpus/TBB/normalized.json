@@ -1,0 +1,101 @@
+{
+  "ca": "42cXQvAAr7hcPBPWAS4ocVtDyeJ4Fa6gRR2uG4gppump",
+  "token": {
+    "name": "The Bitcoin Bull",
+    "symbol": "TBB",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": null,
+    "on_chain_freezable": null,
+    "mint_authority_address": null,
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "5tXbZm8pq7wne5cQaSWvWhtF8MvCjxSyfBNB89bqJe3m",
+        "ui_amount": 668231640.552121,
+        "percentage": null
+      },
+      {
+        "address": "6unnG2hL8udPjDpu3TchvAtptu3dq8AS7tymrWDN2LLC",
+        "ui_amount": 22307934.737963,
+        "percentage": null
+      },
+      {
+        "address": "7ADtVjWrHjMhBejD9qSTsup6JMqFQBGLYW79QumPsAiV",
+        "ui_amount": 15406834.250629,
+        "percentage": null
+      },
+      {
+        "address": "AAgeUpYYFfDQ42wZLFdejMfdssf9rVCVMeZfWzceGA2w",
+        "ui_amount": 12278342.67958,
+        "percentage": null
+      },
+      {
+        "address": "7xrn66NMx8TMLXbzVCfsY18ey2PjZA71EA91dUKjZXMk",
+        "ui_amount": 10075353.527273,
+        "percentage": null
+      },
+      {
+        "address": "67bWpBwiiEdgP78ASpAPg6Next2Gtdycu1GFumRLs1Xw",
+        "ui_amount": 10000000,
+        "percentage": null
+      },
+      {
+        "address": "BF5LiSGqEVmWswKWfBHGv8J6DLM6QLYAy7gAYXg3ZqDQ",
+        "ui_amount": 10000000,
+        "percentage": null
+      },
+      {
+        "address": "2YFnvrvMyckddL3gkRu46CFFSF7m2XsHJW7CLNvtNpfk",
+        "ui_amount": 7261088.627906,
+        "percentage": null
+      },
+      {
+        "address": "2whezd4yqrtnDM51nMovg1DSJgdLxGcwpGF3mh7F6HrC",
+        "ui_amount": 6967870.943014,
+        "percentage": null
+      },
+      {
+        "address": "Frndc76T7JhnTaVbx8V6UNcG1rBPfAdrcByVcBvtCLNu",
+        "ui_amount": 5916155.048013,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "0.006698",
+    "liquidity_usd": 298851.41,
+    "volume_24h": 56082.95,
+    "volume_liquidity_ratio": 0.1877,
+    "market_cap": 6698814,
+    "fdv": 6698814,
+    "pair_address": "6unnG2hL8udPjDpu3TchvAtptu3dq8AS7tymrWDN2LLC",
+    "dex": "pumpswap",
+    "is_pumpswap": true,
+    "migrated_to_raydium": true,
+    "price_change_h24": 8.33,
+    "price_change_h6": 20.8,
+    "price_change_h1": 8.32
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": true
+  }
+}

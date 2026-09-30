@@ -1,0 +1,26 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 4.5,
+  "summary": "SolanaDEX Token (SDEX) has clean on-chain safety flags with no mint/freeze authority and immutable metadata, and its estimated top-10 holder concentration is only about 18.4%. However, several critical data fields—including LP burn/lock, deployer, total supply, and holder count—are missing, capping confidence.",
+  "red_flags": [
+    "LP burn/lock status unknown: lp_burned=null, lp_locked=null, lp_not_applicable=false",
+    "Deployer address and dev_exited status are null, so dev behavior cannot be assessed",
+    "Five critical fields null simultaneously: top10_percent, holder_count, deployer, lp_burned, total_supply"
+  ],
+  "green_flags": [
+    "mintable=false, freezable=false, metadata_mutable=false",
+    "No on-chain mint authority or freeze authority present",
+    "Estimated top-10 concentration ~18.4% from top holder list vs implied total supply",
+    "Liquidity $74,932.58 with 24h volume $12,173.83; volume/liquidity ratio 0.1625 indicates healthy market activity",
+    "Listed on Raydium with market cap/FDV $462,094 and no pumpswap migration flag"
+  ],
+  "ai_note": "Score reflects clean contract safety and healthy market metrics, but the absence of LP lock/burn and deployer data creates meaningful uncertainty.",
+  "sections": {
+    "security": "Token is not mintable, not freezable, metadata is immutable, non_transferable is false, and no on-chain mint/freeze authority exists. Transfer fee is absent. These are strong safety indicators.",
+    "holders": "holder_count and top10_percent are null. Summing the shown top-10 balances gives ~184.34M tokens; using implied total supply from market cap/price (~1.00B tokens), top10 concentration is approximately 18.4%, with the largest holder at ~8.1%.",
+    "market": "Price is $0.0004620 with liquidity $74,932.58 and 24h volume $12,173.83 (volume/liquidity ratio 0.1625). Market cap/FDV is $462,094 on Raydium. 24h price change is +21.7%, but shorter timeframes are stable (-0.03% 6h, +0.3% 1h). LP burn/lock status is null, so liquidity lock verification is unavailable.",
+    "deployer": "Deployer address is null, so dev_exited and transaction_count cannot be evaluated. This is a significant data gap for assessing deployer behavior."
+  },
+  "red_flag_count": 3,
+  "green_flag_count": 5
+}

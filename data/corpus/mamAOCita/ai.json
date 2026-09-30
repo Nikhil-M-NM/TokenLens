@@ -1,0 +1,27 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 4.5,
+  "summary": "The token has clean safety flags with no mint, freeze, or metadata mutability risk, and shows healthy liquidity and volume. However, several critical data fields are missing simultaneously, including deployer, holder concentration, total supply, and LP burn status, which limits confidence and triggers a CAUTION rating.",
+  "red_flags": [
+    "deployer is null, so dev_exited and deployer behavior cannot be verified",
+    "holder_count, top10_percent, lp_burned, lp_locked, and total_supply are all null",
+    "on-chain mint authority and freeze authority fields are null, though off-chain flags are false",
+    "price decline: -12.05% over 6h and -7.21% over 24h"
+  ],
+  "green_flags": [
+    "mintable=false, freezable=false, metadata_mutable=false",
+    "liquidity_usd=$72,938.91 and volume_liquidity_ratio=0.4108 indicate healthy market liquidity",
+    "volume_24h=$29,961.75 is substantial relative to liquidity",
+    "market_cap and FDV are equal at $462,413, suggesting no unlock inflation mismatch",
+    "DEX is pumpswap and migrated_to_raydium=false, so LP is handled by pump swap mechanics"
+  ],
+  "ai_note": "Score is capped at CAUTION because multiple critical fields are null despite clean safety flags and adequate market metrics.",
+  "sections": {
+    "security": "mintable=false, freezable=false, metadata_mutable=false. Non-transferable=false and transfer_fee_exists=false. No on-chain mint or freeze authority is confirmed because fields are null, so full revocation cannot be verified on-chain.",
+    "holders": "holder_count and top10_percent are null. Top 10 listed addresses sum to about 269.6M tokens, roughly 28.4% of inferred supply if market cap and price imply about 948M total supply. The largest holder is the pump swap pair address, which is normal for liquidity.",
+    "market": "Liquidity is $72,938.91 with $29,961.75 24h volume, giving a healthy volume/liquidity ratio of 0.4108. Market cap and FDV are both $462,413. Price has declined 7.21% in 24h and 12.05% in 6h, which is a mild short-term risk signal.",
+    "deployer": "deployer is null, so there is no known deployer address and no dev_exited flag. This missing data prevents assessment of deployer behavior or exit risk."
+  },
+  "red_flag_count": 4,
+  "green_flag_count": 5
+}

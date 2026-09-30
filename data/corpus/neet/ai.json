@@ -1,0 +1,25 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 4.5,
+  "summary": "Clean immutable token permissions and healthy pump/raydium liquidity and volume, but sparse holder, supply, LP, and deployer data prevents full verification. Score reflects data gaps rather than confirmed malicious behavior.",
+  "red_flags": [
+    "deployer address is null/unknown, so dev_exited and deployer behavior cannot be assessed",
+    "holder_count and top10_percent are null; top-10 concentration cannot be fully verified",
+    "total_supply, lp_burned, and lp_locked are null; lp_not_applicable=true limits LP burn/lock verification"
+  ],
+  "green_flags": [
+    "Safety flags clean: mintable=false, freezable=false, metadata_mutable=false, transfer_fee_exists=false",
+    "On-chain mint/freeze authorities absent (on_chain_mintable=false, on_chain_freezable=false)",
+    "Healthy market liquidity $2,306,123 and 24h volume $1,395,882 (volume/liquidity ratio 0.6053)",
+    "market_cap and fdv both $44,307,469 with no obvious mismatch"
+  ],
+  "ai_note": "Confidence is limited by missing deployer, total supply, and holder-count data; no confirmed malicious flags were found.",
+  "sections": {
+    "security": "mintable=false, freezable=false, metadata_mutable=false; on-chain mintable=false, on-chain freezable=false; mint and freeze authority addresses are null; no transfer fee or non-transferable restrictions.",
+    "holders": "holder_count and top10_percent are null; listed top-10 balances sum to about 186.6M tokens, implying roughly 18.7% of a ~1B implied supply, but this cannot be confirmed without total supply.",
+    "market": "Liquidity is $2,306,123.07 with 24h volume $1,395,882.23 and volume/liquidity ratio 0.6053; mcap/fdv $44,307,469; DEX is pumpswap and migrated to raydium; price change -2.32% over 24h.",
+    "deployer": "deployer is null/unknown; dev_exited cannot be assessed, and no transaction_count is provided."
+  },
+  "red_flag_count": 3,
+  "green_flag_count": 4
+}

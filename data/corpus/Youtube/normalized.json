@@ -1,0 +1,101 @@
+{
+  "ca": "HgkJyiFRaCd6b9kmmrYGJLKnufVf6ZbKQawyqTUSpump",
+  "token": {
+    "name": "Justice for Youtube",
+    "symbol": "Youtube",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": null,
+    "on_chain_freezable": null,
+    "mint_authority_address": null,
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "2uNVy3FedDsUDipRvbXt2UyVzMvmoebcAx1aNaAGduze",
+        "ui_amount": 953167491.886935,
+        "percentage": null
+      },
+      {
+        "address": "8RKbnxf111pStFGqsirqAR8KnKgsSKLS4JFzGmL5zjR5",
+        "ui_amount": 38733103.520999,
+        "percentage": null
+      },
+      {
+        "address": "BM9CcyErJcu2mjrFvUsRRrD3snGeHDDVirJLvL6EjvMN",
+        "ui_amount": 1181911.018753,
+        "percentage": null
+      },
+      {
+        "address": "9UnZnrFJ1CXCmCorgGU9NvYkX5np1h4v4ympx3Nrdw3v",
+        "ui_amount": 547775.417809,
+        "percentage": null
+      },
+      {
+        "address": "HzCB6iniKYHeQtGv8r27DbGcxq28io9K9WNe7L6yv9tU",
+        "ui_amount": 540527.747352,
+        "percentage": null
+      },
+      {
+        "address": "ENiswnQuwNLPPv4HDGuNF9PGSwQzNBfkJ5ko4f3gy4jG",
+        "ui_amount": 4654.320845,
+        "percentage": null
+      },
+      {
+        "address": "7GgMNUw5kTJSdvYwPX3rqqWKofkPqHG62jSF3TfP1Wsw",
+        "ui_amount": 2798.779239,
+        "percentage": null
+      },
+      {
+        "address": "FJnztiM2rP6CjNjYfbQJCN4Hvkjj4Mg4phFb1XSuFCv8",
+        "ui_amount": 1740.934229,
+        "percentage": null
+      },
+      {
+        "address": "8N4QDR8m54PuV2KgHSu39QRHrNooNEK667hBeKVokZoc",
+        "ui_amount": 224.685211,
+        "percentage": null
+      },
+      {
+        "address": "27HFmP7ccLadGswvQfvea4o3juLw75cPF4V6jWpHM3MX",
+        "ui_amount": 7.122528,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "0.000002383",
+    "liquidity_usd": 2422.6,
+    "volume_24h": 301152.08,
+    "volume_liquidity_ratio": 124.3095,
+    "market_cap": 2369,
+    "fdv": 2369,
+    "pair_address": "2uNVy3FedDsUDipRvbXt2UyVzMvmoebcAx1aNaAGduze",
+    "dex": "pumpswap",
+    "is_pumpswap": true,
+    "migrated_to_raydium": false,
+    "price_change_h24": -95.28,
+    "price_change_h6": -95.28,
+    "price_change_h1": -99.74
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": true
+  }
+}

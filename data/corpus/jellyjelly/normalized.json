@@ -1,0 +1,101 @@
+{
+  "ca": "FeR8VBqNRSUD5NtXAj2n3j1dAHkZHfyDktKuLXD4pump",
+  "token": {
+    "name": "jelly-my-jelly",
+    "symbol": "jellyjelly",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": false,
+    "on_chain_freezable": false,
+    "mint_authority_address": null,
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "u6PJ8DtQuPFnfmwHbGFULQ4u4EgjDiyYKjVEsynXq2w",
+        "ui_amount": 341082059.852649,
+        "percentage": null
+      },
+      {
+        "address": "7TWnq4WeYcwQWBCwKeEX2Q9xqVtthPGkB7adNvueuVuh",
+        "ui_amount": 59460742.779426,
+        "percentage": null
+      },
+      {
+        "address": "F7gbKSvgYzTwPbJRZj9tDVawvUy44fYq7Uurq5xY1sf",
+        "ui_amount": 54969592.26,
+        "percentage": null
+      },
+      {
+        "address": "ENeUV2nvwVkx49uuoDH1bFgQSxjZr4c2V6rzd6wfX9gm",
+        "ui_amount": 50000094.84,
+        "percentage": null
+      },
+      {
+        "address": "36etna7WmtPGwBvG8FezQhpCBUmzTk7aqWWpFPFZdjHe",
+        "ui_amount": 49975790.42,
+        "percentage": null
+      },
+      {
+        "address": "Drbjc7Ksaof7CUTjxsddgA3QJz6XPaUxYdTi8sNwAe2Y",
+        "ui_amount": 38812663.889188,
+        "percentage": null
+      },
+      {
+        "address": "ALY1KxArD1E8CuhFRY9BJQ1Tit4KJrLe4AmWw1bmsTT",
+        "ui_amount": 38547565.617289,
+        "percentage": null
+      },
+      {
+        "address": "GxcQAZcybesiTAz1JrZEj52ah2sYAuigf4K9snGVnb74",
+        "ui_amount": 38176849.385198,
+        "percentage": null
+      },
+      {
+        "address": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+        "ui_amount": 37268541.942332,
+        "percentage": null
+      },
+      {
+        "address": "BxRyZfat9hk4cm5C4nxtV6bBQ5pVVbESiBhomunPxDpv",
+        "ui_amount": 29999994.68,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "0.05931",
+    "liquidity_usd": 4450518.63,
+    "volume_24h": 1058964.55,
+    "volume_liquidity_ratio": 0.2379,
+    "market_cap": 59318683,
+    "fdv": 59318683,
+    "pair_address": "3bC2e2RxcfvF9oP22LvbaNsVwoS2T98q6ErCRoayQYdq",
+    "dex": "raydium",
+    "is_pumpswap": false,
+    "migrated_to_raydium": true,
+    "price_change_h24": 2.45,
+    "price_change_h6": -3.31,
+    "price_change_h1": -1.52
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": false
+  }
+}

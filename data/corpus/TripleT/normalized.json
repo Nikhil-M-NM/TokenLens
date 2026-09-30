@@ -1,0 +1,101 @@
+{
+  "ca": "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump",
+  "token": {
+    "name": "Tung Tung Tung Sahur",
+    "symbol": "TripleT",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": null,
+    "on_chain_freezable": null,
+    "mint_authority_address": null,
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "3KFCgJ5R3zshW8hTDbzjSrrKSRYmKvsMfhc4Vo4iddxD",
+        "ui_amount": 38735211.541127,
+        "percentage": null
+      },
+      {
+        "address": "8k1BPp8pCxq7RJxxBz3BUxvBjsfjhkHKnhr2WSQABGM9",
+        "ui_amount": 29918677.992064,
+        "percentage": null
+      },
+      {
+        "address": "A2JxRhVpS84UUWfKfCAJ84anexKzKdfDoh9tq5sdRPzH",
+        "ui_amount": 23714206.365118,
+        "percentage": null
+      },
+      {
+        "address": "8qtXHiU9Cb84Kgz3HsSiJs2Z2kDB5pRadwi4fEuy8jzN",
+        "ui_amount": 20575983.749839,
+        "percentage": null
+      },
+      {
+        "address": "3g2TUkrZf86bfGQXcfJ7xMCFSmnssdpeTxe5V7y5GDpb",
+        "ui_amount": 20484155.492518,
+        "percentage": null
+      },
+      {
+        "address": "87rRdssFiTJKY4MGARa4G5vQ31hmR7MxSmhzeaJ5AAxJ",
+        "ui_amount": 18372302.098165,
+        "percentage": null
+      },
+      {
+        "address": "42fB6KWYCTRVxCBh3iCZ9zRF83srUcHvh2Twy5sUKNbd",
+        "ui_amount": 18000000,
+        "percentage": null
+      },
+      {
+        "address": "83b2LMf12aLec92kur3duRA8VvUkLaXUtML31aCcZNCM",
+        "ui_amount": 15526564.952991,
+        "percentage": null
+      },
+      {
+        "address": "FjxgGwchRnwxaEcTTNJ8MHkoUqZDHwuEVHawMGASx441",
+        "ui_amount": 14455110.930666,
+        "percentage": null
+      },
+      {
+        "address": "GBhJT2kvt5kB8oejza2WAo6eKQ9LsaW7BUzmoS2XZbuz",
+        "ui_amount": 13450321.450225,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "0.009495",
+    "liquidity_usd": 737149.13,
+    "volume_24h": 741188.12,
+    "volume_liquidity_ratio": 1.0055,
+    "market_cap": 9494900,
+    "fdv": 9494900,
+    "pair_address": "3KFCgJ5R3zshW8hTDbzjSrrKSRYmKvsMfhc4Vo4iddxD",
+    "dex": "pumpswap",
+    "is_pumpswap": true,
+    "migrated_to_raydium": true,
+    "price_change_h24": -4.68,
+    "price_change_h6": 4.36,
+    "price_change_h1": 3.22
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": true
+  }
+}

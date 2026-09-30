@@ -1,0 +1,25 @@
+{
+  "verdict": "SCAM",
+  "risk_score": 9,
+  "summary": "Despite metadata claims of no minting or freezing, on-chain data confirms both a mint authority and a freeze authority, allowing the creator to print unlimited tokens and lock user accounts. Combined with top-heavy holder distribution and contradictory market-cap data, this is a textbook rug pull setup. Extreme risk.",
+  "red_flags": [
+    "on-chain mint authority is set (EtnHujEkqJJbgfTA2aC6vgZp8DVgwG6KdBxt9V1J31KK) – token can be minted at any time",
+    "on-chain freeze authority is set (YBRBjnVxo7Cik6xwxMxkZMjAcytSW25efgk5ZPgojJU) – user accounts can be frozen",
+    "top holder owns 222,408,828 tokens, implying heavy concentration, though total supply is unknown",
+    "market cap ($1,171) is unrealistically tiny compared to $10M liquidity and $13M daily volume, suggesting manipulated or broken data"
+  ],
+  "green_flags": [
+    "metadata is immutable (cannot be changed after creation)",
+    "no transfer fees",
+    "token is not flagged as non-transferable"
+  ],
+  "ai_note": "The presence of an active freeze authority alone makes this token extremely dangerous, regardless of current liquidity depth; typical of malicious memecoins designed to trap funds.",
+  "sections": {
+    "security": "The metadata reports mintable=false and freezable=false, but on-chain inspection shows a live mint authority and a live freeze authority. This allows the deployer to create new tokens at will and freeze any holder's account, enabling classic rug pulls and targeted theft.",
+    "holders": "Holder count and top10 percentage are not provided, but the largest address holds 222M tokens and the next holds only 12M, indicating extreme skew. Without total supply, exact concentration cannot be calculated, but the distribution is clearly top-heavy.",
+    "market": "Liquidity is $10.1M with $13.4M 24h volume, yet the reported market cap is only $1,171 – a logical impossibility unless the price/supply data is corrupted or the token is in an extremely illiquid niche. This discrepancy alongside high volume suggests either manipulated market metrics or a token with a near-zero circulating supply but enormous total supply.",
+    "deployer": "The deployer address is not provided. No historical exit behavior can be assessed, but the on-chain authorities are sufficient to deem the token malicious regardless of deployer identity."
+  },
+  "red_flag_count": 4,
+  "green_flag_count": 3
+}

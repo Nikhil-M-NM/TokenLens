@@ -1,0 +1,26 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 4.5,
+  "summary": "Clean safety flags and healthy liquidity/volume suggest a low-risk profile, but multiple missing data fields trigger a CAUTION rating. Inferred top10 concentration is moderate around 50.5%, including the PumpSwap LP pair.",
+  "red_flags": [
+    "top10_percent and holder_count are null; holder concentration cannot be verified",
+    "deployer address is null; no dev_exited or transaction_count data",
+    "total_supply is null; exact supply cannot be verified",
+    "on_chain_mintable and on_chain_freezable are null despite off-chain clean flags"
+  ],
+  "green_flags": [
+    "mintable=false, freezable=false, metadata_mutable=false",
+    "liquidity_usd=$147,535.25 with volume_liquidity_ratio=0.2514",
+    "market_cap=$278,610 and fdv=$278,610, no supply overhang",
+    "deployed on PumpSwap with lp_not_applicable=true"
+  ],
+  "ai_note": "Confidence is limited primarily by missing supply and deployer data; no explicit scam red flags such as mint/freeze authority or extreme concentration are present.",
+  "sections": {
+    "security": "Off-chain safety flags are clean: mintable=false, freezable=false, metadata_mutable=false, non_transferable=false, transfer_fee_exists=false. On-chain mint and freeze authority fields are null, so verification is incomplete but no explicit red flags.",
+    "holders": "holder_count and top10_percent are null. Top 10 list includes the PumpSwap pair as largest holder with 162,008,440 tokens. Using implied total supply from mcap/price (~591.65M), top10 sum ~298.64M (~50.5%), moderate concentration.",
+    "market": "Liquidity $147,535, 24h volume $37,088, volume/liquidity ratio 0.2514, market cap/fdv $278,610. DEX is PumpSwap, not migrated to Raydium. Price changes: -2.24% 24h, +0.33% 6h, +1.55% 1h. Metrics look healthy for small cap.",
+    "deployer": "deployer is null; no dev_exited status or transaction count available. This is a data gap, not a confirmed exit."
+  },
+  "red_flag_count": 4,
+  "green_flag_count": 4
+}

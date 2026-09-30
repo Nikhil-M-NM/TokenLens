@@ -1,0 +1,101 @@
+{
+  "ca": "4rLgnFcuADTS2VD7sGxQjoiajbZjYZ411nF7gm7kpump",
+  "token": {
+    "name": "MamAOCita",
+    "symbol": "mamAOCita",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": null,
+    "on_chain_freezable": null,
+    "mint_authority_address": null,
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "7a9Qi43fP8SpGXLJ7ScbASkFnzKdnkHBMtaMZ7GSifA",
+        "ui_amount": 76515944.027507,
+        "percentage": null
+      },
+      {
+        "address": "9zqz2oHfsgeDyScrES4iTVqX1huPtttoLbe7EuFEit3L",
+        "ui_amount": 25479060.123698,
+        "percentage": null
+      },
+      {
+        "address": "CnEy6EVjK6bGMC9wxChibpkUQGNYPHWHttD2LAHJLggB",
+        "ui_amount": 24382929.622694,
+        "percentage": null
+      },
+      {
+        "address": "EJ1izM56eBS5baVLk7Q4iaQvsgCPa3W5bZgc44wwHz8U",
+        "ui_amount": 23328200.245865,
+        "percentage": null
+      },
+      {
+        "address": "CF1CDurbCDMYWmrfvrRuLPTLFUYvDYN5qYqSgknPUoFi",
+        "ui_amount": 22419862.428552,
+        "percentage": null
+      },
+      {
+        "address": "9ZKUfDTJZj3oup2TpcUY6tLxBRLtuN474d66nZbZwCHA",
+        "ui_amount": 21257197.001629,
+        "percentage": null
+      },
+      {
+        "address": "4i8yk4gvzcLHn95YPaHWS8pZHQaVfHEmQMiZwC1J1Ce8",
+        "ui_amount": 20858153.102456,
+        "percentage": null
+      },
+      {
+        "address": "ECnH8TPNKQGDdfEE9mkQDFYuMg43kaZz4jjGLaXajcH6",
+        "ui_amount": 20015812.076344,
+        "percentage": null
+      },
+      {
+        "address": "9GW41mgtTRKP6CHVJafLrK7uBBYWHxYhitwMFpWuez7h",
+        "ui_amount": 18089744.262593,
+        "percentage": null
+      },
+      {
+        "address": "FCsPncAHeyahqQM4R9FynWxFRp4QNAYuaQ8jkmB7giyT",
+        "ui_amount": 17235211.649536,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "0.0004878",
+    "liquidity_usd": 72938.91,
+    "volume_24h": 29961.75,
+    "volume_liquidity_ratio": 0.4108,
+    "market_cap": 462413,
+    "fdv": 462413,
+    "pair_address": "7a9Qi43fP8SpGXLJ7ScbASkFnzKdnkHBMtaMZ7GSifA",
+    "dex": "pumpswap",
+    "is_pumpswap": true,
+    "migrated_to_raydium": false,
+    "price_change_h24": -7.21,
+    "price_change_h6": -12.05,
+    "price_change_h1": null
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": true
+  }
+}

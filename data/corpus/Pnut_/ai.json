@@ -1,0 +1,26 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 5.5,
+  "summary": "The token has strong market metrics and clean safety flags, but high holder concentration (~71% top 10) and extensive missing transparency data (deployer, LP burn, holder count, total supply) create uncertainty. Multiple critical null fields trigger a CAUTION rating despite no on-chain vulnerabilities.",
+  "red_flags": [
+    "Top 10 holders control ~71% of supply (estimated from market cap and price).",
+    "holder_count, top10_percent, total_supply, deployer, lp_burned, and lp_locked are all null.",
+    "Deployer address unknown; dev_exited status cannot be verified."
+  ],
+  "green_flags": [
+    "Mintable, freezable, and metadata mutability are all false; no on-chain mint/freeze authority.",
+    "No transfer fee.",
+    "Liquidity $2.98M, 24h volume $183k, volume/liquidity ratio 6.16% indicates active market.",
+    "Traded on Raydium DEX, migrated from pump.fun.",
+    "Price stable: +2.49% in 24h, minor short-term dips."
+  ],
+  "ai_note": "Despite clean token safety, the high holder concentration and extensive missing data regarding deployer and LP status warrant caution.",
+  "sections": {
+    "security": "Token has mintable=false, freezable=false, metadata_mutable=false. On-chain mint and freeze authorities are null, indicating immutability. No transfer fee. Overall secure from token-based manipulation.",
+    "holders": "Top 10 holder addresses are known, but holder_count and top10_percent are missing. Using total supply estimated from market cap/price (~1B tokens), top 10 hold approximately 71%, indicating high concentration risk.",
+    "market": "Liquidity is strong at ~$2.98M, 24h volume $183k, volume/liquidity ratio 6.16%. Market cap fully diluted at $52.7M. Trading on Raydium with migration from pump.fun. Price slightly up +2.49% over 24h, with minimal short-term dips.",
+    "deployer": "Deployer address not provided, dev_exited status unknown. No transaction history available, so deployer behavior cannot be assessed, increasing uncertainty."
+  },
+  "red_flag_count": 3,
+  "green_flag_count": 5
+}

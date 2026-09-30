@@ -1,0 +1,101 @@
+{
+  "ca": "EpEfnZxQyiBXppSKi8sncc8w4corn1UJbF9G91fQpump",
+  "token": {
+    "name": "PEPE BROCK",
+    "symbol": "PEPENOM",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": null,
+    "on_chain_freezable": null,
+    "mint_authority_address": null,
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "Bd4wKg3xEBKJ4Xrw8skXMmJ4W65gk3x8yd7AovuBJisZ",
+        "ui_amount": 162008440.131915,
+        "percentage": null
+      },
+      {
+        "address": "AZbprcj2max8kvfkyxtYJoSNtVjYnbUWBpHNdzriaFB8",
+        "ui_amount": 27683275.375522,
+        "percentage": null
+      },
+      {
+        "address": "2dDwNUUZ8WrxNdoA9N1JS2k7ivLE63rLVj1UudwJkgh9",
+        "ui_amount": 19489539.74683,
+        "percentage": null
+      },
+      {
+        "address": "CVXVdj131qNBmKe9nuhuBriuiMoHGGGuHy4845tkNaDR",
+        "ui_amount": 18093491.824703,
+        "percentage": null
+      },
+      {
+        "address": "AcQt8vrMcoNiPqCjZuUMCDkHdm9C59WNNzFkKPAUcudA",
+        "ui_amount": 16440578.570162,
+        "percentage": null
+      },
+      {
+        "address": "DxG6u6xqShxrsAov7jr87JT8Tfnd9e5spiiK1rYxQyhy",
+        "ui_amount": 13412024.251171,
+        "percentage": null
+      },
+      {
+        "address": "5zF4URhvV6AWNk2USeQFHaEwHLawT4cJouYBRag5oMWq",
+        "ui_amount": 11946846.528921,
+        "percentage": null
+      },
+      {
+        "address": "5yH9ZjkAnp14WAR8Etg9g47yjMvDyhGEmQotEThAq3YB",
+        "ui_amount": 10153018.524352,
+        "percentage": null
+      },
+      {
+        "address": "7XhJgAQFCuERsFQKvKULGGCYUFKo8EJJJ9TsXXwEGFAy",
+        "ui_amount": 9757043.665557,
+        "percentage": null
+      },
+      {
+        "address": "2kKvnRcgNwawuG63PN7gZeEchkEY2rN2i83VRgFTKhxU",
+        "ui_amount": 9657283.880077,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "0.0004709",
+    "liquidity_usd": 147535.25,
+    "volume_24h": 37088.16,
+    "volume_liquidity_ratio": 0.2514,
+    "market_cap": 278610,
+    "fdv": 278610,
+    "pair_address": "Bd4wKg3xEBKJ4Xrw8skXMmJ4W65gk3x8yd7AovuBJisZ",
+    "dex": "pumpswap",
+    "is_pumpswap": true,
+    "migrated_to_raydium": false,
+    "price_change_h24": -2.24,
+    "price_change_h6": 0.33,
+    "price_change_h1": 1.55
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": true
+  }
+}

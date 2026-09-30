@@ -1,0 +1,24 @@
+{
+  "verdict": "SCAM",
+  "risk_score": 9.2,
+  "summary": "Token CHZ shows active on-chain mint and freeze authorities, giving the owner full control over supply and transfers. Holder concentration is extreme, with one wallet holding ~60% of total supply, and LP is not locked or burned. These factors create a classic rug pull scenario.",
+  "red_flags": [
+    "On-chain mint authority is active (on_chain_mintable=true) despite contract flag mintable=false",
+    "On-chain freeze authority is active (on_chain_freezable=true) despite contract flag freezable=false",
+    "Top holder controls approximately 60% of total supply (6M out of ~10M tokens)",
+    "LP is not burned or locked (lp_not_applicable=true, no lock data)",
+    "Missing critical data: total_supply, holder_count, top10_percent, deployer, and lp_burned all null, reducing transparency"
+  ],
+  "green_flags": [
+    "Metadata is immutable (metadata_mutable=false)"
+  ],
+  "ai_note": "Active mint and freeze authorities combined with extreme holder concentration indicate a high-confidence scam; the token can be diluted or frozen at any moment.",
+  "sections": {
+    "security": "While high-level safety flags claim mintable=false and freezable=false, the on-chain data reveals a valid mint authority and freeze authority at address ABMiDS6TEnvc1sfa1HG7LD85qV6ZaB1DBn2c2x3PKgk4. This means the token can be minted and frozen arbitrarily, undermining any trust in the supply cap.",
+    "holders": "Holder count and top10 percentage are missing, but from the top holder list, one address holds 6M tokens (~60% of the FDV-implied 10M supply). The top 10 combined exceed the implied supply, suggesting either additional uncirculated tokens or data inconsistency, both red flags.",
+    "market": "Liquidity of $117k with 24h volume of $46.7k yields a healthy volume/liquidity ratio of 0.40, and market cap is $344k. However, this liquidity could be pulled instantly given the unfrozen LP and minting capability, rendering these metrics unreliable.",
+    "deployer": "Deployer information is completely absent, preventing any assessment of prior activity or dev exit. This lack of transparency compounds the risk."
+  },
+  "red_flag_count": 5,
+  "green_flag_count": 1
+}

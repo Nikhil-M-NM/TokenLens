@@ -1,0 +1,26 @@
+{
+  "verdict": "SCAM",
+  "risk_score": 8.5,
+  "summary": "The token has clean contract safety flags (not mintable/freezable/metadata-mutable) but shows extreme market red flags: price collapsed -99.74% in 1 hour, liquidity is only $2,422.60, and the top holder/liquidity pool holds roughly 95.8% of estimated supply. This is consistent with a pump-and-dump/rug, despite sparse null deployer and holder metrics.",
+  "red_flags": [
+    "Price crashed -99.74% in 1 hour and -95.28% in 24 hours.",
+    "Liquidity is only $2,422.60 while 24h volume is $301,152.08, volume/liquidity ratio 124.31.",
+    "Top holder/pair address 2uNVy3FedDsUDipRvbXt2UyVzMvmoebcAx1aNaAGduze holds 953,167,491.886935 tokens, estimated ~95.8% of total supply.",
+    "Deployer, holder count, top10_percent, total_supply, and LP burn/lock data are missing (null).",
+    "DEX is pumpswap and not migrated to Raydium; lp_not_applicable true, so no liquidity lock verification."
+  ],
+  "green_flags": [
+    "mintable=false, freezable=false, metadata_mutable=false.",
+    "No transfer fee and non_transferable=false.",
+    "No explicit mint/freeze authority address listed."
+  ],
+  "ai_note": "Despite clean on-chain token permissions, the market behavior and extreme LP concentration are sufficient to treat this as a high-risk/rugged token; missing deployer and holder metrics add uncertainty but do not offset the red flags.",
+  "sections": {
+    "security": "mintable=false, freezable=false, metadata_mutable=false; on_chain_mintable and on_chain_freezable are null, so on-chain confirmation of no authority is incomplete, but no explicit mint/freeze authority is available.",
+    "holders": "holder_count and top10_percent are null, but top holder (pair) holds 953,167,491.9 tokens. Using market cap/price implies ~994M total supply, so top holder is ~95.8%; this is extreme concentration and the top holder is the liquidity pool address.",
+    "market": "Price $0.000002383, market cap $2,369, FDV $2,369, liquidity $2,422.6, 24h volume $301,152.08. Price changes: -95.28% 24h, -99.74% 1h. Volume/liquidity ratio 124.31 is very high and indicates churn/exit liquidity.",
+    "deployer": "deployer is null; dev_exited cannot be determined from provided data. No separate deployer top-holder address is identified; top holder is the pair."
+  },
+  "red_flag_count": 5,
+  "green_flag_count": 3
+}

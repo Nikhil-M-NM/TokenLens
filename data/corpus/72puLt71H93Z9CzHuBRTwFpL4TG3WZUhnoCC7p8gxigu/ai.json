@@ -1,0 +1,26 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 5.5,
+  "summary": "Token lacks basic on-chain metadata, and holder, market, and deployer data are entirely missing. While claimed token permissions are benign, unverified on-chain authorities, unknown holder concentration, and absent liquidity details raise significant uncertainty.",
+  "red_flags": [
+    "deployer=null (no deployer address or history)",
+    "holder_count=null, top10_percent=null (holder concentration unknown)",
+    "market data completely missing (liquidity, volume, mcap, FDV)",
+    "lp_burned=null, lp_locked=null (LP lock/burn status unknown)",
+    "on_chain_mintable=null, on_chain_freezable=null (on-chain authority verification missing)",
+    "name, symbol, description, total_supply, age_days all null"
+  ],
+  "green_flags": [
+    "mintable=false, freezable=false, metadata_mutable=false according to token flags",
+    "non_transferable=false, transfer_fee_exists=false"
+  ],
+  "ai_note": "Confidence is low due to pervasive missing data; unknown deployer, unverified on-chain authorities, and absent market data inflate risk score to CAUTION level.",
+  "sections": {
+    "security": "Flagged as non-mintable, non-freezable, and metadata immutable per token data, but on-chain mint and freeze authority verification is missing (null). This means the actual on-chain permissions are unconfirmed, leaving potential for hidden mint or freeze capabilities.",
+    "holders": "Holder count and top10 percentage are unknown. Only ten holder addresses are shown without percentage allocation; if these ten are all holders, concentration would be extreme, but data is insufficient to confirm.",
+    "market": "Market data is entirely absent: no liquidity, volume, market cap, FDV, or DEX information. LP burn and lock status are unverified, and lp_not_applicable=false implies an LP exists but its security is unknown.",
+    "deployer": "Deployer address is null, meaning the creator's identity and transaction history are unavailable. No evidence of dev exit or ongoing activity can be assessed."
+  },
+  "red_flag_count": 6,
+  "green_flag_count": 2
+}

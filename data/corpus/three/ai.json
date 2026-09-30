@@ -1,0 +1,26 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 4.5,
+  "summary": "Token has clean safety flags (mintable=false, freezable=false, metadata_mutable=false) and healthy market liquidity/volume metrics. However, several critical data fields are missing simultaneously (deployer, top10_percent, holder_count, total_supply, lp_burned), limiting confidence and warranting caution. Estimated top10 concentration is moderate at about 25%, and there is no evidence of rug pull mechanics or malicious on-chain authority.",
+  "red_flags": [
+    "Missing critical data: top10_percent=null, holder_count=null, deployer=null, lp_burned=null, total_supply=null (5 null fields triggers null-penalty per rubric)",
+    "Deployer address and dev_exited status unknown (deployer=null; dev_exited not provided)",
+    "On-chain mint_authority_address=null and freeze_authority_address=null, though safety flags indicate mintable=false and freezable=false"
+  ],
+  "green_flags": [
+    "mintable=false, freezable=false, metadata_mutable=false",
+    "non_transferable=false, transfer_fee_exists=false",
+    "volume/liquidity ratio=0.3966 with liquidity_usd=222,488.64 and volume_24h=88,231.69 (healthy)",
+    "Top holder address matches the pair address (liquidity pool); estimated top10 concentration ≈25.2% from top_holders list vs inferred ~999.7M supply",
+    "DEX=pumpswap, not migrated to Raydium; price 24h +11.29%, 6h +0.15%, 1h +1.34%"
+  ],
+  "ai_note": "Sparse data prevents a SAFE rating, but clean token permissions and healthy market metrics make this a CAUTION rather than RISKY or SCAM.",
+  "sections": {
+    "security": "mintable=false, freezable=false, metadata_mutable=false; non_transferable=false, transfer_fee_exists=false. On-chain mint/freeze authority fields are null, but safety flags show no capability to mint or freeze. Clean permissions overall, though on-chain authority data is missing.",
+    "holders": "holder_count=null and top10_percent=null, so official concentration is unknown. The top 10 addresses sum to about 251.8M tokens; using FDV/price implies total supply around 999.7M, so estimated top10 concentration is ≈25.2%. The largest holder is the pair/liquidity address.",
+    "market": "liquidity_usd=222,488.64, volume_24h=88,231.69, volume/liquidity ratio=0.3966. market_cap=926,787 and fdv=926,787. DEX=pumpswap, not migrated. Price has positive 24h momentum at +11.29%.",
+    "deployer": "deployer=null and dev_exited status is unknown. Cannot assess deployer behavior, transaction count, or exit risk. This is a caution due to missing data rather than evidence of malicious behavior."
+  },
+  "red_flag_count": 3,
+  "green_flag_count": 5
+}

@@ -6,17 +6,17 @@ Evaluation data for the paper *TokenLens: An AI-Powered Multi-Source Framework f
 
 | Path | Description |
 |---|---|
-| `data/evaluation_results.csv` | One row per token: contract address, name, symbol, ground-truth label (`truth`), TokenLens verdict, mapped class (`pred`), risk score, null-field count, latency (ms) |
-| `data/corpus/<SYMBOL>/normalized.json` | Frozen 47-field normalised input passed to the LLM |
+| `data/evaluation_results.csv` | One row per token (52): contract address, name, symbol, TokenLens verdict, risk score, flag counts, derived ratings, null-field count, schema validity, latency (ms), ground-truth label (`human risk label`), mapped class, correctness under the strict mapping, run date |
+| `data/corpus/<SYMBOL>/normalized.json` (folder named by CA when the symbol is unavailable) | Frozen 47-field normalised input passed to the LLM |
 | `data/corpus/<SYMBOL>/ai.json` | Schema-validated model output (verdict, risk score, summary, red/green flags, note, sections) |
 | `data/excluded_out_of_scope/` | Four stablecoin/governance tokens (USDS, CHZ, PRIME, PYUSD) run during corpus construction and excluded as out of scope |
 | `prompt/system_prompt.txt` | Prompt template and scoring rubric used for LLM synthesis (`${...}` is replaced by the normalised token data) |
 
 ## Evaluation setup
 
-- 29 Solana tokens: 10 Low Risk, 9 Medium Risk, 10 High Risk.
-- Labels assigned by the first author from RugCheck ratings and DEXScreener market profiles (token age, liquidity, volume, observed liquidity removals). Labels are proxies, not confirmed outcomes.
-- Each token was run once through the live system in June 2026 using DeepSeek-v4-pro (`reasoning_effort: "high"`, thinking enabled).
+- 52 Solana tokens in two batches: 29 run in June 2026 and 23 run on 26 September 2026 (see `run_date`). Overall: 15 Low Risk, 21 Medium Risk, 16 High Risk.
+- Labels assigned before running TokenLens, from RugCheck ratings and DEXScreener market profiles (token age, liquidity, volume, observed liquidity removals), using the same criteria for both batches. For the second batch, RugCheck and DEXScreener data were retrieved at labelling time. Labels are proxies, not confirmed outcomes.
+- Each token was run once through the live system using DeepSeek-v4-pro (`reasoning_effort: "high"`, thinking enabled).
 - Verdict-to-class mapping: SAFE -> Low, CAUTION -> Medium, RISKY/SCAM -> High.
 
 ## Reproducing the LLM stage

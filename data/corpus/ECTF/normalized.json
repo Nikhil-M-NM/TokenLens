@@ -1,0 +1,101 @@
+{
+  "ca": "CYZgj7N87PW5BvSyAPPqZm9d3Txnuo5gTk3p5fCReCTF",
+  "token": {
+    "name": "E-Commerce Trust Fund",
+    "symbol": "ECTF",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": false,
+    "on_chain_freezable": false,
+    "mint_authority_address": null,
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "HLnpSz9h2S4hiLQ43rnSD9XkcUThA7B8hQMKmDaiTLcC",
+        "ui_amount": 156510077.69998,
+        "percentage": null
+      },
+      {
+        "address": "6zjqxpvRSAp81kBgZEZpmNzrHFNBAHuF2dvJ26rm7twU",
+        "ui_amount": 114713685.091303,
+        "percentage": null
+      },
+      {
+        "address": "wxWeLowAShikUpR7tXGcTTBySWraHzSTteStNYJRkBF",
+        "ui_amount": 114713582.483938,
+        "percentage": null
+      },
+      {
+        "address": "EpEzDRsp1rVtDwypDmBx7ssapgzagGtqTDugHPbMzYeF",
+        "ui_amount": 114713121.352436,
+        "percentage": null
+      },
+      {
+        "address": "6gbyyMbcg5jCmHiKaBuXb1VgEc5RmjeWKvk68rQDL7nm",
+        "ui_amount": 114713105.470006,
+        "percentage": null
+      },
+      {
+        "address": "BbtM1QzbRnJzH6utQjDXFXp1PeCKYmSVT7jFiYxuweuw",
+        "ui_amount": 114712286.709347,
+        "percentage": null
+      },
+      {
+        "address": "w1UPzj1aihByLGA4x5ryf2EafbtDwa3LwF9adPfERTJ",
+        "ui_amount": 114712180.172977,
+        "percentage": null
+      },
+      {
+        "address": "D4YtvnkKiq5aJi59rGFrpbsoU4oo8WQZ7uXUULGzWrZX",
+        "ui_amount": 114711595.167105,
+        "percentage": null
+      },
+      {
+        "address": "8McLh9pScEAZ8kbXa6ZneV8dPq2ZfANKi9RkzMcZbHZy",
+        "ui_amount": 114711292.650309,
+        "percentage": null
+      },
+      {
+        "address": "cB3zkB7Noi67LTLcut8y2goRPgE8QYabsGstR7VVuQu",
+        "ui_amount": 114711026.235563,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "0.0002550",
+    "liquidity_usd": 79854.19,
+    "volume_24h": 9155.33,
+    "volume_liquidity_ratio": 0.1147,
+    "market_cap": 2550677,
+    "fdv": 2550677,
+    "pair_address": "BpWZdqanX7NicUdndYSiNQbmCpF5tB4oxqRJdQoKkWpd",
+    "dex": "meteora",
+    "is_pumpswap": false,
+    "migrated_to_raydium": false,
+    "price_change_h24": -5.93,
+    "price_change_h6": -0.65,
+    "price_change_h1": -0.61
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": false
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "RISKY",
+  "risk_score": 7,
+  "summary": "jelly-my-jelly (jellyjelly) has clean security settings (mintable/freezable/immutable metadata) and strong market metrics with $4.45M liquidity and healthy volume, but top 10 holders control ~73.8% of supply, indicating high concentration risk. Missing deployer, LP status, and several other key data fields add further uncertainty.",
+  "red_flags": [
+    "Top 10 holder concentration estimated at ~73.8%, exceeding the 60% risk threshold",
+    "Deployer address is null (unknown entity)",
+    "Multiple critical fields are null (top10_percent, holder_count, deployer, lp_burned, total_supply)",
+    "LP burn and lock status are unknown (not verifiable)"
+  ],
+  "green_flags": [
+    "Not mintable, not freezable, metadata immutable – on-chain authorities absent",
+    "High liquidity ($4.45M) with decent 24h volume ($1.06M) and volume/liquidity ratio 0.24",
+    "Traded on Raydium, migrated from pump swap (community launch indicative)"
+  ],
+  "ai_note": "Holder concentration derived from top holders list assuming ~1B total supply based on market cap; missing deployer and LP data prevent full verification, but clean safety flags keep this from SCAM territory.",
+  "sections": {
+    "security": "The token has no mint authority, no freeze authority, and metadata is immutable. On-chain mintable and freezable flags are false. All core security checks pass; no backdoors detected.",
+    "holders": "Top 10 holders collectively own approximately 73.8% of the total supply, indicating significant whale concentration. Holder count and official top10_percent are missing, but the top holder alone holds ~34.1%.",
+    "market": "Market cap is $59.3M, liquidity $4.45M, and 24h volume $1.06M. Trading on Raydium with a volume/liquidity ratio of 0.24 reflects healthy activity. Price is stable over 24h (+2.45%) but dipping slightly on shorter timeframes.",
+    "deployer": "Deployer address is null, meaning the creator's identity and transaction history are unknown. No evidence of dev exit, but the complete lack of deployer data is a red flag for transparency."
+  },
+  "red_flag_count": 4,
+  "green_flag_count": 3
+}

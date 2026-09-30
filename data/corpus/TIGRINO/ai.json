@@ -1,0 +1,26 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 5,
+  "summary": "TIGRINO has clean safety flags (not mintable, not freezable, metadata immutable) and healthy liquidity/volume, but multiple critical data points are missing. Holder concentration and deployer behavior cannot be verified, so this is a data-sparse profile rather than an outright scam.",
+  "red_flags": [
+    "5 critical fields are null simultaneously: top10_percent, holder_count, deployer, lp_burned, total_supply",
+    "Deployer address and dev_exited status are unknown, preventing deployer behavior analysis",
+    "On-chain mint/freeze authority fields are null, so on-chain authority verification is missing",
+    "Price is down 12.41% over 24h and -6.56% over 1h"
+  ],
+  "green_flags": [
+    "mintable=false, freezable=false, metadata_mutable=false",
+    "Liquidity $50,207 with 24h volume $57,821 and volume/liquidity ratio 1.15",
+    "No transfer fee and non_transferable=false",
+    "Top holder is the pair address (likely liquidity pool), not an EOA dumping wallet"
+  ],
+  "ai_note": "Confidence is limited by sparse holder and deployer data, but clean safety flags and healthy liquidity prevent a higher risk rating.",
+  "sections": {
+    "security": "Safety flags are clean: mintable=false, freezable=false, metadata_mutable=false, non_transferable=false, transfer_fee_exists=false. However on_chain_mintable, on_chain_freezable, mint_authority_address, and freeze_authority_address are null, so on-chain authority cannot be confirmed.",
+    "holders": "holder_count and top10_percent are missing. The top holder listed is the pair address, likely the liquidity pool; the remaining top holders are relatively small. Inferred concentration is not extreme, but exact top10% is unverified due to null total_supply.",
+    "market": "Market cap/FDV is $152,387 with liquidity $50,207 and 24h volume $57,821. Volume/liquidity ratio is 1.15, indicating active trading. DEX is pumpswap with migrated_to_raydium=true. Price is down 12.41% over 24h, mixed shorter-term.",
+    "deployer": "deployer address is null and dev_exited is not provided, so deployer behavior, transaction count, and exit status cannot be assessed."
+  },
+  "red_flag_count": 4,
+  "green_flag_count": 4
+}

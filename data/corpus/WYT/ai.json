@@ -1,0 +1,26 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 5,
+  "summary": "Clean safety flags and healthy liquidity/volume metrics, but critical data is missing including deployer, LP burn/lock status, holder concentration, and total supply. Holder amount totals also appear inconsistent with the market-cap-implied supply, preventing a stronger rating.",
+  "red_flags": [
+    "Missing critical data: top10_percent, holder_count, deployer, lp_burned, lp_locked, and total_supply are all null",
+    "Top-10 holder amounts sum to ~11.47B, which is inconsistent with market cap and price implying ~11M supply",
+    "Liquidity burn/lock status is null while lp_not_applicable=false",
+    "Deployer address is null; dev_exited behavior cannot be assessed"
+  ],
+  "green_flags": [
+    "mintable=false, freezable=false, metadata_mutable=false",
+    "No on-chain mint or freeze authority",
+    "Liquidity $72,810.74 with 24h volume $23,029.94 and volume/liquidity ratio 0.3163",
+    "No transfer fee, not non-transferable, not trusted_token"
+  ],
+  "ai_note": "This rating is driven primarily by sparse critical data and apparent holder-amount inconsistency, not by direct on-chain risk flags.",
+  "sections": {
+    "security": "mintable=false, freezable=false, metadata_mutable=false, on_chain_mintable=false, on_chain_freezable=false; mint and freeze authority addresses are null. No transfer fee or non-transferable flag.",
+    "holders": "holder_count and top10_percent are null. The top-10 holder list shows a largest holder of 5,000,000,000 tokens and top-10 sum of ~11,474,313,700, but total_supply is null and market cap/price imply much lower supply, so concentration cannot be reliably calculated.",
+    "market": "price_usd=0.07167, liquidity_usd=72,810.74, volume_24h=23,029.94, volume/liquidity_ratio=0.3163, mcap/fdv=788,380, dex=orca. Price change h24=-2.68%, h6=+19.63%, h1=-0.21%. LP burn/lock data is missing.",
+    "deployer": "deployer is null and dev_exited is unknown, so deployer behavior cannot be assessed."
+  },
+  "red_flag_count": 4,
+  "green_flag_count": 4
+}

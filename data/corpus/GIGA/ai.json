@@ -1,0 +1,26 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 4.4,
+  "summary": "GIGACHAD has clean token safety flags and a healthy Raydium market with $1.86M liquidity and $248k 24h volume. However, key holder, deployer, and LP burn/lock metadata is missing, so the token cannot be fully verified as safe.",
+  "red_flags": [
+    "top10_percent, holder_count, deployer, lp_burned, and total_supply are all null simultaneously",
+    "LP burn/lock status is unknown (lp_burned=null, lp_locked=null, lp_lock_platform=null)",
+    "Deployer address and dev exit status are unavailable"
+  ],
+  "green_flags": [
+    "mintable=false and freeze authority is null/off",
+    "freezable=false and metadata_mutable=false",
+    "No transfer fee and non-transferable=false",
+    "Healthy liquidity of $1,860,354.55 with 24h volume $248,133.04 (volume/liquidity ratio 0.1334)",
+    "Top10 holder concentration estimated below ~40% of implied supply, not extreme"
+  ],
+  "ai_note": "The score is driven by missing deployer/LP/holder metadata rather than confirmed malicious activity; clean safety flags and market depth prevent a higher risk rating.",
+  "sections": {
+    "security": "Token is not mintable, not freezable, has immutable metadata, and shows no on-chain mint/freeze authority. Non-transferable is false and no transfer fee exists, so token safety flags are clean.",
+    "holders": "Holder count and top10_percent are missing. The supplied top10 balances sum to roughly 3.49B tokens, approximately 36% of implied supply based on market cap/price, suggesting moderate concentration below risky thresholds.",
+    "market": "Raydium pair with $1.86M liquidity, $248k 24h volume, and volume/liquidity ratio 0.1334 indicates reasonable trading activity. Market cap and FDV are both about $22.86M. Price change is modestly negative over 24h but slightly positive over 1h.",
+    "deployer": "Deployer address and dev exit status are not provided in the data; this is a notable verification gap but not evidence of exit behavior."
+  },
+  "red_flag_count": 3,
+  "green_flag_count": 5
+}

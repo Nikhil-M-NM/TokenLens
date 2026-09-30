@@ -1,30 +1,53 @@
-ca,token_name,token_symbol,truth,verdict,pred,risk_score,null_field_count,latency_ms
-DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263,Bonk,Bonk,Low,CAUTION,Medium,5.5,12,35659
-PRVT6TB7uss3FrUd2D9xs2zqDBsa3GbMJMwCQsgmeta,Umbra,UMBRA,High,SCAM,High,9.0,11,33001
-5wK1yXz9cFqH8VxF5SMaK584EVce6HvawYJ9ikzrpump,TOLY,TOLY,Medium,CAUTION,Medium,4.2,12,39697
-8TVr3U85V3Uazkxd5DJbmzdUWaxhQdEGNNGJ7eNTpump,Black Wallstreet ,TULSA,High,RISKY,High,7.5,12,32261
-69G8CpUVZAxbPMiEBrfCCCH445NwFxH6PzVL693Xpump,Xavier: Renegade Angel,xavier,High,RISKY,High,7.0,12,29293
-5Jng6jkLKU1o8BNrCzTEMXMFvPjNJZTpdWR3Hq4RHJb6,Mikawa Inu,SHIKOKU,High,RISKY,High,7.5,12,26657
-Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk,USELESS COIN,USELESS,Medium,CAUTION,Medium,5.4,12,73913
-7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr,Popcat,POPCAT,Medium,CAUTION,Medium,5.2,12,58070
-61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump,AI Rig Complex,arc,High,RISKY,High,7.5,12,53668
-ACtfUWtgvaXrQGNMiohTusi5jcx5RJf5zwu9aAxkpump,unc,unc,Medium,CAUTION,Medium,5.2,14,67770
-5LafQUrVco6o7KMz42eqVEJ9LW31StPyGjeeu5sKoMtA,Mumu the Bull,MUMU,Low,CAUTION,Medium,5.4,12,73398
-HxWrnZznqF5iYf3ckMw3FTaZQvubB53ohzpjPSNUpump,FIFA WORLD CUP,FWC,Medium,CAUTION,Medium,5.5,14,68021
-67ezHLk8PUkjJCXjmmgPbx85VowA52ghfRXa9A8Tpump,Grokius Maximus,GROKIUS,Medium,CAUTION,Medium,5.5,12,37972
-CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp,Collector Crypt,CARDS,High,SCAM,High,9.5,12,49451
-F5tfztTnE4sYsMhZT5KrFpWvHmYSfJZoRjCuxKPbpump,Aliens are real,Aliens,Medium,CAUTION,Medium,5.5,14,66118
-ZEXy1pqteRu3n13kdyh4LwPQknkFk3GzmMYMuNadWPo,Zeta,ZEX,High,SCAM,High,8.5,12,71757
-J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn,Jito Staked SOL,JitoSOL,Low,SAFE,Low,2.5,11,48909
-JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN,Jupiter,JUP,Low,CAUTION,Medium,4.3,12,67279
-EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm,dogwifhat,$WIF,Low,CAUTION,Medium,5.0,12,62022
-5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2,TROLL,TROLL,Low,CAUTION,Medium,4.2,12,60436
-9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump,Fartcoin ,Fartcoin ,Low,CAUTION,Medium,4.0,12,49996
-6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN,OFFICIAL TRUMP,TRUMP,High,SCAM,High,8.5,12,92133
-2qEHjDLDLbuBgRYvsxhc5D6uDWAivNFZGan56P1tpump,Peanut the Squirrel ,Pnut ,Low,CAUTION,Medium,5.5,12,101377
-9PR7nCP9DpcUotnDPVLUBUZKu5WAYkwrCUx9wDnSpump,Comedian,Ban,Medium,CAUTION,Medium,5.0,12,69275
-2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv,Pudgy Penguins,PENGU,Low,CAUTION,Medium,5.0,12,65857
-HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump,Alchemist AI,ALCH,High,CAUTION,Medium,5.5,12,63572
-DBRiDgJAMsM95moTzJs7M9LnkGErpbv9v6CUR1DXnUu5,deBridge,DBR,Medium,CAUTION,Medium,5.5,12,102928
-3iQL8BFS2vE7mww4ehAqQHAsbmRNCrPxizWAT2Zfyr9y,Virtual Protocol,VIRTUAL,High,SCAM,High,9.0,11,67604
-jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL,JITO,JTO,Low,CAUTION,Medium,5.5,12,63041
+ca,token_name,token_symbol,verdict,risk_score,red_flag_count,green_flag_count,liquidity_rating,holder_risk,lp_status,null_field_count,schema_valid,latency_ms,human risk label,mapped_class,correct,run_date
+DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263,Bonk,Bonk,CAUTION,5.5,3,6,low,unknown,n/a,12,Y,35659,Low,Medium,n,2026-06
+PRVT6TB7uss3FrUd2D9xs2zqDBsa3GbMJMwCQsgmeta,Umbra,UMBRA,SCAM,9,6,5,medium,unknown,n/a,11,Y,33001,High,High,y,2026-06
+5wK1yXz9cFqH8VxF5SMaK584EVce6HvawYJ9ikzrpump,TOLY,TOLY,CAUTION,4.2,5,6,high,unknown,n/a,12,Y,39697,Medium,Medium,y,2026-06
+8TVr3U85V3Uazkxd5DJbmzdUWaxhQdEGNNGJ7eNTpump,Black Wallstreet,TULSA,RISKY,7.5,4,6,high,unknown,unknown,12,Y,32261,High,High,y,2026-06
+69G8CpUVZAxbPMiEBrfCCCH445NwFxH6PzVL693Xpump,Xavier: Renegade Angel,xavier,RISKY,7,1,6,high,unknown,unknown,12,Y,29293,High,High,y,2026-06
+5Jng6jkLKU1o8BNrCzTEMXMFvPjNJZTpdWR3Hq4RHJb6,Mikawa Inu,SHIKOKU,RISKY,7.5,6,11,high,unknown,unknown,12,Y,26657,High,High,y,2026-06
+Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk,USELESS COIN,USELESS,CAUTION,5.4,5,6,high,unknown,unknown,12,Y,73913,Medium,Medium,y,2026-06
+7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr,Popcat,POPCAT,CAUTION,5.2,5,6,medium,unknown,unknown,12,Y,58070,Medium,Medium,y,2026-06
+61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump,AI Rig Complex,arc,RISKY,7.5,3,3,high,unknown,unknown,12,Y,53668,High,High,y,2026-06
+ACtfUWtgvaXrQGNMiohTusi5jcx5RJf5zwu9aAxkpump,unc,unc,CAUTION,5.2,3,6,high,unknown,n/a,14,Y,67770,Medium,Medium,y,2026-06
+5LafQUrVco6o7KMz42eqVEJ9LW31StPyGjeeu5sKoMtA,Mumu the Bull,MUMU,CAUTION,5.4,3,5,high,unknown,unknown,12,Y,73398,Low,Medium,n,2026-06
+HxWrnZznqF5iYf3ckMw3FTaZQvubB53ohzpjPSNUpump,FIFA WORLD CUP,FWC,CAUTION,5.5,3,5,high,unknown,n/a,14,Y,68021,Medium,Medium,y,2026-06
+67ezHLk8PUkjJCXjmmgPbx85VowA52ghfRXa9A8Tpump,Grokius Maximus,GROKIUS,CAUTION,5.5,4,5,high,unknown,n/a,12,Y,37972,Medium,Medium,y,2026-06
+CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp,Collector Crypt,CARDS,SCAM,9.5,4,3,high,unknown,n/a,12,Y,49451,High,High,y,2026-06
+F5tfztTnE4sYsMhZT5KrFpWvHmYSfJZoRjCuxKPbpump,Aliens are real,Aliens,CAUTION,5.5,6,6,high,unknown,n/a,14,Y,66118,Medium,Medium,y,2026-06
+ZEXy1pqteRu3n13kdyh4LwPQknkFk3GzmMYMuNadWPo,Zeta,ZEX,SCAM,8.5,5,4,high,unknown,n/a,12,Y,71757,High,High,y,2026-06
+J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn,Jito Staked SOL,JitoSOL,SAFE,2.5,2,7,medium,unknown,n/a,11,Y,48909,Low,Low,y,2026-06
+JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN,Jupiter,JUP,CAUTION,4.3,3,5,high,unknown,n/a,12,Y,67279,Low,Medium,n,2026-06
+EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm,dogwifhat,$WIF,CAUTION,5,1,3,medium,unknown,unknown,12,Y,62022,Low,Medium,n,2026-06
+5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2,TROLL,TROLL,CAUTION,4.2,5,6,high,unknown,n/a,12,Y,60436,Low,Medium,n,2026-06
+9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump,Fartcoin,Fartcoin,CAUTION,4,4,5,low,unknown,unknown,12,Y,49996,Low,Medium,n,2026-06
+6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN,OFFICIAL TRUMP,TRUMP,SCAM,8.5,3,3,low,unknown,n/a,12,Y,92133,High,High,y,2026-06
+2qEHjDLDLbuBgRYvsxhc5D6uDWAivNFZGan56P1tpump,Peanut the Squirrel,Pnut,CAUTION,5.5,3,5,medium,unknown,unknown,12,Y,101377,Low,Medium,n,2026-06
+9PR7nCP9DpcUotnDPVLUBUZKu5WAYkwrCUx9wDnSpump,Comedian,Ban,CAUTION,5,3,4,high,unknown,unknown,12,Y,69275,Medium,Medium,y,2026-06
+2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv,Pudgy Penguins,PENGU,CAUTION,5,5,5,medium,unknown,n/a,12,Y,65857,Low,Medium,n,2026-06
+HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump,Alchemist AI,ALCH,CAUTION,5.5,2,6,medium,unknown,unknown,12,Y,63572,High,Medium,n,2026-06
+DBRiDgJAMsM95moTzJs7M9LnkGErpbv9v6CUR1DXnUu5,deBridge,DBR,CAUTION,5.5,2,4,medium,unknown,n/a,12,Y,102928,Medium,Medium,y,2026-06
+3iQL8BFS2vE7mww4ehAqQHAsbmRNCrPxizWAT2Zfyr9y,Virtual Protocol,VIRTUAL,SCAM,9,3,4,medium,unknown,n/a,11,Y,67604,High,High,y,2026-06
+jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL,JITO,JTO,CAUTION,5.5,3,4,high,unknown,n/a,12,Y,63041,Low,Medium,n,2026-06
+Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump,NotInEmploymentEducationTraining,neet,CAUTION,4.5,3,4,high,unknown,n/a,12,Y,36175,Low,Medium,n,2026-09-26
+J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump,Tung Tung Tung Sahur,TTTS,CAUTION,4.5,3,5,high,unknown,n/a,14,Y,30008,Low,Medium,n,2026-09-26
+CniPCE4b3s8gSUPhUiyMjXnytrEqUrMfSsnbBjLCpump,PWEASE,pwease,CAUTION,4.5,3,4,high,unknown,unknown,12,Y,24721,Low,Medium,n,2026-09-26
+KENJSUYLASHUMfHyy5o4Hp2FdNqZg1AsUPhfH2kYvEP,test griffain.com,GRIFFAIN,CAUTION,5,5,7,high,unknown,unknown,12,Y,43532,Low,Medium,n,2026-09-26
+63LfDmNb3MQ8mw9MtZ2To9bEA2M71kZUUGq5tiJxcqj9,GIGACHAD,GIGA,CAUTION,4.4,3,5,medium,unknown,unknown,12,Y,30011,Low,Medium,n,2026-09-26
+FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump,three.ws,three,CAUTION,4.5,3,5,high,unknown,n/a,14,Y,34206,Medium,Medium,y,2026-09-26
+GWTP6M5bxhaJ1k2Kxvf8hhYaHE6jZMhh4cKzFuCpnc83,USEFUL COIN,USEFUL,CAUTION,4.5,4,5,high,unknown,unknown,14,Y,22349,Medium,Medium,y,2026-09-26
+EpEfnZxQyiBXppSKi8sncc8w4corn1UJbF9G91fQpump,PEPE BROCK,PEPENOM,CAUTION,4.5,4,4,high,unknown,n/a,14,Y,44705,Medium,Medium,y,2026-09-26
+7nLukVng5teXze14rum9v57juXLjUp7JJnCveko1pump,Martians,Martians,CAUTION,4.5,5,5,high,unknown,n/a,12,Y,34838,Medium,Medium,y,2026-09-26
+2dAgGPVjuiLdp7oGuLGofQDKPJeDQq4AFeFbtRtVXFzU,The Black Table,MENSA,CAUTION,5,5,5,unknown,unknown,unknown,18,Y,23396,Medium,Medium,y,2026-09-26
+42cXQvAAr7hcPBPWAS4ocVtDyeJ4Fa6gRR2uG4gppump,The Bitcoin Bull,TBB,CAUTION,5.8,5,5,medium,unknown,n/a,14,Y,51048,High,Medium,n,2026-09-26
+4nV5gNwwP68zUDat26ySChREqVaQaLudfJBkSgEzpump,BOBO,bobo,CAUTION,5,4,5,low,unknown,n/a,12,Y,27727,Medium,Medium,y,2026-09-26
+EyWrMXBb5DXppWs5uNa6repSEDoDSachbjeixU9KREVS,RevShare,REVS,CAUTION,4.5,3,5,high,unknown,unknown,12,Y,25927,Medium,Medium,y,2026-09-26
+BPxxfRCXkUVhig4HS1Lh7kZqV6SPJhzfEk4x6fVBjPCy,Backpack,BP,SCAM,9,5,4,high,unknown,unknown,10,Y,29487,High,High,y,2026-09-26
+rMVmRp5DJch9sVxJTgchcDbgkK3phgmEd9a8Yk3PLEX,SolanaDEX Token,SDEX,CAUTION,4.5,3,5,medium,unknown,unknown,12,Y,33436,High,Medium,n,2026-09-26
+CYZgj7N87PW5BvSyAPPqZm9d3Txnuo5gTk3p5fCReCTF,E-Commerce Trust Fund,ECTF,CAUTION,4.5,3,6,medium,unknown,unknown,12,Y,29853,Medium,Medium,y,2026-09-26
+6V7cF52p3eSkRuoVXnAryWVwoyS775DERenYPMMYBPxS,The Stonkfather,POINTFARMC,SCAM,8.9,4,4,high,unknown,unknown,14,Y,21103,High,High,y,2026-09-26
+HgkJyiFRaCd6b9kmmrYGJLKnufVf6ZbKQawyqTUSpump,Justice for Youtube,Youtube,SCAM,8.5,5,3,high,unknown,n/a,14,Y,52537,Medium,High,n,2026-09-26
+7pKXpFsnZS5BB4Eydk3uZ84FeKDSvkv1z4Hv5ayQ28RV,WowMyToken,WYT,CAUTION,5,4,4,high,unknown,unknown,12,Y,36605,High,Medium,n,2026-09-26
+9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump,The Black Bull,ANSEM,RISKY,6.7,3,3,high,unknown,n/a,14,Y,37280,High,High,y,2026-09-26
+4rLgnFcuADTS2VD7sGxQjoiajbZjYZ411nF7gm7kpump,MamAOCita,mamAOCita,CAUTION,4.5,4,5,high,unknown,n/a,15,Y,25553,Medium,Medium,y,2026-09-26
+Cp6AVzuSJ8pDCkYGBxAX3p9Dk77pHSsd35yHh19GJC3i,INCOGINU,INCOGINU,CAUTION,4.5,4,6,high,unknown,unknown,14,Y,23417,Medium,Medium,y,2026-09-26
+91ryaCo5yGpYZM3bs6GUPs97VWJQj7RozBmqPULgpump,Leopardus Tilcayo,TIGRINO,CAUTION,5,4,4,high,unknown,n/a,14,Y,30808,Medium,Medium,y,2026-09-26

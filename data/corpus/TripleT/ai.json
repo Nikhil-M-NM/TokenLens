@@ -1,0 +1,26 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 4.5,
+  "summary": "Clean safety flags and healthy liquidity/volume metrics, but several key data points are missing. The implied top-10 concentration is low and the top holder is the LP pair, while deployer behavior cannot be verified due null data.",
+  "red_flags": [
+    "deployer data is null; dev_exited and deployer behavior cannot be verified",
+    "5 critical fields are null simultaneously: top10_percent, holder_count, deployer, lp_burned, total_supply",
+    "lp_burned and lp_locked data are missing, with lp_not_applicable=true providing no lock verification"
+  ],
+  "green_flags": [
+    "mintable=false, freezable=false, metadata_mutable=false",
+    "non_transferable=false and transfer_fee_exists=false",
+    "liquidity_usd=$737,149 and volume_24h=$741,188 with volume/liquidity ratio 1.0055",
+    "Top holder is the pair address/LP, and inferred top-10 concentration is approximately 21.3% of implied 1B supply",
+    "Trading on pumpswap and migrated to Raydium"
+  ],
+  "ai_note": "Analysis is limited by missing holder, deployer, and LP metadata, but on-chain safety flags and market liquidity are clean.",
+  "sections": {
+    "security": "mintable=false, freezable=false, metadata_mutable=false, non_transferable=false, transfer_fee_exists=false; on-chain mint/freeze authority addresses are null but without evidence of active authority.",
+    "holders": "holder_count and top10_percent are null. Top-10 listed amounts sum to about 213.2M tokens; using market cap/price implies total supply near 1B, giving an inferred top-10 concentration of about 21.3%. The largest holder is the pair address, indicating liquidity pool ownership.",
+    "market": "liquidity_usd=$737,149, volume_24h=$741,188, volume/liquidity ratio 1.0055, market_cap/FDV=$9,494,900. Price change is -4.68% over 24h, +4.36% over 6h, and +3.22% over 1h. Dex is pumpswap and migrated to Raydium.",
+    "deployer": "deployer field is null, so dev_exited, transaction_count, and address behavior cannot be assessed. This is a missing-data caution rather than a confirmed exit."
+  },
+  "red_flag_count": 3,
+  "green_flag_count": 5
+}

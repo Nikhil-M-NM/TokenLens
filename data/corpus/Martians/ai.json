@@ -1,0 +1,28 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 4.5,
+  "summary": "Martians has clean on-chain safety flags and healthy volume relative to liquidity, but multiple critical data fields are missing, including holder_count, top10_percent, total_supply, deployer, and lp_burned. The deployer is unknown, so the token scores CAUTION rather than SAFE despite no mint/freeze/metadata risks.",
+  "red_flags": [
+    "holder_count is null",
+    "top10_percent is null",
+    "total_supply is null",
+    "deployer is null",
+    "lp_burned is null"
+  ],
+  "green_flags": [
+    "mintable=false and freezable=false",
+    "metadata_mutable=false",
+    "no on-chain mint or freeze authority",
+    "volume/liquidity ratio 0.4859 indicates healthy trading activity relative to liquidity",
+    "liquidity_usd=58318.03 and market_cap=208601"
+  ],
+  "ai_note": "Confidence is moderate because sparse holder and deployer data prevents a SAFE rating despite clean on-chain safety flags.",
+  "sections": {
+    "security": "mintable=false, freezable=false, metadata_mutable=false, on_chain_mintable=false, on_chain_freezable=false, and mint_authority_address/freeze_authority_address are null. Clean token security flags.",
+    "holders": "holder_count=null, top10_percent=null, total_supply=null. Top 10 holder amounts are listed but their percentage cannot be verified. Largest holder address matches the pair address with 138,267,242.77 tokens; implied total supply from market cap suggests top10 concentration around 35.9%, but this is unconfirmed.",
+    "market": "liquidity_usd=58318.03, volume_24h=28339.49, volume/liquidity=0.4859, market_cap=208601, fdv=208601, dex=pumpswap, migrated_to_raydium=false. Healthy volume relative to liquidity for a small-cap token.",
+    "deployer": "deployer=null and no dev_exited data available. Unknown deployer behavior."
+  },
+  "red_flag_count": 5,
+  "green_flag_count": 5
+}

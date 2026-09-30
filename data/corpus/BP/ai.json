@@ -1,0 +1,27 @@
+{
+  "verdict": "SCAM",
+  "risk_score": 9,
+  "summary": "Backpack (BP) shows critical centralization: on-chain mint and freeze authorities are set to a single address, and that same address is the top holder with an estimated 74.6% of supply. Top-10 concentration is estimated above 95%, which combined with active authority flags creates a high rug-pull risk despite healthy liquidity.",
+  "red_flags": [
+    "on_chain_mintable=true with mint_authority_address GySFHFS5ZiN4Z5YnyPZcjjxpYcGvD7qHZYVjE9QzMHVH",
+    "on_chain_freezable=true with freeze_authority_address GySFHFS5ZiN4Z5YnyPZcjjxpYcGvD7qHZYVjE9QzMHVH",
+    "Top1 holder equals the mint/freeze authority and holds 750,000,000 tokens (~74.6% of inferred 1.005B total supply)",
+    "Top10 concentration estimated at ~96.6%, far exceeding the 80% scam threshold",
+    "Multiple critical fields are null simultaneously: total_supply, holder_count, top10_percent, deployer, lp_burned"
+  ],
+  "green_flags": [
+    "metadata_mutable=false",
+    "transfer_fee_exists=false",
+    "Liquidity is $5.83M with 24h volume $6.78M and volume/liquidity ratio 1.16",
+    "Price change 24h is +12.72%"
+  ],
+  "ai_note": "The summarized safety flags say mintable=false and freezable=false, but the on-chain authority fields show active mint/freeze authority; I treat the on-chain fields as authoritative for this risk score.",
+  "sections": {
+    "security": "metadata_mutable=false and transfer_fee_exists=false are positive, but on-chain mint and freeze authorities are both set to GySFHFS5ZiN4Z5YnyPZcjjxpYcGvD7qHZYVjE9QzMHVH. This means the token supply can be increased and accounts can be frozen, contradicting the summarized mintable=false/freezable=false flags.",
+    "holders": "holder_count and top10_percent are null. Using the provided top holders and inferred total supply from FDV/price, top1 owns ~74.6% and top10 owns ~96.6%, indicating extreme concentration.",
+    "market": "Liquidity is $5.83M and 24h volume is $6.78M, a healthy ratio of 1.16. Market cap is $351.8M and FDV is $1.41B on Meteora, but healthy market metrics do not offset the centralized authority and holder concentration risk.",
+    "deployer": "deployer data is null, so dev_exited cannot be confirmed. However, the mint/freeze authority address also acts as the top holder, which is a suspicious pattern often associated with deployer-side centralized control."
+  },
+  "red_flag_count": 5,
+  "green_flag_count": 4
+}

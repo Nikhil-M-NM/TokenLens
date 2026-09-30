@@ -1,0 +1,26 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 4.5,
+  "summary": "Jotchua shows clean token permissions and healthy market metrics, but critical data gaps (total supply, holder count, top10%, deployer, LP burn) prevent a higher confidence rating. Estimated top10 concentration is low (~16.7%), and no mint/freeze authorities exist, so risk is limited to transparency concerns.",
+  "red_flags": [
+    "Missing critical data: total_supply, holder_count, top10_percent, deployer, lp_burned are all null",
+    "Deployer address unknown, dev_exited status cannot be confirmed",
+    "Volume/liquidity ratio is high at 16.6, which may indicate unusual trading patterns"
+  ],
+  "green_flags": [
+    "Immutable metadata, not mintable, not freezable",
+    "Estimated top10 holder concentration only ~16.7%, well below scam thresholds",
+    "Liquidity of $289.9K supports the $5.9M market cap",
+    "Migrated to Raydium, adding credibility",
+    "Positive 24h price change (+23.17%) with active trading"
+  ],
+  "ai_note": "Confidence is moderate due to multiple null fields; all on-chain safety indicators are favorable, but lack of deployer info and exact holder metrics prevents a fully safe rating.",
+  "sections": {
+    "security": "Token permissions are safe: mintable=false, freezable=false, metadata_mutable=false. No on-chain mint or freeze authority addresses are present. The contract cannot be altered to create new tokens or freeze user funds.",
+    "holders": "Top10% concentration is not provided but can be estimated at ~16.7% from the supplied top holder balances and a derived total supply of 1B tokens. The largest holder is the liquidity pool pair address. Holder count is unknown, but distribution appears reasonably broad with no single entity dominating.",
+    "market": "Jotchua trades on pumpswap and has migrated to Raydium. Current price is $0.005912 with a market cap and FDV of $5.9M. Liquidity is $289.9K, and 24h volume is $4.82M, giving a volume/liquidity ratio of 16.6. This high ratio may reflect strong demand or possible wash trading, but liquidity remains adequate relative to market cap. Price action is positive (+23% in 24h).",
+    "deployer": "Deployer information is entirely missing (deployer is null). No transaction count or address is available, so dev_exited status cannot be determined. This lack of transparency is a concern."
+  },
+  "red_flag_count": 3,
+  "green_flag_count": 5
+}

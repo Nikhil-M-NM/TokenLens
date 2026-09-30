@@ -1,0 +1,101 @@
+{
+  "ca": "91ryaCo5yGpYZM3bs6GUPs97VWJQj7RozBmqPULgpump",
+  "token": {
+    "name": "Leopardus Tilcayo",
+    "symbol": "TIGRINO",
+    "description": null,
+    "total_supply": null,
+    "age_days": null
+  },
+  "safety": {
+    "mintable": false,
+    "freezable": false,
+    "metadata_mutable": false,
+    "non_transferable": false,
+    "trusted_token": false,
+    "transfer_fee_exists": false,
+    "on_chain_mintable": null,
+    "on_chain_freezable": null,
+    "mint_authority_address": null,
+    "freeze_authority_address": null
+  },
+  "holders": {
+    "holder_count": null,
+    "top10_percent": null,
+    "top_holders": [
+      {
+        "address": "2fwy38cJcChCVySA9cd5SAFaEPtZQWN2ssFip43hnsHU",
+        "ui_amount": 166613860.465602,
+        "percentage": null
+      },
+      {
+        "address": "44uZVN4QTQtqAncAAnUhZ96p5N9dSUdoEfxS35fvu16Y",
+        "ui_amount": 28537117.421509,
+        "percentage": null
+      },
+      {
+        "address": "HJcftv5hKD3j399QLq9wNEqz4aEB2jc6zcMejzPiVWaQ",
+        "ui_amount": 23559624.839994,
+        "percentage": null
+      },
+      {
+        "address": "4ZnhSvZEVdMGQJ9HeB66AQyJtGkfkR5rAfpG3A2n8Ne8",
+        "ui_amount": 20823811.108907,
+        "percentage": null
+      },
+      {
+        "address": "zFozvruNa1mWBWi46aDBCQjKsWKmLyP4zFzTyzzAmBM",
+        "ui_amount": 20092632.137896,
+        "percentage": null
+      },
+      {
+        "address": "AT2dFcb87dSwUv8bRwuxxnv5QSpP2SkEeX2hW6xPMtDU",
+        "ui_amount": 19925010.596336,
+        "percentage": null
+      },
+      {
+        "address": "FumBU4t3XzhgrjyBWRUMPdvu59ids9X7auHLXYiT5h78",
+        "ui_amount": 18694275.432225,
+        "percentage": null
+      },
+      {
+        "address": "7hHzXt65yKiL9EmEFBeUqFnzadeRDSvERFQK2vGW1NE6",
+        "ui_amount": 16533140.152669,
+        "percentage": null
+      },
+      {
+        "address": "FZ8ofuKKQbZ6QKRGYb75hD2Un56MKJzF6zErpcLn3Cma",
+        "ui_amount": 16365840.264087,
+        "percentage": null
+      },
+      {
+        "address": "EtJ99fc12VsMrPgrMQF2EDxuM6j61RY54b5ySiouBBES",
+        "ui_amount": 16187668.95708,
+        "percentage": null
+      }
+    ]
+  },
+  "market": {
+    "price_usd": "0.0001561",
+    "liquidity_usd": 50207.42,
+    "volume_24h": 57820.96,
+    "volume_liquidity_ratio": 1.1516,
+    "market_cap": 152387,
+    "fdv": 152387,
+    "pair_address": "2fwy38cJcChCVySA9cd5SAFaEPtZQWN2ssFip43hnsHU",
+    "dex": "pumpswap",
+    "is_pumpswap": true,
+    "migrated_to_raydium": true,
+    "price_change_h24": -12.41,
+    "price_change_h6": 6.48,
+    "price_change_h1": -6.56
+  },
+  "deployer": null,
+  "liquidity": {
+    "lp_burned": null,
+    "lp_burned_percent": null,
+    "lp_locked": null,
+    "lp_lock_platform": null,
+    "lp_not_applicable": true
+  }
+}

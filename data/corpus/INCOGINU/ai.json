@@ -1,0 +1,28 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 4.5,
+  "summary": "INCOGINU has clean safety flags (mintable=false, freezable=false, metadata_mutable=false) and healthy market liquidity/volume, but critical holder, deployer, and LP data are missing. The sparse data prevents full verification of concentration and LP lock status, so a CAUTION rating is appropriate.",
+  "red_flags": [
+    "deployer address is null; developer behavior cannot be verified",
+    "lp_burned and lp_locked are both null with lp_not_applicable=false, so LP token lock/burn status is unknown",
+    "holder_count and top10_percent are null; holder concentration cannot be fully confirmed",
+    "total_supply is null; supply inferred only from market cap and price"
+  ],
+  "green_flags": [
+    "mintable=false",
+    "freezable=false",
+    "metadata_mutable=false",
+    "liquidity_usd=46790.61 is healthy",
+    "volume_24h=58129.85 with volume_liquidity_ratio=1.2423 indicates active trading",
+    "top holder only ~12.06% of inferred supply; top10 listed holders aggregate to ~35.1%"
+  ],
+  "ai_note": "Data sparsity prevents a higher-confidence rating, but clean token permissions and healthy market metrics keep this from escalating to RISKY or SCAM.",
+  "sections": {
+    "security": "Token-level safety flags are clean: mintable=false, freezable=false, metadata_mutable=false, transfer_fee_exists=false. On-chain mint/freeze authority fields are null, but no mint or freeze risk is indicated by the token flags.",
+    "holders": "holder_count and top10_percent are null. Based on the top10 holder list and an inferred total supply of roughly 1,000,077,120 tokens, the top10 holds approximately 35.1%, with the largest holder at about 12.06%. No extreme concentration is visible in the provided data.",
+    "market": "Price is $0.0001945 with liquidity_usd=46790.61 and 24h volume=58129.85. Volume/liquidity ratio is 1.2423, which is active. Market cap and FDV are both $194,515 on Raydium. Price action shows +23.09% over 6h but -1.52% over 24h, indicating volatility.",
+    "deployer": "deployer address is null and dev_exited is unknown. There is no transaction count or deployer history available, so deployer behavior cannot be assessed."
+  },
+  "red_flag_count": 4,
+  "green_flag_count": 6
+}

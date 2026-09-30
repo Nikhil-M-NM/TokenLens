@@ -1,0 +1,27 @@
+{
+  "verdict": "CAUTION",
+  "risk_score": 4.5,
+  "summary": "Token has clean on-chain safety flags (not mintable, not freezable, immutable metadata) and healthy liquidity versus volume, but critical data such as total_supply, holder_count, top10_percent, deployer, and LP burn/lock status are missing. This data sparsity limits full confidence and warrants caution.",
+  "red_flags": [
+    "Missing critical fields: total_supply=null, holder_count=null, top10_percent=null, deployer=null, lp_burned=null, lp_locked=null",
+    "LP burn/lock status unverified: lp_burned=null, lp_locked=null, lp_not_applicable=false",
+    "trusted_token=false"
+  ],
+  "green_flags": [
+    "mintable=false and freezable=false",
+    "metadata_mutable=false",
+    "on_chain_mintable=false and on_chain_freezable=false with mint_authority=null and freeze_authority=null",
+    "transfer_fee_exists=false and non_transferable=false",
+    "liquidity_usd=79854.19, volume_24h=9155.33, volume/liquidity_ratio=0.1147",
+    "DEX=meteora, is_pumpswap=false, migrated_to_raydium=false"
+  ],
+  "ai_note": "Score reflects missing-data penalty rather than confirmed malicious activity; clean safety flags and healthy market metrics keep this at CAUTION rather than RISKY or SCAM.",
+  "sections": {
+    "security": "Security flags are clean: mintable=false, freezable=false, metadata_mutable=false, on_chain_mintable=false, on_chain_freezable=false. No mint_authority or freeze_authority addresses exist, and no transfer fee is applied.",
+    "holders": "holder_count=null and top10_percent=null, so concentration cannot be verified. Top 10 holder amounts are listed but percentages are unknown, limiting holder-risk assessment.",
+    "market": "Liquidity is $79,854.19 with 24h volume $9,155.33, giving a healthy volume/liquidity ratio of 0.1147. Market cap and FDV are $2.55M on Meteora; price change is -5.93% over 24h but only -0.61% over 1h.",
+    "deployer": "Deployer address is null and dev_exited status is unknown. There is no deployer transaction or exit data available to analyze."
+  },
+  "red_flag_count": 3,
+  "green_flag_count": 6
+}

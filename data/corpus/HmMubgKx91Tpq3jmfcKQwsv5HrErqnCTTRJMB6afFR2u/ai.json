@@ -1,0 +1,26 @@
+{
+  "verdict": "RISKY",
+  "risk_score": 7.2,
+  "summary": "Token security settings appear sound (no mint/freeze, immutable metadata), but extensive missing data raises serious concerns. Deployer, total supply, holder concentration, and liquidity status are all unknown, with a top-10 holder list suggesting potential concentration risk. The absence of LP burn/lock confirmation and market metrics indicates a lack of transparency typical of higher-risk tokens.",
+  "red_flags": [
+    "Missing deployer information",
+    "Unknown total supply prevents holder concentration calculation",
+    "No LP burn/lock data available (lp_burned=null, lp_locked=null)",
+    "No market data (liquidity, volume, mcap)",
+    "Top 10 holders hold large absolute amounts (1.9B, 1.235B, etc.) with no percentage context"
+  ],
+  "green_flags": [
+    "Token is not mintable, freezable, or mutable on-chain",
+    "No on-chain mint or freeze authorities",
+    "Metadata immutable"
+  ],
+  "ai_note": "Analysis limited by extensive missing data; no evidence of malicious on-chain functions, but absence of LP and holder distribution details points to high risk.",
+  "sections": {
+    "security": "On-chain safety is solid: mintable=false, freezable=false, metadata_mutable=false, and no mint/freeze authorities. The token cannot be manipulated by the deployer via these mechanisms.",
+    "holders": "Holder count and top10_percent are unknown. The top 10 holders list shows large individual balances (up to 1.9B), but without total supply, concentration cannot be quantified. This missing data is a significant risk factor.",
+    "market": "No market data available—no DEX pair, liquidity, volume, or market cap. The token's tradability is unconfirmed, and LP burn/lock status is missing, making a rug pull possible.",
+    "deployer": "Deployer address unknown, dev_exited status unknown. Without deployer history, it's impossible to assess past behavior or trustworthiness."
+  },
+  "red_flag_count": 5,
+  "green_flag_count": 3
+}
